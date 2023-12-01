@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Where_Do_You_Shop_For_Home_Food__c</fullName>
+    <externalId>false</externalId>
+    <label>Where Do You Shop For Home Food?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Large chain grocery store</fullName>
+                <default>false</default>
+                <label>Large chain grocery store</label>
+            </value>
+            <value>
+                <fullName>Independent grocery store</fullName>
+                <default>false</default>
+                <label>Independent grocery store</label>
+            </value>
+            <value>
+                <fullName>Natural or Specialty grocery store</fullName>
+                <default>false</default>
+                <label>Natural or Specialty grocery store</label>
+            </value>
+            <value>
+                <fullName>Club store (i.e. Sam’s, CostCo)</fullName>
+                <default>false</default>
+                <label>Club store (i.e. Sam’s, CostCo)</label>
+            </value>
+            <value>
+                <fullName>Farmers Markets</fullName>
+                <default>false</default>
+                <label>Farmers Markets</label>
+            </value>
+            <value>
+                <fullName>Convenience Store (off campus)</fullName>
+                <default>false</default>
+                <label>Convenience Store (off campus)</label>
+            </value>
+            <value>
+                <fullName>On-Campus Convenience or Grocery Store</fullName>
+                <default>false</default>
+                <label>On-Campus Convenience or Grocery Store</label>
+            </value>
+            <value>
+                <fullName>Other (specify)</fullName>
+                <default>false</default>
+                <label>Other (specify)</label>
+            </value>
+            <value>
+                <fullName>I don’t usually keep food at home</fullName>
+                <default>false</default>
+                <label>I don’t usually keep food at home</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

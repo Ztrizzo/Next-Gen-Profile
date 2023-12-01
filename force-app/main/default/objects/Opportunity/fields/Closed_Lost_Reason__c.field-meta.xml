@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Lost_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Closed Lost Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Position filled</fullName>
+                <default>false</default>
+                <label>Position filled</label>
+            </value>
+            <value>
+                <fullName>Auto Closed - Inactivate Opportunity</fullName>
+                <default>false</default>
+                <label>Auto Closed - Inactivate Opportunity</label>
+            </value>
+            <value>
+                <fullName>Student Declined Interview</fullName>
+                <default>false</default>
+                <label>Student Declined Interview</label>
+            </value>
+            <value>
+                <fullName>Candidate No-Show for Scheduled Interview</fullName>
+                <default>false</default>
+                <label>Candidate No-Show for Scheduled Interview</label>
+            </value>
+            <value>
+                <fullName>Recruiter Rejected Candidate</fullName>
+                <default>false</default>
+                <label>Recruiter Rejected Candidate</label>
+            </value>
+            <value>
+                <fullName>Client Rejected Candidate</fullName>
+                <default>false</default>
+                <label>Client Rejected Candidate</label>
+            </value>
+            <value>
+                <fullName>Student Declined Offer</fullName>
+                <default>false</default>
+                <label>Student Declined Offer</label>
+            </value>
+            <value>
+                <fullName>Student did not complete Contract</fullName>
+                <default>false</default>
+                <label>Student did not complete Contract</label>
+            </value>
+            <value>
+                <fullName>Student does not want to Return to Program</fullName>
+                <default>false</default>
+                <label>Student does not want to Return to Program</label>
+            </value>
+            <value>
+                <fullName>Failed Background Check</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Failed Background Check</label>
+            </value>
+            <value>
+                <fullName>International Student w/out Valid SSN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>International Student w/out Valid SSN</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Student Failed Background Check</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Failed Background Check</label>
+            </value>
+            <value>
+                <fullName>Student Non-Responsive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Student did not complete Onboarding</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student did not complete Onboarding</label>
+            </value>
+            <value>
+                <fullName>Student is not eligible for this opportunity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student is not eligible for this opportunity</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Position filled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Auto Closed - Inactivate Opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Student Declined Interview</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Candidate No-Show for Scheduled Interview</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Recruiter Rejected Candidate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Client Rejected Candidate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Student Declined Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Student did not complete Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Student does not want to Return to Program</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

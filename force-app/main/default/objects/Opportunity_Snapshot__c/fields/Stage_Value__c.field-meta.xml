@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Value__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Stage_Number__c,1,&quot;Prospecting&quot;,
+2,&quot;Opportunity Identified&quot;, 
+3,&quot;Proposal Submitted&quot;, 
+4,&quot;Negotiation&quot;, 
+5,&quot;Verbal Commitment&quot;, 
+6,&quot;Closed Won&quot;, 
+7,&quot;Closed Lost&quot;,
+8,&quot;Declined&quot;,
+9,&quot;Prospect&quot;,
+10,&quot;Credentials/Meeting&quot;,
+11,&quot;RFP/Pitch&quot;,
+12,&quot;Active Scope&quot;,
+13,&quot;Closed Won - Reconciled&quot;,
+14,&quot;Cancelled&quot;,
+15,&quot;Closed Won - Project Complete&quot;,
+16,&quot;Initial Contact&quot;,
+17,&quot;Term Negotiation&quot;,
+18,&quot;Final Version/Term Sheet&quot;,
+19,&quot;Execution - Signature&quot;,
+20,&quot;Execution - Countersignature&quot;,
+&quot;error&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Stage Value</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

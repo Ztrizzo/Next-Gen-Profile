@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Likely_Are_You_to_Buy_BN_Bar__c</fullName>
+    <externalId>false</externalId>
+    <label>How Likely Are You to Buy BN Bar</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Definitely would buy it</fullName>
+                <default>false</default>
+                <label>Definitely would buy it</label>
+            </value>
+            <value>
+                <fullName>Probably would buy it</fullName>
+                <default>false</default>
+                <label>Probably would buy it</label>
+            </value>
+            <value>
+                <fullName>Might or might not buy it</fullName>
+                <default>false</default>
+                <label>Might or might not buy it</label>
+            </value>
+            <value>
+                <fullName>Probably would not buy it</fullName>
+                <default>false</default>
+                <label>Probably would not buy it</label>
+            </value>
+            <value>
+                <fullName>Definitely would not buy it</fullName>
+                <default>false</default>
+                <label>Definitely would not buy it</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

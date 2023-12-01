@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_End_Dates</fullName>
+    <columns>Account_and_Opportunity_Name__c</columns>
+    <columns>Latest_Product_End_Date__c</columns>
+    <columns>Days_Remaining__c</columns>
+    <columns>Expiration_Indicator__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won - Reconciled,Cancelled</value>
+    </filters>
+    <filters>
+        <field>Days_Remaining__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>-2</value>
+    </filters>
+    <filters>
+        <field>Days_Remaining__c</field>
+        <operation>lessOrEqual</operation>
+        <value>60</value>
+    </filters>
+    <label>My Opportunities Expiring(60 Days)</label>
+</ListView>

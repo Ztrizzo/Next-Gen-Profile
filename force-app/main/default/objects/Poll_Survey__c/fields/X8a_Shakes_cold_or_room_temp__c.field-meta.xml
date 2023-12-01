@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X8a_Shakes_cold_or_room_temp__c</fullName>
+    <externalId>false</externalId>
+    <label>8a. Shakes cold or room temp?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cold</fullName>
+                <default>false</default>
+                <label>Cold</label>
+            </value>
+            <value>
+                <fullName>Room temperature</fullName>
+                <default>false</default>
+                <label>Room temperature</label>
+            </value>
+            <value>
+                <fullName>Had some cold and some at room temperature</fullName>
+                <default>false</default>
+                <label>Had some cold and some at room temperature</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

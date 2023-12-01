@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>When_Do_You_Eat_Breakfast__c</fullName>
+    <externalId>false</externalId>
+    <label>When Do You Eat Breakfast?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Before 5:00am</fullName>
+                <default>false</default>
+                <label>Before 5:00am</label>
+            </value>
+            <value>
+                <fullName>5:00am – 7:00am</fullName>
+                <default>false</default>
+                <label>5:00am – 7:00am</label>
+            </value>
+            <value>
+                <fullName>7:00am – 9:00am</fullName>
+                <default>false</default>
+                <label>7:00am – 9:00am</label>
+            </value>
+            <value>
+                <fullName>9:00am – 11:00am</fullName>
+                <default>false</default>
+                <label>9:00am – 11:00am</label>
+            </value>
+            <value>
+                <fullName>11:00am – 1:00pm</fullName>
+                <default>false</default>
+                <label>11:00am – 1:00pm</label>
+            </value>
+            <value>
+                <fullName>After 1:00pm</fullName>
+                <default>false</default>
+                <label>After 1:00pm</label>
+            </value>
+            <value>
+                <fullName>I usually skip breakfast</fullName>
+                <default>false</default>
+                <label>I usually skip breakfast</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

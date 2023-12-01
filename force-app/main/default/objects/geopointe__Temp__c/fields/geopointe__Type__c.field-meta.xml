@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>API Assign Records</fullName>
+                <default>false</default>
+                <label>API Assign Records</label>
+            </value>
+            <value>
+                <fullName>Add To Campaign</fullName>
+                <default>false</default>
+                <label>Add To Campaign</label>
+            </value>
+            <value>
+                <fullName>Geocode Cleanup</fullName>
+                <default>false</default>
+                <label>Geocode Cleanup</label>
+            </value>
+            <value>
+                <fullName>Print Route</fullName>
+                <default>false</default>
+                <label>Print Route</label>
+            </value>
+            <value>
+                <fullName>SK Data Set Push</fullName>
+                <default>false</default>
+                <label>SK Data Set Push</label>
+            </value>
+            <value>
+                <fullName>SK Session Id</fullName>
+                <default>false</default>
+                <label>SK Session Id</label>
+            </value>
+            <value>
+                <fullName>Dataset Extension</fullName>
+                <default>false</default>
+                <label>Dataset Extension</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

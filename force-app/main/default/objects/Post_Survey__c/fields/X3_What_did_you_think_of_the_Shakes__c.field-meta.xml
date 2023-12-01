@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_What_did_you_think_of_the_Shakes__c</fullName>
+    <externalId>false</externalId>
+    <label>3.What did you think of the Shakes?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Liked extremely</fullName>
+                <default>false</default>
+                <label>Liked extremely</label>
+            </value>
+            <value>
+                <fullName>Liked somewhat</fullName>
+                <default>false</default>
+                <label>Liked somewhat</label>
+            </value>
+            <value>
+                <fullName>Neither liked nor disliked</fullName>
+                <default>false</default>
+                <label>Neither liked nor disliked</label>
+            </value>
+            <value>
+                <fullName>Disliked somewhat</fullName>
+                <default>false</default>
+                <label>Disliked somewhat</label>
+            </value>
+            <value>
+                <fullName>Disliked extremely</fullName>
+                <default>false</default>
+                <label>Disliked extremely</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

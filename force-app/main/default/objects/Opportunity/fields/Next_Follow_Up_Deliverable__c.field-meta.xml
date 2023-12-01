@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Follow_Up_Deliverable__c</fullName>
+    <description>Start Project Email template body</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List requested team meeting date, production timeline, pre-pro, shoot, post.</inlineHelpText>
+    <label>Next Follow Up / Deliverable</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

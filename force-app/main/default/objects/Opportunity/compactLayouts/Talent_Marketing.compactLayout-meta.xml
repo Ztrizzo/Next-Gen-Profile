@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Talent_Marketing</fullName>
+    <fields>Name</fields>
+    <fields>Talent_Client__c</fields>
+    <fields>Contract_Amount__c</fields>
+    <fields>CloseDate</fields>
+    <fields>OwnerId</fields>
+    <label>Talent Marketing</label>
+</CompactLayout>

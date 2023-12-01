@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dove_Schools</fullName>
+    <columns>Email__c</columns>
+    <columns>Graduation_Date__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>School__c</columns>
+    <columns>CE_Status__c</columns>
+    <columns>Program__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program__c</field>
+        <operation>equals</operation>
+        <value>MTV/Dove Fall 2011</value>
+    </filters>
+    <label>Dove Schools</label>
+</ListView>

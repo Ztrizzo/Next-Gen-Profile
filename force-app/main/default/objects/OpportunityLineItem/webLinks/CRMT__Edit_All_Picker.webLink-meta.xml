@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMT__Edit_All_Picker</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Edit All</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!IF(ISBLANK(Opportunity.CRMT__Pricebook2Id__c), urlfor(&apos;/oppitm/choosepricebook.jsp?id=&apos;+Opportunity.Id+&apos;&amp;retURL=&apos;+Opportunity.Id+&apos;&amp;saveURL=&apos;+&apos;/apex/CRMT__ppicker?id=&apos;+Opportunity.Id+&apos;%26CRMTBOO__isActive=true&apos;), URLFOR(&apos;/apex/CRMT__ppicker?id=&apos;+Opportunity.Id+&apos;&amp;CRMTBOO__isActive=true&apos;))}</url>
+</WebLink>

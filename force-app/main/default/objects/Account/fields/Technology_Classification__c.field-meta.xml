@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_Classification__c</fullName>
+    <description>Further description on type of technology.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If Industry is Technology, how can it be classified?</inlineHelpText>
+    <label>Technology Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cloud, Data &amp; CRM</fullName>
+                <default>false</default>
+                <label>Cloud, Data &amp; CRM</label>
+            </value>
+            <value>
+                <fullName>Cryptocurrency</fullName>
+                <default>false</default>
+                <label>Cryptocurrency</label>
+            </value>
+            <value>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+                <label>Delivery</label>
+            </value>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
+            </value>
+            <value>
+                <fullName>Fan Engagement</fullName>
+                <default>false</default>
+                <label>Fan Engagement</label>
+            </value>
+            <value>
+                <fullName>Financial</fullName>
+                <default>false</default>
+                <label>Financial</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Fitness</fullName>
+                <default>false</default>
+                <label>Health &amp; Fitness</label>
+            </value>
+            <value>
+                <fullName>Infrastructure</fullName>
+                <default>false</default>
+                <label>Infrastructure</label>
+            </value>
+            <value>
+                <fullName>NFT</fullName>
+                <default>false</default>
+                <label>NFT</label>
+            </value>
+            <value>
+                <fullName>Products</fullName>
+                <default>false</default>
+                <label>Products</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>SaaS</fullName>
+                <default>false</default>
+                <label>SaaS</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Wearable</fullName>
+                <default>false</default>
+                <label>Wearable</label>
+            </value>
+            <value>
+                <fullName>Sleep</fullName>
+                <default>false</default>
+                <label>Sleep</label>
+            </value>
+            <value>
+                <fullName>Digital Payments</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital Payments</label>
+            </value>
+            <value>
+                <fullName>Fantasy Sports/Sports Betting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fantasy Sports/Sports Betting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

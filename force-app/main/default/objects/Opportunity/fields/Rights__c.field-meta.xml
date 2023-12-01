@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rights__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify specific influencer rights (social, digital, all rights)</inlineHelpText>
+    <label>Rights</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>Digital</fullName>
+                <default>false</default>
+                <label>Digital</label>
+            </value>
+            <value>
+                <fullName>All Rights</fullName>
+                <default>false</default>
+                <label>All Rights</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

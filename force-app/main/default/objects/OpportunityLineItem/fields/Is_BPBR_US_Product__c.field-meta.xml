@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_BPBR_US_Product__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is the product added from Brands and Properties US or Brands Retainer US Cost Centers? This is for tracking and assignment of approvals.</description>
+    <externalId>false</externalId>
+    <label>Is BPBR US Product?</label>
+    <type>Checkbox</type>
+</CustomField>

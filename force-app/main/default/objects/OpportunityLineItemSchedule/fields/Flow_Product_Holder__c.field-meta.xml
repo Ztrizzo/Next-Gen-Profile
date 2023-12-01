@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flow_Product_Holder__c</fullName>
+    <externalId>false</externalId>
+    <label>Flow Product Holder</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billback</fullName>
+                <default>false</default>
+                <label>Billback</label>
+            </value>
+            <value>
+                <fullName>Campus Programs</fullName>
+                <default>false</default>
+                <label>Campus Programs</label>
+            </value>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>Creative - Marketing Services</fullName>
+                <default>false</default>
+                <label>Creative - Marketing Services</label>
+            </value>
+            <value>
+                <fullName>Default Product</fullName>
+                <default>false</default>
+                <label>Default Product</label>
+            </value>
+            <value>
+                <fullName>Excess / Savings</fullName>
+                <default>false</default>
+                <label>Excess / Savings</label>
+            </value>
+            <value>
+                <fullName>Experiential (Management Fee)</fullName>
+                <default>false</default>
+                <label>Experiential (Management Fee)</label>
+            </value>
+            <value>
+                <fullName>Experiential (Phone and Insurance)</fullName>
+                <default>false</default>
+                <label>Experiential (Phone and Insurance)</label>
+            </value>
+            <value>
+                <fullName>Experiential (Warehouse)</fullName>
+                <default>false</default>
+                <label>Experiential (Warehouse)</label>
+            </value>
+            <value>
+                <fullName>Experiential (Warehouse Handling)</fullName>
+                <default>false</default>
+                <label>Experiential (Warehouse Handling)</label>
+            </value>
+            <value>
+                <fullName>Hospitality Management</fullName>
+                <default>false</default>
+                <label>Hospitality Management</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Media Buy Fee</fullName>
+                <default>false</default>
+                <label>Media Buy Fee</label>
+            </value>
+            <value>
+                <fullName>Media Rights Advisory</fullName>
+                <default>false</default>
+                <label>Media Rights Advisory</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Income</fullName>
+                <default>false</default>
+                <label>Miscellaneous Income</label>
+            </value>
+            <value>
+                <fullName>Prebill</fullName>
+                <default>false</default>
+                <label>Prebill</label>
+            </value>
+            <value>
+                <fullName>Production and Fees</fullName>
+                <default>false</default>
+                <label>Production and Fees</label>
+            </value>
+            <value>
+                <fullName>R&amp;I - Audience Intelligence</fullName>
+                <default>false</default>
+                <label>R&amp;I - Audience Intelligence</label>
+            </value>
+            <value>
+                <fullName>R&amp;I - Performance Management</fullName>
+                <default>false</default>
+                <label>R&amp;I - Performance Management</label>
+            </value>
+            <value>
+                <fullName>Retainer</fullName>
+                <default>false</default>
+                <label>Retainer</label>
+            </value>
+            <value>
+                <fullName>Strategic Consulting</fullName>
+                <default>false</default>
+                <label>Strategic Consulting</label>
+            </value>
+            <value>
+                <fullName>Valuation</fullName>
+                <default>false</default>
+                <label>Valuation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

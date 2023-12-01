@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Ranking__c</fullName>
+    <externalId>false</externalId>
+    <formula>Facebook_Ranking__c + Twitter_Ranking__c + Instagram_Ranking__c + Campus_Involvement_Ranking__c + Programs_Worked_Ranking__c + Housing_Plans_Ranking__c + Year_Ranking__c + Major_Ranking__c + of_Leadership_Positions_Currently_Held__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Student Ranking</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

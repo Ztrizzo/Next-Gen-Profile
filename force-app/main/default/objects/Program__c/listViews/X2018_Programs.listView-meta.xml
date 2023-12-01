@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2018_Programs</fullName>
+    <columns>NAME</columns>
+    <columns>Program_Start_Date__c</columns>
+    <columns>Program_End_Date__c</columns>
+    <columns>Number_of_Schools__c</columns>
+    <columns>Number_Active_Students__c</columns>
+    <columns>Nmber_of_Student_Translators__c</columns>
+    <columns>Number_of_Recruits__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>2018</value>
+    </filters>
+    <label>2018 Programs</label>
+    <sharedTo>
+        <group>University_Users</group>
+    </sharedTo>
+</ListView>

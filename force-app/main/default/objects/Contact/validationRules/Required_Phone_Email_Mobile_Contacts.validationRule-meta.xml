@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Phone_Email_Mobile_Contacts</fullName>
+    <active>true</active>
+    <description>Required Fields Contact Creation.</description>
+    <errorConditionFormula>AND (
+ ISBLANK( Phone ),
+ ISBLANK( FirstName),
+ ISBLANK( Email ),
+ ISBLANK( Title ),
+ ISBLANK(  MobilePhone )
+)</errorConditionFormula>
+    <errorMessage>The Email, Phone, Title or Mobile field is required.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Talent_Marketing_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What type of Talent Marketing contract is this?</inlineHelpText>
+    <label>Talent Marketing Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Athlete Exchange</fullName>
+                <default>false</default>
+                <label>Athlete Exchange</label>
+            </value>
+            <value>
+                <fullName>Development</fullName>
+                <default>false</default>
+                <label>Development</label>
+            </value>
+            <value>
+                <fullName>Branded Music Performance</fullName>
+                <default>false</default>
+                <label>Branded Music Performance</label>
+            </value>
+            <value>
+                <fullName>Music Tour Sponsorship</fullName>
+                <default>false</default>
+                <label>Music Tour Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Sports Performance Bonus</fullName>
+                <default>false</default>
+                <label>Sports Performance Bonus</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing</fullName>
+                <default>true</default>
+                <label>Talent Marketing</label>
+            </value>
+            <value>
+                <fullName>Trading Cards</fullName>
+                <default>false</default>
+                <label>Trading Cards</label>
+            </value>
+            <value>
+                <fullName>VIK / Gifting</fullName>
+                <default>false</default>
+                <label>VIK / Gifting</label>
+            </value>
+            <value>
+                <fullName>Property</fullName>
+                <default>false</default>
+                <label>Property</label>
+            </value>
+            <value>
+                <fullName>Speaking Engagement</fullName>
+                <default>false</default>
+                <label>Speaking Engagement</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

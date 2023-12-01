@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Net_Price__c</fullName>
+    <description>** Net Price is Average Net Price for 2021-2022 generated for full-time beginning undergraduate students who were awarded grant or scholarship aid from federal, state or local governments, or the institution. For public institutions only students paying the in-state or in-district rate are included. For institutions that charge students by program, net price is generated for the institution’s largest program.
+
+NA (Not applicable) - Graduation rate, transfer-out rate and the net price are not applicable to institutions that do not have full-time, first-time degree-seeking undergraduate students in the applicable cohort year or the financial aid year.</description>
+    <externalId>false</externalId>
+    <label>Net Price</label>
+    <length>25</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

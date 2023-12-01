@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Lat_Lng_1__c</fullName>
+    <deprecated>false</deprecated>
+    <description>These fields contains longitude and latitude data for shapes. The structure follows the GeoJSON spec for coordinates: [[[lng, lat], [lng, lat]]] . IMPORTANT: Field name is Lat_Lng_n__c but GeoJSON stores ongitude first, latitude second. If array of lng/lat points is too long for one field it should be split across mutliple Lat_Lng_n__c fields.</description>
+    <externalId>false</externalId>
+    <label>Coordinates 1</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

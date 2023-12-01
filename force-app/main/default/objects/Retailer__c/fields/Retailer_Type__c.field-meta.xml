@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retailer_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Retailer Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+                <label>Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Off-Campus Housing</fullName>
+                <default>false</default>
+                <label>Off-Campus Housing</label>
+            </value>
+            <value>
+                <fullName>Superstore</fullName>
+                <default>false</default>
+                <label>Superstore</label>
+            </value>
+            <value>
+                <fullName>Grocery Store</fullName>
+                <default>false</default>
+                <label>Grocery Store</label>
+            </value>
+            <value>
+                <fullName>Chain Restaurant</fullName>
+                <default>false</default>
+                <label>Chain Restaurant</label>
+            </value>
+            <value>
+                <fullName>Convenience Stores</fullName>
+                <default>false</default>
+                <label>Convenience Stores</label>
+            </value>
+            <value>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+                <label>Apparel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

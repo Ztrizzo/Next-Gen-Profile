@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_KPI__c</fullName>
+    <externalId>false</externalId>
+    <label>Secondary KPI</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Impressions</fullName>
+                <default>false</default>
+                <label>Impressions</label>
+            </value>
+            <value>
+                <fullName>Video Views</fullName>
+                <default>false</default>
+                <label>Video Views</label>
+            </value>
+            <value>
+                <fullName>Engagements</fullName>
+                <default>false</default>
+                <label>Engagements</label>
+            </value>
+            <value>
+                <fullName>Clicks</fullName>
+                <default>false</default>
+                <label>Clicks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

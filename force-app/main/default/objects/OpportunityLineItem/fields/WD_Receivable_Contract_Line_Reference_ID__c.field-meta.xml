@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WD_Receivable_Contract_Line_Reference_ID__c</fullName>
+    <description>Field to display WD_Receivable_Contract_Line_Reference_ID__c from Workday.</description>
+    <externalId>false</externalId>
+    <label>WD_Receivable_Contract_Line_Reference_ID</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

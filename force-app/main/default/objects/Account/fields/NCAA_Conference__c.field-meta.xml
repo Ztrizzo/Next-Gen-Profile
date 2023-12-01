@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCAA_Conference__c</fullName>
+    <externalId>false</externalId>
+    <label>NCAA Conference</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>American Athletic Conference</fullName>
+                <default>false</default>
+                <label>American Athletic Conference</label>
+            </value>
+            <value>
+                <fullName>Atlantic Coast Conference</fullName>
+                <default>false</default>
+                <label>Atlantic Coast Conference</label>
+            </value>
+            <value>
+                <fullName>Big 12 Conference</fullName>
+                <default>false</default>
+                <label>Big 12 Conference</label>
+            </value>
+            <value>
+                <fullName>Big Ten Conference</fullName>
+                <default>false</default>
+                <label>Big Ten Conference</label>
+            </value>
+            <value>
+                <fullName>Conference USA</fullName>
+                <default>false</default>
+                <label>Conference USA</label>
+            </value>
+            <value>
+                <fullName>Division I FBS Independents</fullName>
+                <default>false</default>
+                <label>Division I FBS Independents</label>
+            </value>
+            <value>
+                <fullName>Mid-American Conference</fullName>
+                <default>false</default>
+                <label>Mid-American Conference</label>
+            </value>
+            <value>
+                <fullName>Mountain West Conference</fullName>
+                <default>false</default>
+                <label>Mountain West Conference</label>
+            </value>
+            <value>
+                <fullName>Pacific-12 Conference</fullName>
+                <default>false</default>
+                <label>Pacific-12 Conference</label>
+            </value>
+            <value>
+                <fullName>Southeastern Conference</fullName>
+                <default>false</default>
+                <label>Southeastern Conference</label>
+            </value>
+            <value>
+                <fullName>Sun Belt Conference</fullName>
+                <default>false</default>
+                <label>Sun Belt Conference</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

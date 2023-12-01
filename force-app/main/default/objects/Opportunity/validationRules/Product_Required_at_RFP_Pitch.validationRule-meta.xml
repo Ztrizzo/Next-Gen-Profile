@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Required_at_RFP_Pitch</fullName>
+    <active>true</active>
+    <description>For Marketing Opportunities, Products are required to save at any stage past Prospecting</description>
+    <errorConditionFormula>Product_Counter__c = 0 &amp;&amp; 
+OR(ISPICKVAL( StageName , &quot;Opportunity Identified&quot;), ISPICKVAL( StageName , &quot;Proposal Submitted&quot;), ISPICKVAL( StageName , &quot;Negotiation&quot;), ISPICKVAL( StageName , &quot;Verbal Commitment&quot;),ISPICKVAL( StageName , &quot;Closed Won&quot;)) &amp;&amp; (OR(RecordType.DeveloperName = &quot;Marketing&quot;, RecordType.DeveloperName = &quot;Cycle_Direct&quot;,RecordType.DeveloperName = &quot;Laundry_Service&quot;))</errorConditionFormula>
+    <errorMessage>There must be at least one Product before changing the stage to Opportunity Identified, Proposal Submitted, Negotiation, Verbal Commitment, or Closed Won.</errorMessage>
+</ValidationRule>

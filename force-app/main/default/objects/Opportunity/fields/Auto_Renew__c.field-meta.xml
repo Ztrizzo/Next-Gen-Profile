@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Renew__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to indicate expected auto-renewals, however, no automation exists to auto-generate Renewal Opportunities. Manual data entry must be done by Account Owner.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check if Retainer is expected to renew automatically.</inlineHelpText>
+    <label>Auto-Renew</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

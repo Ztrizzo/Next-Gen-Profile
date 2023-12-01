@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMA_Collegiate_Chapter_8_22_2019__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>American Marketing Association Collegiate Chapter as of 8/22/2019</description>
+    <externalId>false</externalId>
+    <label>AMA Collegiate Chapter (11/3/2020)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

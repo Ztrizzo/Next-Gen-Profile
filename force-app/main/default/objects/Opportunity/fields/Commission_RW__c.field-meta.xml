@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commission_RW__c</fullName>
+    <description>Copy of Talent&apos;s base commission percentage, can be adjusted per deal.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Copy of Talent&apos;s base commission percentage, can be adjusted per deal.</inlineHelpText>
+    <label>Commission</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

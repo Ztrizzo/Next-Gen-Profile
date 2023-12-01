@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Graduated</fullName>
+    <columns>NAME</columns>
+    <columns>Graduated__c</columns>
+    <columns>Email__c</columns>
+    <columns>Secondary_Phone__c</columns>
+    <columns>Program__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Graduated__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Graduated</label>
+</ListView>

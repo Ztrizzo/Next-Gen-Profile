@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Social_Media_Ranking__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (of_Facebook_Friends__c &gt;= 600, &quot;High&quot;,
+IF (of_Twitter_Followers__c &gt;= 150 , &quot;High&quot;,
+IF (of_Instagram_Followers__c &gt;= 300, &quot;High&quot;,
+IF (of_Facebook_Friends__c &gt;= 300, &quot;Medium&quot;,
+IF (of_Twitter_Followers__c &gt;= 75 , &quot;Medium&quot;,
+IF (of_Instagram_Followers__c &gt;= 150, &quot;Medium&quot;, &quot;Null&quot;))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Social Media Ranking</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

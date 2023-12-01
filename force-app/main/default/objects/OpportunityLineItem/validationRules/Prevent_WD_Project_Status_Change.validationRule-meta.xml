@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_WD_Project_Status_Change</fullName>
+    <active>true</active>
+    <description>Prevent non-SysAdmin profile from changing Workday Project Status to anything other than Request</description>
+    <errorConditionFormula>AND(
+   $Profile.Name &lt;&gt; &quot;System Administrator&quot; , 
+    NOT(ISNEW()),
+    NOT ISPICKVAL(Workday_Project_Status__c,&quot;&quot;),
+    NOT ISPICKVAL(Workday_Project_Status__c, &quot;Request&quot;),
+    (ISCHANGED(Workday_Project_Status__c)&amp;&amp; ISPICKVAL(PRIORVALUE(Workday_Project_Status__c),&quot;&quot;)
+&amp;&amp; NOT ISPICKVAL(Workday_Project_Status__c, &quot;Request&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Workday_Project_Status__c</errorDisplayField>
+    <errorMessage>You can only Request a Workday Project, if applicable.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X13_How_many_bars_did_you_eat__c</fullName>
+    <externalId>false</externalId>
+    <label>13. How many bars did you eat?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>One</fullName>
+                <default>false</default>
+                <label>One</label>
+            </value>
+            <value>
+                <fullName>Two</fullName>
+                <default>false</default>
+                <label>Two</label>
+            </value>
+            <value>
+                <fullName>Three</fullName>
+                <default>false</default>
+                <label>Three</label>
+            </value>
+            <value>
+                <fullName>Four</fullName>
+                <default>false</default>
+                <label>Four</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spring_Sports__c</fullName>
+    <externalId>false</externalId>
+    <label>Spring Sports</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baseball</fullName>
+                <default>false</default>
+                <label>Baseball</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>Lacrosse</fullName>
+                <default>false</default>
+                <label>Lacrosse</label>
+            </value>
+            <value>
+                <fullName>Rowing</fullName>
+                <default>false</default>
+                <label>Rowing</label>
+            </value>
+            <value>
+                <fullName>Softball</fullName>
+                <default>false</default>
+                <label>Softball</label>
+            </value>
+            <value>
+                <fullName>Track and Field</fullName>
+                <default>false</default>
+                <label>Track and Field</label>
+            </value>
+            <value>
+                <fullName>Water polo</fullName>
+                <default>false</default>
+                <label>Water polo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

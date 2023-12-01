@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Status__c</fullName>
+    <description>Latest status in the company.</description>
+    <externalId>false</externalId>
+    <label>CE Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2010 Convention Contact</fullName>
+                <default>false</default>
+                <label>2010 Convention Contact</label>
+            </value>
+            <value>
+                <fullName>2010 Northeast Conference Contact</fullName>
+                <default>false</default>
+                <label>2010 Northeast Conference Contact</label>
+            </value>
+            <value>
+                <fullName>2011 NACA Mid America Delegate</fullName>
+                <default>false</default>
+                <label>2011 NACA Mid America Delegate</label>
+            </value>
+            <value>
+                <fullName>2011 NACA Northeast Delegate</fullName>
+                <default>false</default>
+                <label>2011 NACA Northeast Delegate</label>
+            </value>
+            <value>
+                <fullName>2011 NACA South Delegate</fullName>
+                <default>false</default>
+                <label>2011 NACA South Delegate</label>
+            </value>
+            <value>
+                <fullName>Applicant</fullName>
+                <default>false</default>
+                <label>Applicant</label>
+            </value>
+            <value>
+                <fullName>Blackboard Fall 2012 Applicant</fullName>
+                <default>false</default>
+                <label>Blackboard Fall 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>Blackboard Fall 2012 Promoter</fullName>
+                <default>false</default>
+                <label>Blackboard Fall 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>Blackboard Summer 2012 Applicant</fullName>
+                <default>false</default>
+                <label>Blackboard Summer 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>Blackboard Summer 2012 Promoter</fullName>
+                <default>false</default>
+                <label>Blackboard Summer 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>Career Services Interested</fullName>
+                <default>false</default>
+                <label>Career Services Interested</label>
+            </value>
+            <value>
+                <fullName>CashCourse Fall 2010 Applicant</fullName>
+                <default>false</default>
+                <label>CashCourse Fall 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>CashCourse Fall 2010 Promoter</fullName>
+                <default>false</default>
+                <label>CashCourse Fall 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>CashCourse Spring 2011 Applicant</fullName>
+                <default>false</default>
+                <label>CashCourse Spring 2011 Applicant</label>
+            </value>
+            <value>
+                <fullName>CashCourse Spring 2011 Promoter</fullName>
+                <default>false</default>
+                <label>CashCourse Spring 2011 Promoter</label>
+            </value>
+            <value>
+                <fullName>Cengage Spring 2013 Applicant</fullName>
+                <default>false</default>
+                <label>Cengage Spring 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>Cengage Spring 2013 Promoter</fullName>
+                <default>false</default>
+                <label>Cengage Spring 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>Citizens Fall 2009 Applicant</fullName>
+                <default>false</default>
+                <label>Citizens Fall 2009 Applicant</label>
+            </value>
+            <value>
+                <fullName>Citizens Fall 2009 Promoter</fullName>
+                <default>false</default>
+                <label>Citizens Fall 2009 Promoter</label>
+            </value>
+            <value>
+                <fullName>Citizens Loan Spring 2010 Applicant</fullName>
+                <default>false</default>
+                <label>Citizens Loan Spring 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>Citizens Loan Spring 2010 Promoter</fullName>
+                <default>false</default>
+                <label>Citizens Loan Spring 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>Copia Fall 2011 Applicant</fullName>
+                <default>false</default>
+                <label>Copia Fall 2011 Applicant</label>
+            </value>
+            <value>
+                <fullName>Copia Fall 2011 Promoter</fullName>
+                <default>false</default>
+                <label>Copia Fall 2011 Promoter</label>
+            </value>
+            <value>
+                <fullName>Current Student Promoter</fullName>
+                <default>false</default>
+                <label>Current Student Promoter</label>
+            </value>
+            <value>
+                <fullName>Dropped Rep</fullName>
+                <default>false</default>
+                <label>Dropped Rep</label>
+            </value>
+            <value>
+                <fullName>Event Staff</fullName>
+                <default>false</default>
+                <label>Event Staff</label>
+            </value>
+            <value>
+                <fullName>FYE Fall 2009 Applicant</fullName>
+                <default>false</default>
+                <label>FYE Fall 2009 Applicant</label>
+            </value>
+            <value>
+                <fullName>FYE Fall 2009 Event Staff</fullName>
+                <default>false</default>
+                <label>FYE Fall 2009 Event Staff</label>
+            </value>
+            <value>
+                <fullName>FYE Fall 2009 Promoter</fullName>
+                <default>false</default>
+                <label>FYE Fall 2009 Promoter</label>
+            </value>
+            <value>
+                <fullName>IKEA Fall 2009 Applicant</fullName>
+                <default>false</default>
+                <label>IKEA Fall 2009 Applicant</label>
+            </value>
+            <value>
+                <fullName>IKEA Fall 2009 Promoter</fullName>
+                <default>false</default>
+                <label>IKEA Fall 2009 Promoter</label>
+            </value>
+            <value>
+                <fullName>Interested</fullName>
+                <default>false</default>
+                <label>Interested</label>
+            </value>
+            <value>
+                <fullName>Jack in the Box Fall 2013 Applicant</fullName>
+                <default>false</default>
+                <label>Jack in the Box Fall 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>Jack in the Box Fall 2013 Promoter</fullName>
+                <default>false</default>
+                <label>Jack in the Box Fall 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>Kellogg&apos;s Insights Fall 2013 Applicant</fullName>
+                <default>false</default>
+                <label>Kellogg&apos;s Insights Fall 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>Kellogg&apos;s Insights Fall 2013 Promoter</fullName>
+                <default>false</default>
+                <label>Kellogg&apos;s Insights Fall 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>Kotex Spring 2013 Applicant</fullName>
+                <default>false</default>
+                <label>Kotex Spring 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>Kotex Spring 2013 Promoter</fullName>
+                <default>false</default>
+                <label>Kotex Spring 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>L&apos;Oreal Spring 2013 Applicant</fullName>
+                <default>false</default>
+                <label>L&apos;Oreal Spring 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>L&apos;Oreal Spring 2013 Promoter</fullName>
+                <default>false</default>
+                <label>L&apos;Oreal Spring 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>Lenovo Spring 2012 Applicant</fullName>
+                <default>false</default>
+                <label>Lenovo Spring 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>Lenovo Spring 2012 Promoter</fullName>
+                <default>false</default>
+                <label>Lenovo Spring 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Fall 2013 Applicant</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Fall 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Fall 2013 Promoter</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Fall 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Spring 2013 Applicant</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Spring 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Spring 2013 Promoter</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Spring 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>Maxim Fall 2010 Applicant</fullName>
+                <default>false</default>
+                <label>Maxim Fall 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>Maxim Fall 2010 Promoter</fullName>
+                <default>false</default>
+                <label>Maxim Fall 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>Maxim Spring 2010 Applicant</fullName>
+                <default>false</default>
+                <label>Maxim Spring 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>Maxim Spring 2010 Promoter</fullName>
+                <default>false</default>
+                <label>Maxim Spring 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2009 Applicant</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2009 Applicant</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2009 Event Staff</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2009 Event Staff</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2009 Promoter</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2009 Promoter</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2010 Applicant</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2010 Event Staff</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2010 Event Staff</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2010 Promoter</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2010 Applicant</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2010 Event Staff</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2010 Event Staff</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2010 Promoter</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2011 Applicant</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2011 Applicant</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2011 Event Staff</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2011 Event Staff</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2011 Promoter</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2011 Promoter</label>
+            </value>
+            <value>
+                <fullName>MTV/Dove Fall 2011 Applicant</fullName>
+                <default>false</default>
+                <label>MTV/Dove Fall 2011 Applicant</label>
+            </value>
+            <value>
+                <fullName>MTV/Dove Fall 2011 Promoter</fullName>
+                <default>false</default>
+                <label>MTV/Dove Fall 2011 Promoter</label>
+            </value>
+            <value>
+                <fullName>MTV Act of Valor Spring 2012 Applicant</fullName>
+                <default>false</default>
+                <label>MTV Act of Valor Spring 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>MTV Act of Valor Spring 2012 Promoter</fullName>
+                <default>false</default>
+                <label>MTV Act of Valor Spring 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>MTVU Fall 2011 Applicant</fullName>
+                <default>false</default>
+                <label>MTVU Fall 2011 Applicant</label>
+            </value>
+            <value>
+                <fullName>MTVU Fall 2011 Promoter</fullName>
+                <default>false</default>
+                <label>MTVU Fall 2011 Promoter</label>
+            </value>
+            <value>
+                <fullName>NACA Delegate</fullName>
+                <default>false</default>
+                <label>NACA Delegate</label>
+            </value>
+            <value>
+                <fullName>PacSun Fall 2012 Applicant</fullName>
+                <default>false</default>
+                <label>PacSun Fall 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>PacSun Fall 2012 Promoter</fullName>
+                <default>false</default>
+                <label>PacSun Fall 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>PacSun Spring 2012 Applicant</fullName>
+                <default>false</default>
+                <label>PacSun Spring 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>PacSun Spring 2012 Promoter</fullName>
+                <default>false</default>
+                <label>PacSun Spring 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>PacSun Spring 2013 Applicant</fullName>
+                <default>false</default>
+                <label>PacSun Spring 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>PacSun Spring 2013 Promoter</fullName>
+                <default>false</default>
+                <label>PacSun Spring 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>Past Student Promoter</fullName>
+                <default>false</default>
+                <label>Past Student Promoter</label>
+            </value>
+            <value>
+                <fullName>Phase III Spring 2011 Applicant</fullName>
+                <default>false</default>
+                <label>Phase III Spring 2011 Applicant</label>
+            </value>
+            <value>
+                <fullName>Phase III Spring 2011 Promoter</fullName>
+                <default>false</default>
+                <label>Phase III Spring 2011 Promoter</label>
+            </value>
+            <value>
+                <fullName>Playhem Fall 2010 Applicant</fullName>
+                <default>false</default>
+                <label>Playhem Fall 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>Playhem Fall 2010 Promoter</fullName>
+                <default>false</default>
+                <label>Playhem Fall 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>RCN Fall 2009 Applicant</fullName>
+                <default>false</default>
+                <label>RCN Fall 2009 Applicant</label>
+            </value>
+            <value>
+                <fullName>RCN Fall 2009 Promoter</fullName>
+                <default>false</default>
+                <label>RCN Fall 2009 Promoter</label>
+            </value>
+            <value>
+                <fullName>RCN Fall 2010 Applicant</fullName>
+                <default>false</default>
+                <label>RCN Fall 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>RCN Fall 2010 Promoter</fullName>
+                <default>false</default>
+                <label>RCN Fall 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>Roxy Fall 2009 Applicant</fullName>
+                <default>false</default>
+                <label>Roxy Fall 2009 Applicant</label>
+            </value>
+            <value>
+                <fullName>Roxy Fall 2009 Promoter</fullName>
+                <default>false</default>
+                <label>Roxy Fall 2009 Promoter</label>
+            </value>
+            <value>
+                <fullName>Sun Drop Fall 2011 Applicant</fullName>
+                <default>false</default>
+                <label>Sun Drop Fall 2011 Applicant</label>
+            </value>
+            <value>
+                <fullName>Sun Drop Fall 2011 Promoter</fullName>
+                <default>false</default>
+                <label>Sun Drop Fall 2011 Promoter</label>
+            </value>
+            <value>
+                <fullName>Sun Drop Spring 2012 Applicant</fullName>
+                <default>false</default>
+                <label>Sun Drop Spring 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>Sun Drop Spring 2012 Promoter</fullName>
+                <default>false</default>
+                <label>Sun Drop Spring 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>Teen Vogue Spring 2010 Applicant</fullName>
+                <default>false</default>
+                <label>Teen Vogue Spring 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>Teen Vogue Spring 2010 Event Staff</fullName>
+                <default>false</default>
+                <label>Teen Vogue Spring 2010 Event Staff</label>
+            </value>
+            <value>
+                <fullName>Teen Vogue Spring 2010 Promoter</fullName>
+                <default>false</default>
+                <label>Teen Vogue Spring 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>UCrew 2012-2013 Applicant</fullName>
+                <default>false</default>
+                <label>UCrew 2012-2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>UCrew 2012-2013 Representative</fullName>
+                <default>false</default>
+                <label>UCrew 2012-2013 Representative</label>
+            </value>
+            <value>
+                <fullName>UCrew 2013-2014 Applicant</fullName>
+                <default>false</default>
+                <label>UCrew 2013-2014 Applicant</label>
+            </value>
+            <value>
+                <fullName>UCrew 2013-2014 Representative</fullName>
+                <default>false</default>
+                <label>UCrew 2013-2014 Representative</label>
+            </value>
+            <value>
+                <fullName>Verizon Fall 2010 Applicant</fullName>
+                <default>false</default>
+                <label>Verizon Fall 2010 Applicant</label>
+            </value>
+            <value>
+                <fullName>Verizon Fall 2010 Promoter</fullName>
+                <default>false</default>
+                <label>Verizon Fall 2010 Promoter</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2012 Event Staff</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2012 Event Staff</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2012 Tour Promoter</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2012 Tour Promoter</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2012 Tour Promoter Applicant</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2012 Tour Promoter Applicant</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2013 Event Staff</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2013 Event Staff</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2013 Tour Promoter</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2013 Tour Promoter</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2013 Tour Promoter Applicant</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2013 Tour Promoter Applicant</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Spring 2013 Event Staff</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Spring 2013 Event Staff</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Spring 2013 Tour Promoter</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Spring 2013 Tour Promoter</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Spring 2013 Tour Promoter Applicant</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Spring 2013 Tour Promoter Applicant</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2011 Applicant</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2011 Applicant</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2011 Promoter</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2011 Promoter</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2012 Applicant</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2012 Promoter</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2013 Applicant</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2013 Promoter</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2013 Promoter</label>
+            </value>
+            <value>
+                <fullName>Zipcar Spring 2012 Applicant</fullName>
+                <default>false</default>
+                <label>Zipcar Spring 2012 Applicant</label>
+            </value>
+            <value>
+                <fullName>Zipcar Spring 2012 Promoter</fullName>
+                <default>false</default>
+                <label>Zipcar Spring 2012 Promoter</label>
+            </value>
+            <value>
+                <fullName>Zipcar Spring 2013 Applicant</fullName>
+                <default>false</default>
+                <label>Zipcar Spring 2013 Applicant</label>
+            </value>
+            <value>
+                <fullName>Zipcar Spring 2013 Promoter</fullName>
+                <default>false</default>
+                <label>Zipcar Spring 2013 Promoter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

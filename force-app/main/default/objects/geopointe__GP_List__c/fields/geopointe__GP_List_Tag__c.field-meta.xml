@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__GP_List_Tag__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Geopointe list tag that the list relates to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Geopointe list tag that the list relates to.</inlineHelpText>
+    <label>Geopointe Tag</label>
+    <referenceTo>geopointe__GP_Tag__c</referenceTo>
+    <relationshipLabel>Geopointe List List Tag</relationshipLabel>
+    <relationshipName>Geopointe_List_List_tag</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

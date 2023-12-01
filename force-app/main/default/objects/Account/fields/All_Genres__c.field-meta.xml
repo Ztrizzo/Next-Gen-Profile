@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Genres__c</fullName>
+    <description>All genres listed under artist</description>
+    <externalId>false</externalId>
+    <inlineHelpText>In addition to Primary Genre, what are other genres classified for this client?</inlineHelpText>
+    <label>All Genres</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

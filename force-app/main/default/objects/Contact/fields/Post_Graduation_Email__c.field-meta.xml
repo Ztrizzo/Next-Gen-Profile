@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Graduation_Email__c</fullName>
+    <description>Riddle &amp; Bloom is expanding its marketing services and will be managing some exciting brand activations beyond college campuses! Since you are graduating, provide an updated email address where we can reach out with new opportunities.</description>
+    <externalId>false</externalId>
+    <label>Post Graduation Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

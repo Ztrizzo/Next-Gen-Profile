@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMT__Discount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formula field that calculates the % of discount.   ( ListPrice - UnitPrice) /  ListPrice</description>
+    <externalId>false</externalId>
+    <formula>( ListPrice - UnitPrice) /  ListPrice</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula field that calculates the % of discount.   ( ListPrice - UnitPrice) /  ListPrice</inlineHelpText>
+    <label>Line Discount %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__RPC_Scheduled_Who_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>geopointe__Route_Plan_Configuration__r.geopointe__Scheduled_Who_Field__c</formula>
+    <inlineHelpText>Name of User lookup field in which to save who is doing the visit</inlineHelpText>
+    <label>Scheduled Who Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

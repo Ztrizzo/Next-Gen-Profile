@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Microsoft_S2011_Event_Staff</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>School__c</field>
+        <operation>equals</operation>
+        <value>Auburn University</value>
+    </filters>
+    <filters>
+        <field>School__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Microsoft S2011 Event Staff</label>
+</ListView>

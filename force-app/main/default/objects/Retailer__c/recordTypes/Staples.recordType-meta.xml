@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staples</fullName>
+    <active>true</active>
+    <label>Staples</label>
+    <picklistValues>
+        <picklist>Property_Management_Company__c</picklist>
+        <values>
+            <fullName>American Campus Communities %28ACC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aspen Heights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asset Campus Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Berger Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campus Apartments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campus Crest Communities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campus Evolution Villages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capstone Collegiate Cos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EdR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education Realty Trust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kayne Anderson Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peak Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servitas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Collier Cos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Scion Group</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Type__c</picklist>
+        <values>
+            <fullName>Conventional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Housing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retailer_Type__c</picklist>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chain Restaurant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convenience Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grocery Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-Campus Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Superstore</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

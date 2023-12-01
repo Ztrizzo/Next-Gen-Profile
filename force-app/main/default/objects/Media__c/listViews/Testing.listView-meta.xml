@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing</fullName>
+    <columns>School_University__c</columns>
+    <columns>NAME</columns>
+    <columns>Media_Type__c</columns>
+    <columns>Media_Location__c</columns>
+    <columns>Placement_Timing__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Media__c.On_Campus_Media_Assets</value>
+    </filters>
+    <label>Testing</label>
+</ListView>

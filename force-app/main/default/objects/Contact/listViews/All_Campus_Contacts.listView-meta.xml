@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Campus_Contacts</fullName>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>PCID__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.DEPARTMENT</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.University_Campus_Contact</value>
+    </filters>
+    <filters>
+        <field>No_longer_with_university__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>1. All Campus Contacts</label>
+</ListView>

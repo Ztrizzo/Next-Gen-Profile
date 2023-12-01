@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Laundry_Service</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Date_Received__c</columns>
+    <filterScope>Team</filterScope>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>Cycle Direct</value>
+    </filters>
+    <label>B&amp;P Cycle Direct All</label>
+    <sharedTo>
+        <roleAndSubordinates>Accounting_Marketing_LSCYCLE</roleAndSubordinates>
+    </sharedTo>
+</ListView>

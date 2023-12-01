@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Best_Method_of_Communication__c</fullName>
+    <externalId>false</externalId>
+    <label>Best Method of Communication</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All - Great communicator</fullName>
+                <default>false</default>
+                <label>All - Great communicator</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Email or Phone</fullName>
+                <default>false</default>
+                <label>Email or Phone</label>
+            </value>
+            <value>
+                <fullName>GroupMe</fullName>
+                <default>false</default>
+                <label>GroupMe</label>
+            </value>
+            <value>
+                <fullName>Neither</fullName>
+                <default>false</default>
+                <label>Neither</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

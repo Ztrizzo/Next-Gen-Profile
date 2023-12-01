@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_opportunities__c</fullName>
+    <externalId>false</externalId>
+    <label>How did you hear about opportunities?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>From an advisor</fullName>
+                <default>false</default>
+                <label>From an advisor</label>
+            </value>
+            <value>
+                <fullName>From a friend</fullName>
+                <default>false</default>
+                <label>From a friend</label>
+            </value>
+            <value>
+                <fullName>Career Center website</fullName>
+                <default>false</default>
+                <label>Career Center website</label>
+            </value>
+            <value>
+                <fullName>Greek Life Email</fullName>
+                <default>false</default>
+                <label>Greek Life Email</label>
+            </value>
+            <value>
+                <fullName>Student Organization Email</fullName>
+                <default>false</default>
+                <label>Student Organization Email</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Fluent website</fullName>
+                <default>false</default>
+                <label>Fluent website</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>TenTask.com</fullName>
+                <default>false</default>
+                <label>TenTask.com</label>
+            </value>
+            <value>
+                <fullName>Through a current or previous Amazon Ambassador role</fullName>
+                <default>false</default>
+                <label>Through a current or previous Amazon Ambassador role</label>
+            </value>
+            <value>
+                <fullName>R&amp;B Ambassador Social Media Post</fullName>
+                <default>false</default>
+                <label>R&amp;B Ambassador Social Media Post</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

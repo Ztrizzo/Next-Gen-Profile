@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Month_Locked__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Default = FALSE. Will be set by WD automation. If TRUE, prevent update to record</description>
+    <externalId>false</externalId>
+    <label>Month Locked</label>
+    <type>Checkbox</type>
+</CustomField>

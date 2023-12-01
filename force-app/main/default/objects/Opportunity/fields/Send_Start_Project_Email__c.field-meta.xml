@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Start_Project_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Process Builder field, when set to TRUE and Start Project Email field are entered, will deliver the Start Project email inquiry</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When this field is checked and the Start Project Email field has an email address, notify Start Project team.</inlineHelpText>
+    <label>Send Start Project Email</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Healthy__c</fullName>
+    <externalId>false</externalId>
+    <label>Healthy, Shakes</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Very Well</fullName>
+                <default>false</default>
+                <label>Very Well</label>
+            </value>
+            <value>
+                <fullName>Somewhat Well</fullName>
+                <default>false</default>
+                <label>Somewhat Well</label>
+            </value>
+            <value>
+                <fullName>Neither Well Nor Poorly</fullName>
+                <default>false</default>
+                <label>Neither Well Nor Poorly</label>
+            </value>
+            <value>
+                <fullName>Somewhat Poorly</fullName>
+                <default>false</default>
+                <label>Somewhat Poorly</label>
+            </value>
+            <value>
+                <fullName>Very Poorly</fullName>
+                <default>false</default>
+                <label>Very Poorly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

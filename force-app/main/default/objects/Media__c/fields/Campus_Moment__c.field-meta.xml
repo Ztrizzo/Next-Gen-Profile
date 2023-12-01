@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campus_Moment__c</fullName>
+    <externalId>false</externalId>
+    <label>Campus Moment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Back-to-school</fullName>
+                <default>false</default>
+                <label>Back-to-school</label>
+            </value>
+            <value>
+                <fullName>Move-In</fullName>
+                <default>false</default>
+                <label>Move-In</label>
+            </value>
+            <value>
+                <fullName>Orientation</fullName>
+                <default>false</default>
+                <label>Orientation</label>
+            </value>
+            <value>
+                <fullName>Pre-back-to-school</fullName>
+                <default>false</default>
+                <label>Pre-back-to-school</label>
+            </value>
+            <value>
+                <fullName>Welcome Week</fullName>
+                <default>false</default>
+                <label>Welcome Week</label>
+            </value>
+            <value>
+                <fullName>R&amp;B Hosted Event Promotion</fullName>
+                <default>false</default>
+                <label>R&amp;B Hosted Event Promotion</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Homecoming/Late Fall</fullName>
+                <default>false</default>
+                <label>Homecoming/Late Fall</label>
+            </value>
+            <value>
+                <fullName>Ongoing</fullName>
+                <default>false</default>
+                <label>Ongoing</label>
+            </value>
+            <value>
+                <fullName>Commencement</fullName>
+                <default>false</default>
+                <label>Commencement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

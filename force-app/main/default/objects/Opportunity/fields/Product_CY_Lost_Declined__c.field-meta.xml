@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_CY_Lost_Declined__c</fullName>
+    <description>Revenue forecasted this year on lost opportunity</description>
+    <externalId>false</externalId>
+    <label>Current Year Lost/Declined</label>
+    <summarizedField>OpportunityLineItem.Product_CY_Omitted__c</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Product_CY_Omitted__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

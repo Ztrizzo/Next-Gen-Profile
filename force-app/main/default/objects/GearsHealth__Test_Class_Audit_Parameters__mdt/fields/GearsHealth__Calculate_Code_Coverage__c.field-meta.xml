@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GearsHealth__Calculate_Code_Coverage__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Requires Connected App, Auth Provider, and named Credentials to be configured</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Requires Connected App, Auth Provider, and named Credentials to be configured</inlineHelpText>
+    <label>Calculate Code Coverage</label>
+    <type>Checkbox</type>
+</CustomField>

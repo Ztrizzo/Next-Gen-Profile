@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Number_of_Route_Plan_Users__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>User Count</label>
+    <summaryForeignKey>geopointe__GP_Route_Plan_User__c.geopointe__Route_Plan_Configuration__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TM_My_Opportunities_Kanban</fullName>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Contract_Amount__c</columns>
+    <columns>Talent_Marketing_Notes__c</columns>
+    <columns>Talent_Marketing_Type__c</columns>
+    <filterScope>SalesTeam</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Talent_Marketing</value>
+    </filters>
+    <label>TM - My Opportunities Kanban</label>
+    <sharedTo>
+        <roleAndSubordinates>Talent_Marketing_Manager</roleAndSubordinates>
+    </sharedTo>
+</ListView>

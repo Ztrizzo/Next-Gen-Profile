@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brands_and_Properties</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Phone</fields>
+    <fields>BillingAddress</fields>
+    <fields>OwnerId</fields>
+    <fields>Current_Year_Forecasted_Amount__c</fields>
+    <label>Brands and Properties</label>
+</CompactLayout>

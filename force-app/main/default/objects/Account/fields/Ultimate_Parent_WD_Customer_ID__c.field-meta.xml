@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ultimate_Parent_WD_Customer_ID__c</fullName>
+    <externalId>false</externalId>
+    <formula>(IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Parent.Name)), Parent.Parent.Parent.Parent.Parent.WD_CustomerID__c,
+IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Name)), Parent.Parent.Parent.Parent.WD_CustomerID__c,
+IF(NOT(ISBLANK(Parent.Parent.Parent.Name)), Parent.Parent.Parent.WD_CustomerID__c,
+IF(NOT(ISBLANK(Parent.Parent.Name)), Parent.Parent.WD_CustomerID__c,
+IF(NOT(ISBLANK(Parent.Name)),Parent.WD_CustomerID__c,
+WD_CustomerID__c))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ultimate Parent WD Customer ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

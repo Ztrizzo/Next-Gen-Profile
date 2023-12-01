@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_WD_ProjectReq_If_ProjID_Populate</fullName>
+    <active>true</active>
+    <description>If Meaningful ID is already populated, prevent Workday Project Status = Request
+PV: ends in
+&amp;&amp; NOT($Profile.Name = &quot;System Administrator&quot;)</description>
+    <errorConditionFormula>ISCHANGED( Workday_Project_Status__c ) &amp;&amp;  
+ISPICKVAL(Workday_Project_Status__c , &quot;Request&quot;) &amp;&amp;  NOT ISBLANK(Meaningful_Id__c)</errorConditionFormula>
+    <errorMessage>The Product Already has a Meaningful ID. You cannot overwrite it.</errorMessage>
+</ValidationRule>

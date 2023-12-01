@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affiliation__c</fullName>
+    <externalId>false</externalId>
+    <label>Affiliation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baptist</fullName>
+                <default>false</default>
+                <label>Baptist</label>
+            </value>
+            <value>
+                <fullName>Churches Of Christ</fullName>
+                <default>false</default>
+                <label>Churches Of Christ</label>
+            </value>
+            <value>
+                <fullName>Church of God</fullName>
+                <default>false</default>
+                <label>Church of God</label>
+            </value>
+            <value>
+                <fullName>Christian</fullName>
+                <default>false</default>
+                <label>Christian</label>
+            </value>
+            <value>
+                <fullName>Latter Day Saints (Mormon Church)</fullName>
+                <default>false</default>
+                <label>Latter Day Saints (Mormon Church)</label>
+            </value>
+            <value>
+                <fullName>Evangelical Lutheran Church</fullName>
+                <default>false</default>
+                <label>Evangelical Lutheran Church</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Presbyterian Church (USA)</fullName>
+                <default>false</default>
+                <label>Presbyterian Church (USA)</label>
+            </value>
+            <value>
+                <fullName>Roman Catholic</fullName>
+                <default>false</default>
+                <label>Roman Catholic</label>
+            </value>
+            <value>
+                <fullName>U.Church</fullName>
+                <default>false</default>
+                <label>U.Church</label>
+            </value>
+            <value>
+                <fullName>United Methodist</fullName>
+                <default>false</default>
+                <label>United Methodist</label>
+            </value>
+            <value>
+                <fullName>Undenominational</fullName>
+                <default>false</default>
+                <label>Undenominational</label>
+            </value>
+            <value>
+                <fullName>Church of Brethren</fullName>
+                <default>false</default>
+                <label>Church of Brethren</label>
+            </value>
+            <value>
+                <fullName>Interdenominational</fullName>
+                <default>false</default>
+                <label>Interdenominational</label>
+            </value>
+            <value>
+                <fullName>Reformed Church in America</fullName>
+                <default>false</default>
+                <label>Reformed Church in America</label>
+            </value>
+            <value>
+                <fullName>Wesleyan</fullName>
+                <default>false</default>
+                <label>Wesleyan</label>
+            </value>
+            <value>
+                <fullName>Friends</fullName>
+                <default>false</default>
+                <label>Friends</label>
+            </value>
+            <value>
+                <fullName>Free Methodist</fullName>
+                <default>false</default>
+                <label>Free Methodist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

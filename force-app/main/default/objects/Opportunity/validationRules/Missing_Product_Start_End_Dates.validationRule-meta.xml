@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_Product_Start_End_Dates</fullName>
+    <active>true</active>
+    <description>Validates that a custom field called product start date and end date
+is provided if an opportunity has advanced to the Closed Won or Closed Won Reconciled.</description>
+    <errorConditionFormula>AND (
+    ($Profile.Name &lt;&gt; &apos;System Administrator&apos;),
+    OR (
+        ISPICKVAL( StageName , &quot;Closed Won&quot;),
+        ISPICKVAL(StageName, &quot;Closed Won - Reconciled&quot;)
+    ),
+    Opportunity_Product_Count__c != 0,
+    ISBLANK(Earliest_Product_Start_Date__c ) || ISBLANK(Latest_Product_End_Date__c)
+)</errorConditionFormula>
+    <errorMessage>You&apos;re missing a Start or End Date on your product(s). Please update the product dates before moving to Closed Won or Closed Won Reconciled.</errorMessage>
+</ValidationRule>

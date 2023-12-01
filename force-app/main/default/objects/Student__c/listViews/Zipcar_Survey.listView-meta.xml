@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zipcar_Survey</fullName>
+    <columns>NAME</columns>
+    <columns>Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>School__c</field>
+        <operation>equals</operation>
+        <value>Yale University</value>
+    </filters>
+    <filters>
+        <field>Do_Not_Contact__c</field>
+        <operation>equals</operation>
+        <value>Contact</value>
+    </filters>
+    <filters>
+        <field>Graduated__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Zipcar Survey</label>
+</ListView>

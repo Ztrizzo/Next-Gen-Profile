@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Performance_Date__c</fullName>
+    <description>Date used to track both speaking and performance of artist/talent client on opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter date of expected performance for talent/client engagement.</inlineHelpText>
+    <label>Performance Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

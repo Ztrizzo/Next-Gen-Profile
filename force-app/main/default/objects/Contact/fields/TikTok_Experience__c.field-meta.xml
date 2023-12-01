@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TikTok_Experience__c</fullName>
+    <description>Level of experience using TikTok</description>
+    <externalId>false</externalId>
+    <inlineHelpText>I do not use TikTok/ I am just a viewer
+Beginner- I have minimum knowledge of the platform and only use the basic features when posting
+Proficient-I have some knowledge of the platform and use most of the features when posting
+Expert- I have a lot of knowledge of the platform and use the most recent trends and features when posting</inlineHelpText>
+    <label>TikTok Experience</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I do not use/ viewer</fullName>
+                <default>false</default>
+                <label>Do not use or view</label>
+            </value>
+            <value>
+                <fullName>Beginner</fullName>
+                <default>false</default>
+                <label>Beginner</label>
+            </value>
+            <value>
+                <fullName>Proficient</fullName>
+                <default>false</default>
+                <label>Proficient</label>
+            </value>
+            <value>
+                <fullName>Expert</fullName>
+                <default>false</default>
+                <label>Expert</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Won_Reason_Description</fullName>
+    <active>true</active>
+    <description>If &quot;Other&quot; is selected under Won Reason the field &quot;Won Reason Description&quot; is required.</description>
+    <errorConditionFormula>ISPICKVAL(  Won_Reason_Picklist__c  ,&quot;Other&quot;) &amp;&amp; ISBLANK( Won_Reason__c )</errorConditionFormula>
+    <errorMessage>If &quot;Other&quot; is selected under Won Reason the field &quot;Won Reason Description&quot; is required.</errorMessage>
+</ValidationRule>

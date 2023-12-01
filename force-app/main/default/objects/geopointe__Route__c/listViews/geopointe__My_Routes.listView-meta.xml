@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__My_Routes</fullName>
+    <columns>NAME</columns>
+    <columns>geopointe__Temporary__c</columns>
+    <columns>geopointe__Mapping_Provider__c</columns>
+    <columns>geopointe__Route_Type__c</columns>
+    <columns>geopointe__Avoid_Highways__c</columns>
+    <columns>geopointe__Avoid_Tolls__c</columns>
+    <columns>geopointe__Thumb_Maps__c</columns>
+    <columns>geopointe__Units__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>geopointe__Locations_1__c</columns>
+    <columns>geopointe__Locations_2__c</columns>
+    <columns>geopointe__Locations_3__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Routes</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Background_Check_Completed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ Background_Check_Required__c = &quot;Yes&quot;,
+ ISPICKVAL(Background_Check_Results__c, &quot;Not Completed&quot;),
+ Background_Check_Completed__c   
+)</errorConditionFormula>
+    <errorDisplayField>Background_Check_Results__c</errorDisplayField>
+    <errorMessage>Please fill out Background Check Results before marking Background Complete</errorMessage>
+</ValidationRule>

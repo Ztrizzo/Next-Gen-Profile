@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Drop_Reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Field is mandatory to be filled when Student drops</inlineHelpText>
+    <label>Program Drop Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fired from Program</fullName>
+                <default>false</default>
+                <label>Fired from Program</label>
+            </value>
+            <value>
+                <fullName>Non-Responsive</fullName>
+                <default>false</default>
+                <label>Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Can no longer commit due to personal life reasons</fullName>
+                <default>false</default>
+                <label>Can no longer commit due to personal life reasons</label>
+            </value>
+            <value>
+                <fullName>Can no longer commit due to workload</fullName>
+                <default>false</default>
+                <label>Can no longer commit due to workload</label>
+            </value>
+            <value>
+                <fullName>Can no longer commit based on program responsibilities</fullName>
+                <default>false</default>
+                <label>Can no longer commit based on program responsibilities</label>
+            </value>
+            <value>
+                <fullName>Campus policies prevent students from completing requirements</fullName>
+                <default>false</default>
+                <label>Campus policies prevent students from completing requirements</label>
+            </value>
+            <value>
+                <fullName>Contractual dispute</fullName>
+                <default>false</default>
+                <label>Contractual dispute</label>
+            </value>
+            <value>
+                <fullName>Working for a competitor program</fullName>
+                <default>false</default>
+                <label>Working for a competitor program</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Fired from Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Non-Responsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Can no longer commit due to personal life reasons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Can no longer commit due to workload</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Can no longer commit based on program responsibilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Campus policies prevent students from completing requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Contractual dispute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Working for a competitor program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dropped from program</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

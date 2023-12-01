@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Declined_Reason_Required</fullName>
+    <active>true</active>
+    <description>Declined lost reason required</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(StageName, &quot;Declined&quot;),
+ISBLANK(Loss_Reason_Other__c))
+&amp;&amp; $Setup.rh2__PS_Settings__c.rh2__Run_Validation_Rule__c&amp;&amp;
+NOT($Profile.Name = &quot;System Administrator&quot;)</errorConditionFormula>
+    <errorMessage>Declined reason required. Select Other in the Loss Reason field and add a reason why we internally are declining the work. Remember: Declined is only for Wasserman passing on the work, and not a client declining on the work.</errorMessage>
+</ValidationRule>

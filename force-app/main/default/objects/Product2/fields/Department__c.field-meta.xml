@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Department</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Division__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Departments</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Baseball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Basketball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Broadcasting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Coaching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Hockey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>NFL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Team Sports Corporate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Women&apos;s Sports &amp; Olympics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Action Sports Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Action Sports Athletes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Action Sports Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Brands &amp; Properties US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <controllingFieldValue>Brands Corporate</controllingFieldValue>
+            <valueName>Brands Corporate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Brand Retainers US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Digital Design &amp; Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Experiential US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Next Gen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Properties US - Raleigh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Research &amp; Insights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Athlete Exchange</controllingFieldValue>
+            <valueName>Athlete Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Trevor//Peter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>China</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Brands &amp; Properties Germany</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Brands &amp; Properties UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Brands Middle East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Experiential Benelux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEA</controllingFieldValue>
+            <valueName>Experiential UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Football</controllingFieldValue>
+            <valueName>Global Football Euro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Football</controllingFieldValue>
+            <valueName>Global Football France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Football</controllingFieldValue>
+            <valueName>Global Football Netherlands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Football</controllingFieldValue>
+            <valueName>Global Football Spain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Football</controllingFieldValue>
+            <valueName>Global Football Spain (Top Value)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Football</controllingFieldValue>
+            <valueName>Global Football UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global Football</controllingFieldValue>
+            <valueName>Global Football US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Golf</controllingFieldValue>
+            <valueName>Golf Consulting &amp; Hosp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Golf</controllingFieldValue>
+            <valueName>Golf Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Golf</controllingFieldValue>
+            <valueName>Golf Management Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Golf</controllingFieldValue>
+            <valueName>Golf Management UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Golf</controllingFieldValue>
+            <valueName>Golf Management US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Golf</controllingFieldValue>
+            <valueName>Golf NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LS / Cycle</controllingFieldValue>
+            <valueName>LS/Cycle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

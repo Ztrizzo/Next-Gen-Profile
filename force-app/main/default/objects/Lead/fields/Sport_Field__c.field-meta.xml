@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sport_Field__c</fullName>
+    <externalId>false</externalId>
+    <label>Sport/Field</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Talent_Division__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basketball</fullName>
+                <default>false</default>
+                <label>Basketball</label>
+            </value>
+            <value>
+                <fullName>Baseball</fullName>
+                <default>false</default>
+                <label>Baseball</label>
+            </value>
+            <value>
+                <fullName>Football</fullName>
+                <default>false</default>
+                <label>Football</label>
+            </value>
+            <value>
+                <fullName>Hockey</fullName>
+                <default>false</default>
+                <label>Hockey</label>
+            </value>
+            <value>
+                <fullName>Snowboarding</fullName>
+                <default>false</default>
+                <label>Snowboarding</label>
+            </value>
+            <value>
+                <fullName>Skiing</fullName>
+                <default>false</default>
+                <label>Skiing</label>
+            </value>
+            <value>
+                <fullName>Boxing</fullName>
+                <default>false</default>
+                <label>Boxing</label>
+            </value>
+            <value>
+                <fullName>Actor</fullName>
+                <default>false</default>
+                <label>Actor</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Racing</fullName>
+                <default>false</default>
+                <label>Racing</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Snowboarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Skiing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Boxing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Racing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Basketball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Baseball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Football</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Hockey</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

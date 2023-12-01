@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Media_Placement_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Media Placement Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Stage__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial Email Sent</fullName>
+                <default>false</default>
+                <label>Initial Email Sent</label>
+            </value>
+            <value>
+                <fullName>Secondary Email Sent</fullName>
+                <default>false</default>
+                <label>Secondary Email Sent</label>
+            </value>
+            <value>
+                <fullName>Third Email Sent</fullName>
+                <default>false</default>
+                <label>Third Email Sent</label>
+            </value>
+            <value>
+                <fullName>Cold Call to Dept</fullName>
+                <default>false</default>
+                <label>Cold Call to Dept</label>
+            </value>
+            <value>
+                <fullName>Requested media kit / information</fullName>
+                <default>false</default>
+                <label>Requested Media Kit / Information</label>
+            </value>
+            <value>
+                <fullName>Confirm placement availability</fullName>
+                <default>false</default>
+                <label>Confirm Placement Availability</label>
+            </value>
+            <value>
+                <fullName>Call Requested to Confirm Details</fullName>
+                <default>false</default>
+                <label>Call Requested to Confirm Details</label>
+            </value>
+            <value>
+                <fullName>Finalizing Media Placement Details</fullName>
+                <default>false</default>
+                <label>Finalizing Media Placement Details</label>
+            </value>
+            <value>
+                <fullName>Contract Not Started</fullName>
+                <default>false</default>
+                <label>Contract Not Started</label>
+            </value>
+            <value>
+                <fullName>Contract Pending</fullName>
+                <default>false</default>
+                <label>Contract Pending</label>
+            </value>
+            <value>
+                <fullName>Contract Complete</fullName>
+                <default>false</default>
+                <label>Contract Complete</label>
+            </value>
+            <value>
+                <fullName>Proof of Placement Requested</fullName>
+                <default>false</default>
+                <label>Proof of Placement Requested</label>
+            </value>
+            <value>
+                <fullName>Proof of Placement Received</fullName>
+                <default>false</default>
+                <label>Proof of Placement Received</label>
+            </value>
+            <value>
+                <fullName>Proof of Placement Waved</fullName>
+                <default>false</default>
+                <label>Proof of Placement Waved</label>
+            </value>
+            <value>
+                <fullName>Closed-Won</fullName>
+                <default>false</default>
+                <label>Closed-Won</label>
+            </value>
+            <value>
+                <fullName>Closed-Lost</fullName>
+                <default>false</default>
+                <label>Closed-Lost</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Reached Out</controllingFieldValue>
+            <valueName>Initial Email Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reached Out</controllingFieldValue>
+            <valueName>Secondary Email Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reached Out</controllingFieldValue>
+            <valueName>Third Email Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reached Out</controllingFieldValue>
+            <valueName>Cold Call to Dept</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engaged</controllingFieldValue>
+            <valueName>Requested media kit / information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engaged</controllingFieldValue>
+            <valueName>Confirm placement availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engaged</controllingFieldValue>
+            <valueName>Call Requested to Confirm Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engaged</controllingFieldValue>
+            <valueName>Finalizing Media Placement Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executing</controllingFieldValue>
+            <valueName>Contract Not Started</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executing</controllingFieldValue>
+            <valueName>Contract Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executing</controllingFieldValue>
+            <valueName>Contract Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Proof of Placement Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Proof of Placement Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Proof of Placement Waved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Closed-Won</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Closed-Lost</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

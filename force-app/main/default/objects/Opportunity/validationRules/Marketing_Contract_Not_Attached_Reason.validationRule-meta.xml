@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Contract_Not_Attached_Reason</fullName>
+    <active>true</active>
+    <description>If the Contract Attached is not checked, a Contracted Omitted Reason must be entered</description>
+    <errorConditionFormula>AND(
+Contract_Attached__c = FALSE,
+Record_Type_Name__c = &quot;Marketing&quot;,
+ISBLANK(Contract_Attached_Omission_Reason__c),
+NOT($Profile.Name = &quot;System Administrator&quot;),
+ISPICKVAL(StageName, &quot;Closed Won&quot;))
+&amp;&amp; $Setup.rh2__PS_Settings__c.rh2__Run_Validation_Rule__c</errorConditionFormula>
+    <errorMessage>The Contract Attached field has not been checked. If you have added a contract to the Box window, check the Contract Attached checkbox. If a contract is unavailable, add a reason in the Contract Attached Omission Reason field why an SOW wasn&apos;t added.</errorMessage>
+</ValidationRule>

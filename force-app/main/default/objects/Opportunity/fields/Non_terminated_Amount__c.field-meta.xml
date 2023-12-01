@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_terminated_Amount__c</fullName>
+    <externalId>false</externalId>
+    <label>Non-terminated Amount</label>
+    <summarizedField>OpportunityLineItem.UnitPrice</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Product_Name_text__c</field>
+        <operation>notEqual</operation>
+        <value>Termination</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

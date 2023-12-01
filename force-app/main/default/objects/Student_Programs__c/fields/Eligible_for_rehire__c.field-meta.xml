@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Eligible_for_rehire__c</fullName>
+    <externalId>false</externalId>
+    <label>Eligible for rehire?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Definitely</fullName>
+                <default>false</default>
+                <label>Definitely</label>
+            </value>
+            <value>
+                <fullName>Very likely</fullName>
+                <default>false</default>
+                <label>Very likely</label>
+            </value>
+            <value>
+                <fullName>Indecisive</fullName>
+                <default>false</default>
+                <label>Indecisive</label>
+            </value>
+            <value>
+                <fullName>Consider other options</fullName>
+                <default>false</default>
+                <label>Consider other options</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Recommend for a different program</fullName>
+                <default>false</default>
+                <label>Recommend for a different program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Source Department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Source_Division__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brands US</fullName>
+                <default>false</default>
+                <label>Brands US</label>
+            </value>
+            <value>
+                <fullName>Brands UK</fullName>
+                <default>false</default>
+                <label>Brands UK</label>
+            </value>
+            <value>
+                <fullName>Brands Middle East</fullName>
+                <default>false</default>
+                <label>Brands Middle East</label>
+            </value>
+            <value>
+                <fullName>Brands Canada</fullName>
+                <default>false</default>
+                <label>Brands Canada</label>
+            </value>
+            <value>
+                <fullName>Experiential US</fullName>
+                <default>false</default>
+                <label>Experiential US</label>
+            </value>
+            <value>
+                <fullName>Experiential EMEA</fullName>
+                <default>false</default>
+                <label>Experiential EMEA</label>
+            </value>
+            <value>
+                <fullName>Properties US</fullName>
+                <default>false</default>
+                <label>Properties US</label>
+            </value>
+            <value>
+                <fullName>Properties INTL</fullName>
+                <default>false</default>
+                <label>Properties INTL</label>
+            </value>
+            <value>
+                <fullName>Properties Projects</fullName>
+                <default>false</default>
+                <label>Properties Projects</label>
+            </value>
+            <value>
+                <fullName>Golf Events and Hospitality</fullName>
+                <default>false</default>
+                <label>Golf Events and Hospitality</label>
+            </value>
+            <value>
+                <fullName>Golf Management</fullName>
+                <default>false</default>
+                <label>Golf Management</label>
+            </value>
+            <value>
+                <fullName>Team Sports</fullName>
+                <default>false</default>
+                <label>Team Sports</label>
+            </value>
+            <value>
+                <fullName>Global Football</fullName>
+                <default>false</default>
+                <label>Global Football</label>
+            </value>
+            <value>
+                <fullName>Endurance</fullName>
+                <default>false</default>
+                <label>Endurance</label>
+            </value>
+            <value>
+                <fullName>Action Sports Athletes</fullName>
+                <default>false</default>
+                <label>Action Sports Athletes</label>
+            </value>
+            <value>
+                <fullName>The Agency</fullName>
+                <default>false</default>
+                <label>The Agency</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Brands US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Brands UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Brands Middle East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Brands Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Experiential US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Experiential EMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Properties US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Properties INTL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Properties Projects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Golf Events and Hospitality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Golf Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Team Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Global Football</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Endurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Action Sports Athletes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>The Agency</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

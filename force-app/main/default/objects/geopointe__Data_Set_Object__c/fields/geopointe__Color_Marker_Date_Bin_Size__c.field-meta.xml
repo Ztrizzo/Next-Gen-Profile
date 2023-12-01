@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Color_Marker_Date_Bin_Size__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Color Marker Date Bin Size</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>day</fullName>
+                <default>true</default>
+                <label>day</label>
+            </value>
+            <value>
+                <fullName>week</fullName>
+                <default>false</default>
+                <label>week</label>
+            </value>
+            <value>
+                <fullName>month</fullName>
+                <default>false</default>
+                <label>month</label>
+            </value>
+            <value>
+                <fullName>quarter</fullName>
+                <default>false</default>
+                <label>quarter</label>
+            </value>
+            <value>
+                <fullName>year</fullName>
+                <default>false</default>
+                <label>year</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

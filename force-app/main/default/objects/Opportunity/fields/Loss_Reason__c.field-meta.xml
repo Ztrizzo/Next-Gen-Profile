@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Reasoning for why we lost campaign</inlineHelpText>
+    <label>Loss Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lost to Competitor (Breadth of Offering / Scale)</fullName>
+                <default>false</default>
+                <label>Lost to Competitor (Breadth of Offering / Scale)</label>
+            </value>
+            <value>
+                <fullName>Lost to Competitor (Experience Level)</fullName>
+                <default>false</default>
+                <label>Lost to Competitor (Experience Level)</label>
+            </value>
+            <value>
+                <fullName>Lost to Competitor (Quality of Ideas / Creative)</fullName>
+                <default>false</default>
+                <label>Lost to Competitor (Quality of Ideas / Creative)</label>
+            </value>
+            <value>
+                <fullName>Lost to Competitor (Strength of Relationship)</fullName>
+                <default>false</default>
+                <label>Lost to Competitor (Strength of Relationship)</label>
+            </value>
+            <value>
+                <fullName>Lost to Competitor (Value/Pricing)</fullName>
+                <default>false</default>
+                <label>Lost to Competitor (Value/Pricing)</label>
+            </value>
+            <value>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+                <label>Lost to Competitor</label>
+            </value>
+            <value>
+                <fullName>Client/Agent Declined</fullName>
+                <default>false</default>
+                <label>Client/Agent Declined</label>
+            </value>
+            <value>
+                <fullName>Bad Timing</fullName>
+                <default>false</default>
+                <label>Bad Timing</label>
+            </value>
+            <value>
+                <fullName>No Budget / Lost Funding</fullName>
+                <default>false</default>
+                <label>No Budget / Lost Funding</label>
+            </value>
+            <value>
+                <fullName>No Decision / Non-Responsive</fullName>
+                <default>false</default>
+                <label>No Decision / Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Brand Non-Responsive</fullName>
+                <default>false</default>
+                <label>Brand Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Client Non-Responsive</fullName>
+                <default>false</default>
+                <label>Client Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

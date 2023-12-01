@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_With__c</fullName>
+    <description>TM - Tracking who has the overall contract agreement for signature. Tracked in Opportunity History.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Talent Marketing: Who is this contract sitting with?</inlineHelpText>
+    <label>Contract With</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Brand</fullName>
+                <default>false</default>
+                <label>Brand</label>
+            </value>
+            <value>
+                <fullName>Business Affairs</fullName>
+                <default>false</default>
+                <label>Business Affairs</label>
+            </value>
+            <value>
+                <fullName>Client Third Party</fullName>
+                <default>false</default>
+                <label>Client Third Party</label>
+            </value>
+            <value>
+                <fullName>Management/RA</fullName>
+                <default>false</default>
+                <label>Management/RA</label>
+            </value>
+            <value>
+                <fullName>Seller</fullName>
+                <default>false</default>
+                <label>Seller</label>
+            </value>
+            <value>
+                <fullName>Signed - Complete</fullName>
+                <default>false</default>
+                <label>Signed - Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

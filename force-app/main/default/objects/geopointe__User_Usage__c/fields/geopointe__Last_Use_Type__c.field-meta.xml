@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Last_Use_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Last Use Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>Map Tab</fullName>
+                <default>false</default>
+                <label>Map Tab</label>
+            </value>
+            <value>
+                <fullName>Salesforce1</fullName>
+                <default>false</default>
+                <label>Salesforce1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

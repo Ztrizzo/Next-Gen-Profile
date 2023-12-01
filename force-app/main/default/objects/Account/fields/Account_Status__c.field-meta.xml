@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(OR(Current_Year_Sum__c &gt;0, Current_Year_Forecast__c &gt;0),Prior_Year_Revenue__c =0),&quot;New Client&quot;,
+IF(OR( Prior_Year_Revenue__c &gt;0, Current_Year_Sum__c &gt;0),&quot;Active Existing Client&quot;,
+IF(OR(Prior_Year_Revenue__c&lt;=0,Current_Year_Sum__c &lt;=0),&quot;Inactive Client&quot;,&quot;N/A&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

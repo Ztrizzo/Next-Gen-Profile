@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Includes_BPBR_US_Cost_Centers__c</fullName>
+    <description>Counts the number of BPBR US Cost Center Products on an Opportunity</description>
+    <externalId>false</externalId>
+    <label>Includes BPBR US Cost Centers?</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Department__c</field>
+        <operation>equals</operation>
+        <value>Properties US - Raleigh, Brands Retainers US, Brands &amp; Properties US</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Year_Forecasted_Amount__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Year Forecast</label>
+    <summarizedField>Opportunity.Amount</summarizedField>
+    <summaryFilterItems>
+        <field>Opportunity.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Forecast</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.Close_Date_Year__c</field>
+        <operation>equals</operation>
+        <value>2022</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

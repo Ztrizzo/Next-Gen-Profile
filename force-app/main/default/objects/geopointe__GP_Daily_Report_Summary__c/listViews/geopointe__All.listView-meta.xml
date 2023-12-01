@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__All</fullName>
+    <columns>NAME</columns>
+    <columns>geopointe__User__c</columns>
+    <columns>geopointe__Date__c</columns>
+    <columns>geopointe__Check_In_Count__c</columns>
+    <columns>geopointe__Check_Out_Count__c</columns>
+    <columns>geopointe__Total_Expected_Travel_Distance_km__c</columns>
+    <columns>geopointe__Total_Expected_Travel_Distance_mi__c</columns>
+    <columns>geopointe__Total_Travel_Distance_km__c</columns>
+    <columns>geopointe__Total_Travel_Distance_Mi__c</columns>
+    <columns>geopointe__Total_Time_min__c</columns>
+    <columns>geopointe__Total_Time_On_Site__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

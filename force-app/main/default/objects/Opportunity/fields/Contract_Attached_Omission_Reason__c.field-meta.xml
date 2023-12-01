@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Attached_Omission_Reason__c</fullName>
+    <description>Reason field for explanation on why &quot;Contract Attached&quot; checkbox is not selected</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the &quot;Contract Attached&quot; checkbox is not checked, a reason is required as to why a contract is not available.</inlineHelpText>
+    <label>Contract Attached Omission Reason</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

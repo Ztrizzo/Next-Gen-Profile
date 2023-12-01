@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Drop_Date__c</fullName>
+    <description>If a promoter dropped from a program or was removed, please update the date they were removed here.</description>
+    <externalId>false</externalId>
+    <label>Program Drop Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_to_Location_for_Event__c</fullName>
+    <description>Based on the success of the past event we hosted at Location 1 Name, should we return there for another event.</description>
+    <externalId>false</externalId>
+    <label>Return to Location 1 for Event?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Definitely</fullName>
+                <default>false</default>
+                <label>Definitely</label>
+            </value>
+            <value>
+                <fullName>Very Likely</fullName>
+                <default>false</default>
+                <label>Very Likely</label>
+            </value>
+            <value>
+                <fullName>Consider other options</fullName>
+                <default>false</default>
+                <label>Consider other options</label>
+            </value>
+            <value>
+                <fullName>Indecisive</fullName>
+                <default>false</default>
+                <label>Indecisive</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

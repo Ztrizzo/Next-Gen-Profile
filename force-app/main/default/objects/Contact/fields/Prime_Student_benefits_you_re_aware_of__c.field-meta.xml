@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prime_Student_benefits_you_re_aware_of__c</fullName>
+    <externalId>false</externalId>
+    <label>Prime Student benefits you&apos;re aware of?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Free two-day shipping</fullName>
+                <default>false</default>
+                <label>Free two-day shipping</label>
+            </value>
+            <value>
+                <fullName>Prime Video</fullName>
+                <default>false</default>
+                <label>Prime Video</label>
+            </value>
+            <value>
+                <fullName>Prime Music</fullName>
+                <default>false</default>
+                <label>Prime Music</label>
+            </value>
+            <value>
+                <fullName>Prime Photos</fullName>
+                <default>false</default>
+                <label>Prime Photos</label>
+            </value>
+            <value>
+                <fullName>Twitch Prime</fullName>
+                <default>false</default>
+                <label>Twitch Prime</label>
+            </value>
+            <value>
+                <fullName>Exclusive Deals &amp; Promotions</fullName>
+                <default>false</default>
+                <label>Exclusive Deals &amp; Promotions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

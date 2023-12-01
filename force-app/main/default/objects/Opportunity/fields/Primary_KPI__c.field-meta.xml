@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_KPI__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify what is the client&apos;s primary KPI (reach, video views, engagement, etc.)</inlineHelpText>
+    <label>Primary KPI</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Impressions</fullName>
+                <default>false</default>
+                <label>Impressions</label>
+            </value>
+            <value>
+                <fullName>Video Views</fullName>
+                <default>false</default>
+                <label>Video Views</label>
+            </value>
+            <value>
+                <fullName>Engagements</fullName>
+                <default>false</default>
+                <label>Engagements</label>
+            </value>
+            <value>
+                <fullName>Clicks</fullName>
+                <default>false</default>
+                <label>Clicks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

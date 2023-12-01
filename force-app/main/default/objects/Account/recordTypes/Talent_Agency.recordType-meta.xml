@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Talent_Agency</fullName>
+    <active>true</active>
+    <label>Talent Agency</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Account Manager General Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazon Campus Audience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campus Audience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jebbit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACA Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACAS Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2021 Microsoft Teams Campus Brand Manager Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TenTask%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Relations Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Career Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Affiliation__c</picklist>
+        <values>
+            <fullName>Baptist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Church of Brethren</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Church of God</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Churches Of Christ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evangelical Lutheran Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free Methodist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friends</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interdenominational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latter Day Saints %28Mormon Church%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presbyterian Church %28USA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reformed Church in America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roman Catholic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2EChurch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undenominational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Methodist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wesleyan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bookstore_Management_Company__c</picklist>
+        <values>
+            <fullName>Barnes %26 Noble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Campus_Setting__c</picklist>
+        <values>
+            <fullName>City%3A Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%3A Midsize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%3A Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Distant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Fringe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Remote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Midsize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Distant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Fringe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Remote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Charter__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Class__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dining_Contract__c</picklist>
+        <values>
+            <fullName>Aramark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chartwells</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sodexo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>External_Vendor_Tabling_Allowed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fall_Intramural_Sports__c</picklist>
+        <values>
+            <fullName>3-Point Shootout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battleship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broomball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desert Bowl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dodgeball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Great Pie Race</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Run Derby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HooverBall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horseshoes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ice Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner Tube Water Polo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kickball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lacrosse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mark Madness Pick %27Em</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Tap Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online College Pick%27em</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oozeball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ping Pong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raquetball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollerhockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sand Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scavenger Hunt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Squash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swim Meet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track %26 Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey Trot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultimate Frisbee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wallyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wiffleball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wii Games</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XBOX Tournaments</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fall_Sports__c</picklist>
+        <values>
+            <fullName>Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross Country</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lacrosse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volleyball</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fountain_Beverage_Contract__c</picklist>
+        <values>
+            <fullName>Coke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keurig Dr Pepper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pepsi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared %28Coke%2FPepsi share rights across campus%2C no pouring rights deal%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender_Focused__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>High_School_Property_Affiliation__c</picklist>
+        <values>
+            <fullName>District of Columbia State Athletic Association %28DCSAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts Interscholastic Athletic Association %28MIAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina Independent Schools Athletic Association %28NCISAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio High School Athletic Association %28OHSAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio Valley Athletic Conference %28OVAC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island Interscholastic League %28RIIL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina High School League %28SCHSL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina Independent School Association %28SCISA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont Principals%E2%80%99 Association %28VPA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia Independent Schools Athletic Association %28VISAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Pennsylvania Interscholastic Athletic League %28WPIAL%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Ad Agencies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health %26 Beauty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_there_a_fee_associated_with_tabling__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Posting_Site_Host__c</picklist>
+        <values>
+            <fullName>12Twenty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CareerLink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GradLeaders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handshake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interfase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magnet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACElink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purple Briefcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simplicity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Based</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Locale__c</picklist>
+        <values>
+            <fullName>City%3A Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%3A Midsize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%3A Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Distant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Fringe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Remote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Midsize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Distant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Fringe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Remote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Magnet__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NACAS_Region__c</picklist>
+        <values>
+            <fullName>Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NACA_Territory__c</picklist>
+        <values>
+            <fullName>Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Atlantic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Plains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NCAA_Conference__c</picklist>
+        <values>
+            <fullName>American Athletic Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantic Coast Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big 12 Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big Ten Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Division I FBS Independents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-American Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain West Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacific-12 Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeastern Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun Belt Conference</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Organization_Type__c</picklist>
+        <values>
+            <fullName>Educational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faith-Based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek Life</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Private_Religious_School__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Programs__c</picklist>
+        <values>
+            <fullName>Blackboard Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blackboard Summer 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CashCourse Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CashCourse Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cengage Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citizens Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citizens Loan Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copia Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FYE Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IKEA Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K-Swiss%2FFoot Locker Tour Spring 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kotex Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L%27Oreal Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lenovo Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTV%2FDove Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTVU Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s Spring 2013 Campus Tour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maxim Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maxim Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Rep Program Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Rep Program Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Rep Program Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Rep Program Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Tour Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Tour Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Tour Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Tour Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase III Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playhem Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCN Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCN Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roxy Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roxy Spring%2FSummer 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stride Gum Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stride Gum Tour Spring 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun Drop Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun Drop Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teen Vogue Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UCrew 2012-2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verizon Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 8 Campus Tour Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 8 Campus Tour Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YouRenew Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zip Car Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Spring 2013</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Recruitment_Region__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>CEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WST</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reservable_Indoor_Space_15_x15__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reservable_Outdoor_Space_15_x15__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reservable_Smaller_Outdoor_Space_15_x15__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retail_Beverage_Contract__c</picklist>
+        <values>
+            <fullName>Coke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keurig Dr Pepper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pepsi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared %28Coke%2FPepsi share rights across campus%2C no pouring rights deal%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>School_Type__c</picklist>
+        <values>
+            <fullName>%3C 2-year%2C Private for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-year%2C Private for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-year%2C Private not-for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-year%2C Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C Private for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C Private not-for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C primarily associate%27s%2C Private for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C primarily associate%27s%2C Private not-for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C primarily associate%27s%2C Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Francophone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select__c</picklist>
+        <values>
+            <fullName>1 %3D Accept %3C 20%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 %3D Accept 20-30%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 %3D Accept 30-40%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 %3D Accept 40-50%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 %3D Accept 50-60%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 %3D Accept 60-70%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 %3D Accept %3E70%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sponsor_Needed_to_Table__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sponsor_needed_for_large_event__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Spring_Intramural_Sports__c</picklist>
+        <values>
+            <fullName>3-Point Shootout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battleship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broomball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desert Bowl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dodgeball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Great Pie Race</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Run Derby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HooverBall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horseshoes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ice Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner Tube Water Polo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kickball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lacrosse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>March Madness Pick %27Em</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Tap Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online College Pick%27em</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oozeball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ping Pong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raquetball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollerhockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sand Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scavenger Hunt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Squash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swim Meet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track %26 Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey Trot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultimate Frisbee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wallyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wiffleball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wii Games</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XBOX Tournaments</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Spring_Sports__c</picklist>
+        <values>
+            <fullName>Baseball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lacrosse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rowing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track and Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water polo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stand_Alone_Events_Allowed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Term__c</picklist>
+        <values>
+            <fullName>Qtr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Title_1_School__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trade_Show__c</picklist>
+        <values>
+            <fullName>Consumer Electronics Show 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IEG Sponsorship Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Conference - Boston</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vending_Beverage_Contract__c</picklist>
+        <values>
+            <fullName>Coke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keurig Dr Pepper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pepsi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared %28Coke%2FPepsi share rights across campus%2C no pouring rights deal%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Who_has_visited_this_campus__c</picklist>
+        <values>
+            <fullName>Alexa Colas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alyssa Nugent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alyssa Van Liere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amy Smedberg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andrea Pantano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Ahl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Canning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Dohn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ben%09Stansell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grayson Hopp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heidi Auvenshine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jack Kaplan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jane Marshall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeanine Duchaney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jill Scangas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>John Curcuru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kathleen%09Lowell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kylie Kinder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laura %28Hutto%29 Bryant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laura Bundrick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logan Null</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matt Cohen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Megan Clifford</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sam Holton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sarah Gibson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shannon%09Kilduff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taylor Wagnon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Winter_Sports__c</picklist>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive Cheer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ice Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Track</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swimming %26 Diving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrestling</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

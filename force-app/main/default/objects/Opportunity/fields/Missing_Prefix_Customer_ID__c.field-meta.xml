@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_Prefix_Customer_ID__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND
+(Record_Locked__c,
+(OR
+(ISBLANK(WD_Customer_ID__c),ISBLANK(Account_Prefix__c), WD_Customer_ID__c = &apos;Lead Account&apos;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Missing Prefix Customer ID</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

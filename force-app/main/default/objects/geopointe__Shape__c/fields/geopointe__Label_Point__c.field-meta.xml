@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Label_Point__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The point inside a polygon for displaying a label. Computed when polygon is saved.</description>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <externalId>false</externalId>
+    <label>Label Point</label>
+    <required>false</required>
+    <scale>7</scale>
+    <trackTrending>false</trackTrending>
+    <type>Location</type>
+</CustomField>

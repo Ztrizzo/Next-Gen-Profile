@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Search_via_Filter_Created_By</fullName>
+    <columns>NAME</columns>
+    <columns>box__Box_user__c</columns>
+    <columns>box__CollaborationID__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>box__Folder_ID__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>box__Object_Name__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>box__Record_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>contains</operation>
+        <value>Christian</value>
+    </filters>
+    <label>All - Search via Filter (Created By)</label>
+</ListView>

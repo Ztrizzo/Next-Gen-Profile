@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kellogg_s_Distribution_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Kellogg&apos;s Distribution Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On Kellogg&apos;s Original Market List</fullName>
+                <default>false</default>
+                <label>On Kellogg&apos;s Original Market List</label>
+            </value>
+            <value>
+                <fullName>Added outside of market</fullName>
+                <default>false</default>
+                <label>Added outside of market</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

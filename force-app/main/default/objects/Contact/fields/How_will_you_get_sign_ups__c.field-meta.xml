@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_will_you_get_sign_ups__c</fullName>
+    <description>How would you go about talking to at least 40 students a week and getting 15 to sign up for a free HBO Max subscription?</description>
+    <externalId>false</externalId>
+    <label>How will you get sign-ups?</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

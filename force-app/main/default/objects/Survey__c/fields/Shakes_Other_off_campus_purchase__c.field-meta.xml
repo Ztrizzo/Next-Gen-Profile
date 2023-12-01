@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shakes_Other_off_campus_purchase__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (INCLUDES (Where_Do_You_Buy_Pre_Packaged_Shakes__c , &quot;Other off-campus location&quot;), 1, 0)</formula>
+    <label>Shakes Other-off campus loc Purchase</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expiration_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Days_Remaining__c &lt;= 30, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151I0000082wTD&quot;, &quot;&lt;= 30 Days&quot;, 15, 15),null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Expiration Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

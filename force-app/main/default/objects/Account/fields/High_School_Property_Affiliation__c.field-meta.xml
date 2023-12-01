@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_School_Property_Affiliation__c</fullName>
+    <externalId>false</externalId>
+    <label>High School Property Affiliation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>District of Columbia State Athletic Association (DCSAA)</fullName>
+                <default>false</default>
+                <label>District of Columbia State Athletic Association (DCSAA)</label>
+            </value>
+            <value>
+                <fullName>Massachusetts Interscholastic Athletic Association (MIAA)</fullName>
+                <default>false</default>
+                <label>Massachusetts Interscholastic Athletic Association (MIAA)</label>
+            </value>
+            <value>
+                <fullName>North Carolina Independent Schools Athletic Association (NCISAA)</fullName>
+                <default>false</default>
+                <label>North Carolina Independent Schools Athletic Association (NCISAA)</label>
+            </value>
+            <value>
+                <fullName>Ohio High School Athletic Association (OHSAA)</fullName>
+                <default>false</default>
+                <label>Ohio High School Athletic Association (OHSAA)</label>
+            </value>
+            <value>
+                <fullName>Ohio Valley Athletic Conference (OVAC)</fullName>
+                <default>false</default>
+                <label>Ohio Valley Athletic Conference (OVAC)</label>
+            </value>
+            <value>
+                <fullName>Rhode Island Interscholastic League (RIIL)</fullName>
+                <default>false</default>
+                <label>Rhode Island Interscholastic League (RIIL)</label>
+            </value>
+            <value>
+                <fullName>South Carolina High School League (SCHSL)</fullName>
+                <default>false</default>
+                <label>South Carolina High School League (SCHSL)</label>
+            </value>
+            <value>
+                <fullName>South Carolina Independent School Association (SCISA)</fullName>
+                <default>false</default>
+                <label>South Carolina Independent School Association (SCISA)</label>
+            </value>
+            <value>
+                <fullName>Vermont Principals’ Association (VPA)</fullName>
+                <default>false</default>
+                <label>Vermont Principals’ Association (VPA)</label>
+            </value>
+            <value>
+                <fullName>Virginia Independent Schools Athletic Association (VISAA)</fullName>
+                <default>false</default>
+                <label>Virginia Independent Schools Athletic Association (VISAA)</label>
+            </value>
+            <value>
+                <fullName>Western Pennsylvania Interscholastic Athletic League (WPIAL)</fullName>
+                <default>false</default>
+                <label>Western Pennsylvania Interscholastic Athletic League (WPIAL)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

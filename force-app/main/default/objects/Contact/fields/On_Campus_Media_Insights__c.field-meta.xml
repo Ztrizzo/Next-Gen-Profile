@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Campus_Media_Insights__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this field to drop information about what on-campus media assets this contact oversees. This will show in a report to the media team so that they can follow-up with an email if desired.</inlineHelpText>
+    <label>On-Campus Media Insights?</label>
+    <length>600</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

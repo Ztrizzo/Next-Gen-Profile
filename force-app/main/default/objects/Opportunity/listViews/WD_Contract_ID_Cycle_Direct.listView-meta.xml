@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WD_Contract_ID_Cycle_Direct</fullName>
+    <columns>Account_and_Opportunity_Name__c</columns>
+    <columns>Cost_Center__c</columns>
+    <columns>CompanyReference__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Reconciled__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>WD_Contract_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Cycle_Direct</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won,Closed Won - Reconciled</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <label>WD Contract ID - Cycle Direct</label>
+    <sharedTo>
+        <role>Accounting_Marketing_LSCYCLE</role>
+    </sharedTo>
+</ListView>

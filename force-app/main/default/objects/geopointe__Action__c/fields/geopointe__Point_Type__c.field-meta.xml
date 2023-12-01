@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Point_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the type of Point this action can be applied to. Record, salesforce records. Places, the results of a places search, i.e. &apos;coffee shops&apos;. Map, apply any location on the map with an address search or right click. Route Stop, actions for route stops.</inlineHelpText>
+    <label>Point Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>geopointe__Display_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Map</fullName>
+                <default>false</default>
+                <label>Map</label>
+            </value>
+            <value>
+                <fullName>Place</fullName>
+                <default>false</default>
+                <label>Place</label>
+            </value>
+            <value>
+                <fullName>Record</fullName>
+                <default>true</default>
+                <label>Record</label>
+            </value>
+            <value>
+                <fullName>Route Stop</fullName>
+                <default>false</default>
+                <label>Route Stop</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Button</controllingFieldValue>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Map</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Button</controllingFieldValue>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Place</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Button</controllingFieldValue>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Record</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Button</controllingFieldValue>
+            <controllingFieldValue>Link</controllingFieldValue>
+            <valueName>Route Stop</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

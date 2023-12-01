@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>When_did_you_have_the_bar__c</fullName>
+    <externalId>false</externalId>
+    <label>7a. When did you have the bar?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Early morning / Before breakfast</fullName>
+                <default>false</default>
+                <label>Early morning / Before breakfast</label>
+            </value>
+            <value>
+                <fullName>As my breakfast / Part of breakfast</fullName>
+                <default>false</default>
+                <label>As my breakfast / Part of breakfast</label>
+            </value>
+            <value>
+                <fullName>As a morning snack, before lunch</fullName>
+                <default>false</default>
+                <label>As a morning snack, before lunch</label>
+            </value>
+            <value>
+                <fullName>As my lunch / Part of lunch</fullName>
+                <default>false</default>
+                <label>As my lunch / Part of lunch</label>
+            </value>
+            <value>
+                <fullName>As an afternoon snack</fullName>
+                <default>false</default>
+                <label>As an afternoon snack</label>
+            </value>
+            <value>
+                <fullName>As my dinner / Part of dinner</fullName>
+                <default>false</default>
+                <label>As my dinner / Part of dinner</label>
+            </value>
+            <value>
+                <fullName>As an evening snack</fullName>
+                <default>false</default>
+                <label>As an evening snack</label>
+            </value>
+            <value>
+                <fullName>Late at night</fullName>
+                <default>false</default>
+                <label>Late at night</label>
+            </value>
+            <value>
+                <fullName>As part of another routine (i.e. workout, studying, etc.)</fullName>
+                <default>false</default>
+                <label>As part of another routine (i.e. workout, studying, etc.)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

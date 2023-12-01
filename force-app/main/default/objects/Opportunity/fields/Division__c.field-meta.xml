@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <externalId>false</externalId>
+    <label>Source Division</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LeadSource</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agency / Partner</fullName>
+                <default>false</default>
+                <label>Agency / Partner</label>
+            </value>
+            <value>
+                <fullName>Athlete Exchange</fullName>
+                <default>false</default>
+                <label>Athlete Exchange</label>
+            </value>
+            <value>
+                <fullName>Brands and Properties</fullName>
+                <default>false</default>
+                <label>Brands and Properties</label>
+            </value>
+            <value>
+                <fullName>Client Referral</fullName>
+                <default>false</default>
+                <label>Client Referral</label>
+            </value>
+            <value>
+                <fullName>Inbound Call</fullName>
+                <default>false</default>
+                <label>Inbound Call</label>
+            </value>
+            <value>
+                <fullName>Talent Representation</fullName>
+                <default>false</default>
+                <label>Talent Representation</label>
+            </value>
+            <value>
+                <fullName>Wasserman Corporate</fullName>
+                <default>false</default>
+                <label>Wasserman Corporate</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Athlete Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Brands and Properties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Talent Representation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Wasserman Corporate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Agency / Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Client Referral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Inbound Call</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

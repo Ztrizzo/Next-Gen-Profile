@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Month_Locked_Checked</fullName>
+    <active>true</active>
+    <description>If Month_Locked__c is TRUE, prevent user from updating Revenue account</description>
+    <errorConditionFormula>AND(
+ NOT ISCHANGED(Month_Locked__c) ,
+ Month_Locked__c = TRUE &amp;&amp;  ISCHANGED(Revenue)
+)</errorConditionFormula>
+    <errorMessage>Cannot update Revenue amount if Month Locked in checked.</errorMessage>
+</ValidationRule>

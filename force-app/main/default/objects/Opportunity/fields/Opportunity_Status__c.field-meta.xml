@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Opportunity Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Applicant</fullName>
+                <default>false</default>
+                <label>New Applicant</label>
+            </value>
+            <value>
+                <fullName>Interview Requested</fullName>
+                <default>false</default>
+                <label>Interview Requested</label>
+            </value>
+            <value>
+                <fullName>Interview Scheduled</fullName>
+                <default>false</default>
+                <label>Interview Scheduled</label>
+            </value>
+            <value>
+                <fullName>Interview Completed</fullName>
+                <default>false</default>
+                <label>Interview Completed</label>
+            </value>
+            <value>
+                <fullName>Still considering other candidates</fullName>
+                <default>false</default>
+                <label>Still considering other candidates</label>
+            </value>
+            <value>
+                <fullName>Program Lead Approval Pending</fullName>
+                <default>false</default>
+                <label>Program Lead Approval Pending</label>
+            </value>
+            <value>
+                <fullName>Client Approval Pending</fullName>
+                <default>false</default>
+                <label>Client approval pending</label>
+            </value>
+            <value>
+                <fullName>Other: See Notes</fullName>
+                <default>false</default>
+                <label>Other: See Notes</label>
+            </value>
+            <value>
+                <fullName>Approved Student awaiting Contract</fullName>
+                <default>false</default>
+                <label>Approved Student awaiting Contract</label>
+            </value>
+            <value>
+                <fullName>Contract Sent</fullName>
+                <default>false</default>
+                <label>Contract Sent</label>
+            </value>
+            <value>
+                <fullName>Contract Opened</fullName>
+                <default>false</default>
+                <label>Contract Opened</label>
+            </value>
+            <value>
+                <fullName>Contract Signed / Closed Won</fullName>
+                <default>false</default>
+                <label>Contract Signed / Closed Won</label>
+            </value>
+            <value>
+                <fullName>Background Check Completed (FAIL)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Background Check Completed (FAIL)</label>
+            </value>
+            <value>
+                <fullName>Background Check Completed (PASS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Background Check Completed (PASS)</label>
+            </value>
+            <value>
+                <fullName>Background Check Initiated</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Background Check Initiated</label>
+            </value>
+            <value>
+                <fullName>Background Check Requested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Background Check Requested</label>
+            </value>
+            <value>
+                <fullName>Client services reviewing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client services reviewing</label>
+            </value>
+            <value>
+                <fullName>Commitment Form Sent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Commitment Form Sent</label>
+            </value>
+            <value>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contract Signed</label>
+            </value>
+            <value>
+                <fullName>Decision Pending</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Decision Pending</label>
+            </value>
+            <value>
+                <fullName>Encore Request Initiated</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Encore Request Initiated</label>
+            </value>
+            <value>
+                <fullName>Keeping as backup if other candidate declines offer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Keeping as backup if other candidate declines offer</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Opportunities</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other Opportunities</label>
+            </value>
+            <value>
+                <fullName>Pre-Contract Ready</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pre-Contract Ready</label>
+            </value>
+            <value>
+                <fullName>Pre-Contract Sent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pre-Contract Sent</label>
+            </value>
+            <value>
+                <fullName>Student Status</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Status</label>
+            </value>
+            <value>
+                <fullName>Student qualifications</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student qualifications</label>
+            </value>
+            <value>
+                <fullName>Would consider if no other options</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Would consider if no other options</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <valueName>New Applicant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interview</controllingFieldValue>
+            <valueName>Interview Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interview</controllingFieldValue>
+            <valueName>Interview Scheduled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interview</controllingFieldValue>
+            <valueName>Interview Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboarding</controllingFieldValue>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Contract Signed / Closed Won</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decision Pending</controllingFieldValue>
+            <valueName>Still considering other candidates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decision Pending</controllingFieldValue>
+            <valueName>Program Lead Approval Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decision Pending</controllingFieldValue>
+            <valueName>Client Approval Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decision Pending</controllingFieldValue>
+            <valueName>Other: See Notes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Approved Student awaiting Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Contract Sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Contract Opened</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

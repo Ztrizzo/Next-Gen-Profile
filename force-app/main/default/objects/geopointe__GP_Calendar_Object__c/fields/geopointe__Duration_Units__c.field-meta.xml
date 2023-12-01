@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Duration_Units__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies the units of the Duration field.</description>
+    <externalId>false</externalId>
+    <label>Duration Units</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Minutes</fullName>
+                <default>false</default>
+                <label>Minutes</label>
+            </value>
+            <value>
+                <fullName>Hours</fullName>
+                <default>false</default>
+                <label>Hours</label>
+            </value>
+            <value>
+                <fullName>Days</fullName>
+                <default>false</default>
+                <label>Days</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Directory_Access__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>There is access to a student directory through the university site.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>There is access to a student directory through the university site.</inlineHelpText>
+    <label>Student Directory Access</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_True_End_Date_LDOM__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  MONTH(OpportunityLineItem.True_End_Date__c) = 12,
+  DATE( YEAR(OpportunityLineItem.True_End_Date__c), 12, 31 ),
+  DATE( YEAR(OpportunityLineItem.True_End_Date__c), MONTH (OpportunityLineItem.True_End_Date__c) + 1, 1 ) - 1 
+)</formula>
+    <inlineHelpText>True End Date of the product, converted to last day of the month</inlineHelpText>
+    <label>Product True End Date LDOM</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

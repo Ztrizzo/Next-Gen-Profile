@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NIL_Clients</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Client_Sub_Division__c</columns>
+    <columns>Client_Department__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Owner_Full_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.PersonAccount</value>
+    </filters>
+    <filters>
+        <field>NIL__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>NIL Clients</label>
+    <sharedTo>
+        <roleAndSubordinates>Talent_Executive</roleAndSubordinates>
+    </sharedTo>
+</ListView>

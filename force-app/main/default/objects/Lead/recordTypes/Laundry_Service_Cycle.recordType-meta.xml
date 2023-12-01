@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Laundry_Service_Cycle</fullName>
+    <active>true</active>
+    <businessProcess>Laundry Service Cycle</businessProcess>
+    <description>Laundry Service/Cycle Lead Record Type</description>
+    <label>Laundry Service Cycle</label>
+    <picklistValues>
+        <picklist>Account_Type__c</picklist>
+        <values>
+            <fullName>Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Company</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Do_Not_Contact__c</picklist>
+        <values>
+            <fullName>Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do Not Contact</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Graduation_Date__c</picklist>
+        <values>
+            <fullName>Summer 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winter 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winter 2024</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_did_you_hear_about_opportunities__c</picklist>
+        <values>
+            <fullName>Career Center website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluent website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>From a friend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>From an advisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek Life Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%26B Ambassador Social Media Post</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Organization Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TenTask%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Through a current or previous Amazon Ambassador role</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Account Manager General Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazon Campus Audience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Marketing Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campus Audience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jebbit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACA Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACAS Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2021 Microsoft Teams Campus Brand Manager Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TenTask%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Relations Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Career Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Career Fair Attendee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Source_Department__c</picklist>
+        <values>
+            <fullName>Action Sports Athletes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brands Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brands Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brands UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brands US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experiential EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experiential US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Events and Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Properties INTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Properties Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Properties US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Agency</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Source_Division__c</picklist>
+        <values>
+            <fullName>Business Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eurosport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Talent Representation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undertone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sport_Field__c</picklist>
+        <values>
+            <fullName>Actor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baseball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boxing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Racing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skiing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snowboarding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Talent_Division__c</picklist>
+        <values>
+            <fullName>Action Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Sports</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trade_Show__c</picklist>
+        <values>
+            <fullName>Consumer Electronics Show 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IEG Sponsorship Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Conference - Boston</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Will_you_make_your_Instagram_public__c</picklist>
+        <values>
+            <fullName>My account is already public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My account is already public%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

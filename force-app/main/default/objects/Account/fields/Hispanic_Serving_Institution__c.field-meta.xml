@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hispanic_Serving_Institution__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Per HACU https://www.hacu.net/assnfe/CompanyDirectory.asp?STYLE=2&amp;COMPANY_TYPE=1,5&amp;SEARCH_TYPE=0</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Per HACU https://www.hacu.net/assnfe/CompanyDirectory.asp?STYLE=2&amp;COMPANY_TYPE=1,5&amp;SEARCH_TYPE=0</inlineHelpText>
+    <label>Hispanic Serving Institution</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

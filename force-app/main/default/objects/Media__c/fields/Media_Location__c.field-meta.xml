@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Media_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Media Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Campus Emails to Students</fullName>
+                <default>false</default>
+                <label>Campus Emails to Students</label>
+            </value>
+            <value>
+                <fullName>Campus Newspaper</fullName>
+                <default>false</default>
+                <label>Campus Newspaper</label>
+            </value>
+            <value>
+                <fullName>Classroom/Academic Building</fullName>
+                <default>false</default>
+                <label>Classroom/Academic Building</label>
+            </value>
+            <value>
+                <fullName>Direct Mail Placement</fullName>
+                <default>false</default>
+                <label>Direct Mail Placement</label>
+            </value>
+            <value>
+                <fullName>Housing Guide</fullName>
+                <default>false</default>
+                <label>Housing Guide</label>
+            </value>
+            <value>
+                <fullName>OOH On-Campus (ex: bus or Quad)</fullName>
+                <default>false</default>
+                <label>OOH On-Campus (ex: bus or Quad)</label>
+            </value>
+            <value>
+                <fullName>Recreation Center</fullName>
+                <default>false</default>
+                <label>Recreation Center</label>
+            </value>
+            <value>
+                <fullName>Residence Hall</fullName>
+                <default>false</default>
+                <label>Residence Hall</label>
+            </value>
+            <value>
+                <fullName>Student Media&apos;s Social Platform</fullName>
+                <default>false</default>
+                <label>Student Media&apos;s Social Platform</label>
+            </value>
+            <value>
+                <fullName>Student Media Website</fullName>
+                <default>false</default>
+                <label>Student Media Website</label>
+            </value>
+            <value>
+                <fullName>Student Union</fullName>
+                <default>false</default>
+                <label>Student Union</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Orientation</fullName>
+                <default>false</default>
+                <label>Orientation</label>
+            </value>
+            <value>
+                <fullName>Campus Magazine</fullName>
+                <default>false</default>
+                <label>Campus Magazine</label>
+            </value>
+            <value>
+                <fullName>Bus Shelters</fullName>
+                <default>false</default>
+                <label>Bus Shelters</label>
+            </value>
+            <value>
+                <fullName>Parking Garage Wall Panels</fullName>
+                <default>false</default>
+                <label>Parking Garage Wall Panels</label>
+            </value>
+            <value>
+                <fullName>Interior Bus Cards</fullName>
+                <default>false</default>
+                <label>Interior Bus Cards</label>
+            </value>
+            <value>
+                <fullName>Bus Tails</fullName>
+                <default>false</default>
+                <label>Bus Tails</label>
+            </value>
+            <value>
+                <fullName>Exterior Bus Cards</fullName>
+                <default>false</default>
+                <label>Exterior Bus Cards</label>
+            </value>
+            <value>
+                <fullName>Newspaper Kiosks/Ad Racks</fullName>
+                <default>false</default>
+                <label>Newspaper Kiosks/Ad Racks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

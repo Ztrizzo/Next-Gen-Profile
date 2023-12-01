@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Source Department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Division__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Action Sports Athletes</fullName>
+                <default>false</default>
+                <label>Action Sports Athletes</label>
+            </value>
+            <value>
+                <fullName>Brands &amp; Properties US</fullName>
+                <default>false</default>
+                <label>Brands &amp; Properties US</label>
+            </value>
+            <value>
+                <fullName>Brands &amp; Properties UK</fullName>
+                <default>false</default>
+                <label>Brands &amp; Properties UK</label>
+            </value>
+            <value>
+                <fullName>Brands Canada</fullName>
+                <default>false</default>
+                <label>Brands Canada</label>
+            </value>
+            <value>
+                <fullName>Brands Retainers US</fullName>
+                <default>false</default>
+                <label>Brands Retainers US</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Cycle Direct</fullName>
+                <default>false</default>
+                <label>Cycle Direct</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Experiential Benelux</fullName>
+                <default>false</default>
+                <label>Experiential Benelux</label>
+            </value>
+            <value>
+                <fullName>Experiential Canada</fullName>
+                <default>false</default>
+                <label>Experiential Canada</label>
+            </value>
+            <value>
+                <fullName>Experiential UK</fullName>
+                <default>false</default>
+                <label>Experiential UK</label>
+            </value>
+            <value>
+                <fullName>Experiential US</fullName>
+                <default>false</default>
+                <label>Experiential US</label>
+            </value>
+            <value>
+                <fullName>General/Executive Team</fullName>
+                <default>false</default>
+                <label>General/Executive Team</label>
+            </value>
+            <value>
+                <fullName>Global Football</fullName>
+                <default>false</default>
+                <label>Global Football</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>Laundry Service</fullName>
+                <default>false</default>
+                <label>Laundry Service</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Middle East</fullName>
+                <default>false</default>
+                <label>Middle East</label>
+            </value>
+            <value>
+                <fullName>Properties US - Raleigh</fullName>
+                <default>false</default>
+                <label>Properties US - Raleigh</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing</fullName>
+                <default>false</default>
+                <label>Talent Marketing</label>
+            </value>
+            <value>
+                <fullName>Team Sports</fullName>
+                <default>false</default>
+                <label>Team Sports</label>
+            </value>
+            <value>
+                <fullName>The Agency</fullName>
+                <default>false</default>
+                <label>The Agency</label>
+            </value>
+            <value>
+                <fullName>Digital Design &amp; Technology</fullName>
+                <default>false</default>
+                <label>Digital Design &amp; Technology</label>
+            </value>
+            <value>
+                <fullName>Next Gen</fullName>
+                <default>false</default>
+                <label>Next Gen</label>
+            </value>
+            <value>
+                <fullName>Trevor//Peter</fullName>
+                <default>false</default>
+                <label>Trevor//Peter</label>
+            </value>
+            <value>
+                <fullName>Trevor Peter</fullName>
+                <default>false</default>
+                <label>Trevor Peter</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Brands &amp; Properties US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Brands &amp; Properties UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Brands Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Brands Retainers US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Cycle Direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Experiential Benelux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Experiential UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Experiential US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Laundry Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Middle East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Properties US - Raleigh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Digital Design &amp; Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Next Gen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Trevor//Peter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wasserman Corporate</controllingFieldValue>
+            <valueName>China</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wasserman Corporate</controllingFieldValue>
+            <valueName>Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wasserman Corporate</controllingFieldValue>
+            <valueName>General/Executive Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Action Sports Athletes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Global Football</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Talent Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>Team Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent Representation</controllingFieldValue>
+            <valueName>The Agency</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

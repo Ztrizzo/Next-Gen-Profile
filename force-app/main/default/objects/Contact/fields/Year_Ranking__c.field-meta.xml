@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_Ranking__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  INCLUDES(Year__c, &quot;Sophomore&quot;), 2, 
+  IF(INCLUDES(Year__c, &quot;Junior&quot;), 5, 
+  IF(INCLUDES(Year__c, &quot;Senior&quot;), 5, 
+  IF(INCLUDES(Year__c, &quot;5th Year Senior&quot;), 3, 
+  0)))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Year Ranking</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

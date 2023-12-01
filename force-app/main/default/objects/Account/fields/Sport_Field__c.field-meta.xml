@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sport_Field__c</fullName>
+    <externalId>false</externalId>
+    <label>Sport/Field</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Talent_Division__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basketball</fullName>
+                <default>false</default>
+                <label>Basketball</label>
+            </value>
+            <value>
+                <fullName>Baseball</fullName>
+                <default>false</default>
+                <label>Baseball</label>
+            </value>
+            <value>
+                <fullName>Football</fullName>
+                <default>false</default>
+                <label>Football</label>
+            </value>
+            <value>
+                <fullName>Hockey</fullName>
+                <default>false</default>
+                <label>Hockey</label>
+            </value>
+            <value>
+                <fullName>BMX</fullName>
+                <default>false</default>
+                <label>BMX</label>
+            </value>
+            <value>
+                <fullName>Lifestyle / personality</fullName>
+                <default>false</default>
+                <label>Lifestyle / personality</label>
+            </value>
+            <value>
+                <fullName>Motorsports Two Wheel</fullName>
+                <default>false</default>
+                <label>Motorsports Two Wheel</label>
+            </value>
+            <value>
+                <fullName>Mountain Bike</fullName>
+                <default>false</default>
+                <label>Mountain Bike</label>
+            </value>
+            <value>
+                <fullName>Endurance</fullName>
+                <default>false</default>
+                <label>Endurance</label>
+            </value>
+            <value>
+                <fullName>Motorsports Four Wheel</fullName>
+                <default>false</default>
+                <label>Motorsports Four Wheel</label>
+            </value>
+            <value>
+                <fullName>Outdoor</fullName>
+                <default>false</default>
+                <label>Outdoor</label>
+            </value>
+            <value>
+                <fullName>Skate</fullName>
+                <default>false</default>
+                <label>Skate</label>
+            </value>
+            <value>
+                <fullName>Surf</fullName>
+                <default>false</default>
+                <label>Surf</label>
+            </value>
+            <value>
+                <fullName>Snow Sports</fullName>
+                <default>false</default>
+                <label>Snow Sports</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>BMX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Lifestyle / personality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Motorsports Two Wheel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Mountain Bike</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Endurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Motorsports Four Wheel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Outdoor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Skate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Surf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Action Sports</controllingFieldValue>
+            <valueName>Snow Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Basketball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Baseball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Football</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Sports</controllingFieldValue>
+            <valueName>Hockey</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

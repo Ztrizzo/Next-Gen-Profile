@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Involves_The_Collective__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field identifies if this product is through the Wasserman initiatives The Collective.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does this product include any initiatives or revenue associated with The Collective?</inlineHelpText>
+    <label>Involves The Collective?</label>
+    <type>Checkbox</type>
+</CustomField>

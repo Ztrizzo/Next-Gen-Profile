@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outdated_Schedule__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ AND(
+  OR(Opportunity_Record_Type__c = &quot;Cycle Direct&quot;, Opportunity_Record_Type__c = &quot;Laundry Service / Cycle&quot;, Opportunity_Record_Type__c = &quot;Marketing&quot;), 
+  (YEAR(TODAY())-YEAR(ScheduleDate))*12 + ( MONTH(TODAY())-MONTH(ScheduleDate))&gt;=2
+ ),
+ true, false
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Outdated Schedule</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Region__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Workday_Company__c ), &quot;US&quot;,
+
+IF(CONTAINS(&quot;LE001 Wasserman Media Group, LLC:LE002 WMG European Holdings LLC:LE005 Wasserman Canada Holdings, LLC:LE007 Wasserman Events, LLC:LE011 24/7 Group, LLC (dba Laundry Service):LE013 Cycle Collective, LLC:LE015 Wasserman Sports &amp; Entertainment, LLC (USA):LE017 Wasserman Hockey LLC:LE023 0951694 BC Ltd:LE024 EU Holdings - US vs UK GAAP:LE025 Elim - 0951694 BC Ltd:LE026 Elim - EU Holdings US vs UK GAAP:LE027 Elim- Canada Hldgs:LE028 Elimination - European Hld:LE029 Elimination - Ignite - WMG Mgmt Europe:LE030 Elimination - Mgmt UK - Middle East:LE031 Elimination - Mgmt UK - Qatar:LE032 Elimination - WMG:LE033 Elimination - WMG Management Europe:LE034 Elimination - WMG Mgmt Europe- Netherlands BV:LE035 Elimination - XL Sport - WMG Mgmt Europe:LE036 US vs EURO GAAP&quot;, Workday_Company__c ), &quot;US&quot;,
+
+IF(CONTAINS(&quot;LE003 WMG Management Europe Limited:LE008 Wasserman Experience Limited:LE020 Ignite Music &amp; Entertainment Limited:LE021 WMG Management Europe Elimination:LE038 Wasserman European Basketball, LLC:LE039 Key Sports Holdings Ltd:LE040 Key Sports Management Ltd&quot;, Workday_Company__c ), &quot;UK&quot;,
+
+IF(CONTAINS(&quot;LE004 Wasserman Asia Pacific PTE LTD&quot;, Workday_Company__c ), &quot;Other Asia&quot;,
+
+IF(CONTAINS(&quot;LE006 Wasserman Sports &amp; Entertainment, ULC&quot;, Workday_Company__c ), &quot;Canada&quot;,
+
+IF(CONTAINS(&quot;LE009 Wasserman Netherlands B.V.:LE010 Wasserman Netherlands Management B.V.:LE014 XL Sport:LE018 Boris Agency BV:LE022 Team Wasserman Spain, Sociedad Limitada:LE041 Top Value Players, S.L.&quot;, Workday_Company__c ), &quot;Other Europe&quot;,
+
+IF(CONTAINS(&quot;LE012 Wasserman Middle East LLC:LE016 Wasserman Asia Pacific PTE LTD (DMCC Branch):LE037 Qatar&quot;, Workday_Company__c ), &quot;Middle East&quot;,
+
+IF(CONTAINS(&quot;LE019 Wasserman China Sports and Culture LTD&quot;, Workday_Company__c ), &quot;China&quot;,&quot;Other&quot;))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Default Region</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

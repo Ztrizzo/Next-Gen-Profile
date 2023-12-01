@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Workday_Project_Requested__c</fullName>
+    <description>Automatically set via flow when Project Status is set to Request</description>
+    <externalId>false</externalId>
+    <label>Workday Project Requested</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

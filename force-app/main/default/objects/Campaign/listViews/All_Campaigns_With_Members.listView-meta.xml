@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Campaigns_With_Members</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.ACTIVE</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <columns>CAMPAIGN.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NUM_CONTACTS</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>All Campaigns With Members</label>
+</ListView>

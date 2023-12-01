@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Degree_You_Are_Pursuing__c</fullName>
+    <externalId>false</externalId>
+    <label>Degree You Are Pursuing</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BA</fullName>
+                <default>false</default>
+                <label>BA</label>
+            </value>
+            <value>
+                <fullName>MA</fullName>
+                <default>false</default>
+                <label>MA</label>
+            </value>
+            <value>
+                <fullName>MFA</fullName>
+                <default>false</default>
+                <label>MFA</label>
+            </value>
+            <value>
+                <fullName>ABS</fullName>
+                <default>false</default>
+                <label>ABS</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

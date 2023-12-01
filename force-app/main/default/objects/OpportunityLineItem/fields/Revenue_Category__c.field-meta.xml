@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Revenue Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ad Spend</fullName>
+                <default>false</default>
+                <label>Ad Spend</label>
+            </value>
+            <value>
+                <fullName>BillBack</fullName>
+                <default>false</default>
+                <label>BillBack</label>
+            </value>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Management Fee</fullName>
+                <default>false</default>
+                <label>Management Fee</label>
+            </value>
+            <value>
+                <fullName>PreBill (% complete)</fullName>
+                <default>false</default>
+                <label>PreBill (% complete)</label>
+            </value>
+            <value>
+                <fullName>Retainer</fullName>
+                <default>false</default>
+                <label>Retainer</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Traditional Endorsement-Base)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Traditional Endorsement-Base)</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing Revenue Passthrough</fullName>
+                <default>false</default>
+                <label>Talent Marketing Revenue Passthrough</label>
+            </value>
+            <value>
+                <fullName>Creative - Marketing Services</fullName>
+                <default>false</default>
+                <label>Creative - Marketing Services</label>
+            </value>
+            <value>
+                <fullName>Experiential (Excess / Savings)</fullName>
+                <default>false</default>
+                <label>Experiential (Excess / Savings)</label>
+            </value>
+            <value>
+                <fullName>Experiential (Phone and Insurance)</fullName>
+                <default>false</default>
+                <label>Experiential (Phone and Insurance)</label>
+            </value>
+            <value>
+                <fullName>Experiential (Warehouse Handling)</fullName>
+                <default>false</default>
+                <label>Experiential (Warehouse Handling)</label>
+            </value>
+            <value>
+                <fullName>Experiential (Warehouse)</fullName>
+                <default>false</default>
+                <label>Experiential (Warehouse)</label>
+            </value>
+            <value>
+                <fullName>Hospitality Management</fullName>
+                <default>false</default>
+                <label>Hospitality Management</label>
+            </value>
+            <value>
+                <fullName>Media Rights Advisory</fullName>
+                <default>false</default>
+                <label>Media Rights Advisory</label>
+            </value>
+            <value>
+                <fullName>R&amp;I - Audience Intelligence</fullName>
+                <default>false</default>
+                <label>R&amp;I - Audience Intelligence</label>
+            </value>
+            <value>
+                <fullName>R&amp;I - Performance Management</fullName>
+                <default>false</default>
+                <label>R&amp;I - Performance Management</label>
+            </value>
+            <value>
+                <fullName>Strategic Consulting</fullName>
+                <default>false</default>
+                <label>Strategic Consulting</label>
+            </value>
+            <value>
+                <fullName>Valuation</fullName>
+                <default>false</default>
+                <label>Valuation</label>
+            </value>
+            <value>
+                <fullName>Talent Advance</fullName>
+                <default>false</default>
+                <label>Talent Advance</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Appearance/Speaking)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Appearance/Speaking)</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Digital/Social)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Digital/Social)</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Literary)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Literary)</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Royalties/Licensing)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Royalties/Licensing)</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Shoe - Base)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Shoe - Base)</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Shoe - Incentive)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Shoe - Incentive)</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Trading Cards / Memorabilia)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Trading Cards / Memorabilia)</label>
+            </value>
+            <value>
+                <fullName>Talent Marketing (Traditional Endorsements - Incentive)</fullName>
+                <default>false</default>
+                <label>Talent Marketing (Traditional Endorsements - Incentive)</label>
+            </value>
+            <value>
+                <fullName>Team / Club (Base)</fullName>
+                <default>false</default>
+                <label>Team / Club (Base)</label>
+            </value>
+            <value>
+                <fullName>Team / Club (Broadcasting)</fullName>
+                <default>false</default>
+                <label>Team / Club (Broadcasting)</label>
+            </value>
+            <value>
+                <fullName>Team / Club (Coaching)</fullName>
+                <default>false</default>
+                <label>Team / Club (Coaching)</label>
+            </value>
+            <value>
+                <fullName>Team / Club (Incentive)</fullName>
+                <default>false</default>
+                <label>Team / Club (Incentive)</label>
+            </value>
+            <value>
+                <fullName>Team / Club (Overseas Team Sports)</fullName>
+                <default>false</default>
+                <label>Team / Club (Overseas Team Sports)</label>
+            </value>
+            <value>
+                <fullName>B2B</fullName>
+                <default>false</default>
+                <label>B2B</label>
+            </value>
+            <value>
+                <fullName>Consulting/Other (Events Management)</fullName>
+                <default>false</default>
+                <label>Consulting/Other (Events Management)</label>
+            </value>
+            <value>
+                <fullName>Consulting/Other (Hospitality Management)</fullName>
+                <default>false</default>
+                <label>Consulting/Other (Hospitality Management)</label>
+            </value>
+            <value>
+                <fullName>Consulting/Other (Prize Money)</fullName>
+                <default>false</default>
+                <label>Consulting/Other (Prize Money)</label>
+            </value>
+            <value>
+                <fullName>Consulting/Other (Strategic Consulting)</fullName>
+                <default>false</default>
+                <label>Consulting/Other (Strategic Consulting)</label>
+            </value>
+            <value>
+                <fullName>Deferred Talent Payable - Conversion</fullName>
+                <default>false</default>
+                <label>Deferred Talent Payable - Conversion</label>
+            </value>
+            <value>
+                <fullName>Prepaid Expense</fullName>
+                <default>false</default>
+                <label>Prepaid Expense</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

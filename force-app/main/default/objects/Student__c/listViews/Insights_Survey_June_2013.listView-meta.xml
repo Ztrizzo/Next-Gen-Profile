@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insights_Survey_June_2013</fullName>
+    <columns>NAME</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Email__c</columns>
+    <columns>Secondary_Email__c</columns>
+    <columns>CE_Status__c</columns>
+    <columns>Do_Not_Contact__c</columns>
+    <columns>School__c</columns>
+    <columns>Year__c</columns>
+    <columns>Graduated__c</columns>
+    <columns>Graduation_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Do_Not_Contact__c</field>
+        <operation>equals</operation>
+        <value>Contact</value>
+    </filters>
+    <label>Insights Survey June 2013</label>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Geopointe_Route_Plan_Configuration__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Geopointe Route Plan Configuration</label>
+    <referenceTo>geopointe__GP_Route_Plan_Configuration__c</referenceTo>
+    <relationshipLabel>Geopointe Route Plan Config Batch Jobs</relationshipLabel>
+    <relationshipName>Route_Plan_Config_Batch_Jobs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

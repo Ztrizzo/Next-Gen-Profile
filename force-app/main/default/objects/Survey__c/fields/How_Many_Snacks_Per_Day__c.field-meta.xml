@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Many_Snacks_Per_Day__c</fullName>
+    <externalId>false</externalId>
+    <label>How Many Snacks Per Day?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I don’t snack</fullName>
+                <default>false</default>
+                <label>I don’t snack</label>
+            </value>
+            <value>
+                <fullName>Once</fullName>
+                <default>false</default>
+                <label>Once</label>
+            </value>
+            <value>
+                <fullName>Twice</fullName>
+                <default>false</default>
+                <label>Twice</label>
+            </value>
+            <value>
+                <fullName>Three times</fullName>
+                <default>false</default>
+                <label>Three times</label>
+            </value>
+            <value>
+                <fullName>Four times</fullName>
+                <default>false</default>
+                <label>Four times</label>
+            </value>
+            <value>
+                <fullName>More than four times</fullName>
+                <default>false</default>
+                <label>More than four times</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

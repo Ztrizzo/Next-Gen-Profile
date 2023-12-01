@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewThisWeek</fullName>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.RECORDTYPE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CE_Status__c</columns>
+    <columns>Student_Ranking__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.LAST_UPDATE</columns>
+    <columns>CONTACT.LEAD_SOURCE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Students,Contact.Graduate</value>
+    </filters>
+    <label>New Students This Week</label>
+</ListView>

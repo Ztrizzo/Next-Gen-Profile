@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type_NEW__c</fullName>
+    <externalId>false</externalId>
+    <label>Event Type (NEW 08242023)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dance Marathon</fullName>
+                <default>false</default>
+                <label>Dance Marathon</label>
+            </value>
+            <value>
+                <fullName>Carnival_Festival</fullName>
+                <default>false</default>
+                <label>Carnival / Festival</label>
+            </value>
+            <value>
+                <fullName>Late Night Programming</fullName>
+                <default>false</default>
+                <label>Late Night Programming</label>
+            </value>
+            <value>
+                <fullName>Other- (please leave notes in comments)</fullName>
+                <default>false</default>
+                <label>Other- (please leave notes in comments)</label>
+            </value>
+            <value>
+                <fullName>Relay For Life</fullName>
+                <default>false</default>
+                <label>Relay For Life</label>
+            </value>
+            <value>
+                <fullName>Student Organization Hosted</fullName>
+                <default>false</default>
+                <label>Student Organization Hosted</label>
+            </value>
+            <value>
+                <fullName>The Big Event</fullName>
+                <default>false</default>
+                <label>The Big Event</label>
+            </value>
+            <value>
+                <fullName>Up Till Dawn</fullName>
+                <default>false</default>
+                <label>Up Till Dawn</label>
+            </value>
+            <value>
+                <fullName>Wellness Event</fullName>
+                <default>false</default>
+                <label>Wellness Event</label>
+            </value>
+            <value>
+                <fullName>Race</fullName>
+                <default>false</default>
+                <label>Race</label>
+            </value>
+            <value>
+                <fullName>Activity Fair</fullName>
+                <default>false</default>
+                <label>Activity Fair</label>
+            </value>
+            <value>
+                <fullName>Concert</fullName>
+                <default>false</default>
+                <label>Concert</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Game Day</fullName>
+                <default>false</default>
+                <label>Game Day</label>
+            </value>
+            <value>
+                <fullName>Housing Fair</fullName>
+                <default>false</default>
+                <label>Housing Fair</label>
+            </value>
+            <value>
+                <fullName>Orientation</fullName>
+                <default>false</default>
+                <label>Orientation</label>
+            </value>
+            <value>
+                <fullName>Career</fullName>
+                <default>false</default>
+                <label>Career</label>
+            </value>
+            <value>
+                <fullName>Carnival</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Carnival</label>
+            </value>
+            <value>
+                <fullName>Family Weekend- Information Fair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Family Weekend- Information Fair</label>
+            </value>
+            <value>
+                <fullName>Greek Event</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Greek Event</label>
+            </value>
+            <value>
+                <fullName>Homecoming Week</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Homecoming Week</label>
+            </value>
+            <value>
+                <fullName>Homecoming Week- Concert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Homecoming Week- Concert</label>
+            </value>
+            <value>
+                <fullName>Homecoming Week- Dance/Ball</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Homecoming Week- Dance/Ball</label>
+            </value>
+            <value>
+                <fullName>Homecoming Week- Kickoff Event</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Homecoming Week- Kickoff Event</label>
+            </value>
+            <value>
+                <fullName>Rec Center Event- NIRSA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rec Center Event- NIRSA</label>
+            </value>
+            <value>
+                <fullName>Residence Life Event</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Residence Life Event</label>
+            </value>
+            <value>
+                <fullName>Rivalry Football Game</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rivalry Football Game</label>
+            </value>
+            <value>
+                <fullName>Spirit Week</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Spirit Week</label>
+            </value>
+            <value>
+                <fullName>Student Organization- Bingo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Organization- Bingo</label>
+            </value>
+            <value>
+                <fullName>Student Organization- Drag Show</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Organization- Drag Show</label>
+            </value>
+            <value>
+                <fullName>Student Organization- Trivia</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Organization- Trivia</label>
+            </value>
+            <value>
+                <fullName>Tailgate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tailgate</label>
+            </value>
+            <value>
+                <fullName>Vendor Fair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vendor Fair</label>
+            </value>
+            <value>
+                <fullName>Welcome Week- Concert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Welcome Week- Concert</label>
+            </value>
+            <value>
+                <fullName>Welcome Week- Game Night</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Welcome Week- Game Night</label>
+            </value>
+            <value>
+                <fullName>Welcome Week- Organization/Club Fair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Welcome Week- Organization/Club Fair</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Focused_Recruiting</fullName>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CE_Status__c</columns>
+    <columns>CONTACT.LEAD_SOURCE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>4/1/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>Arizona State University-Tempe,Ohio State University-Main Campus</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>Texas A &amp; M University-College Station,University of California-Berkeley</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>University of Illinois at Urbana-Champaign,University of California-Los Angeles</value>
+    </filters>
+    <label>Focused Recruiting</label>
+    <sharedTo>
+        <group>University_Users</group>
+    </sharedTo>
+</ListView>

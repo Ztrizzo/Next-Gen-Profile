@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Who_has_visited_this_campus__c</fullName>
+    <externalId>false</externalId>
+    <label>Who has visited this campus?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alexa Colas</fullName>
+                <default>false</default>
+                <label>Alexa Colas</label>
+            </value>
+            <value>
+                <fullName>Alyssa Nugent</fullName>
+                <default>false</default>
+                <label>Alyssa Nugent</label>
+            </value>
+            <value>
+                <fullName>Alyssa Van Liere</fullName>
+                <default>false</default>
+                <label>Alyssa Van Liere</label>
+            </value>
+            <value>
+                <fullName>Amy Smedberg</fullName>
+                <default>false</default>
+                <label>Amy Smedberg</label>
+            </value>
+            <value>
+                <fullName>Andrea Pantano</fullName>
+                <default>false</default>
+                <label>Andrea Pantano</label>
+            </value>
+            <value>
+                <fullName>Ashley Ahl</fullName>
+                <default>false</default>
+                <label>Ashley Ahl</label>
+            </value>
+            <value>
+                <fullName>Ashley Canning</fullName>
+                <default>false</default>
+                <label>Ashley Canning</label>
+            </value>
+            <value>
+                <fullName>Ashley Dohn</fullName>
+                <default>false</default>
+                <label>Ashley Dohn</label>
+            </value>
+            <value>
+                <fullName>Ben	Stansell</fullName>
+                <default>false</default>
+                <label>Ben	Stansell</label>
+            </value>
+            <value>
+                <fullName>Grayson Hopp</fullName>
+                <default>false</default>
+                <label>Grayson Hopp</label>
+            </value>
+            <value>
+                <fullName>Heidi Auvenshine</fullName>
+                <default>false</default>
+                <label>Heidi Auvenshine</label>
+            </value>
+            <value>
+                <fullName>Jack Kaplan</fullName>
+                <default>false</default>
+                <label>Jack Kaplan</label>
+            </value>
+            <value>
+                <fullName>Jane Marshall</fullName>
+                <default>false</default>
+                <label>Jane Marshall</label>
+            </value>
+            <value>
+                <fullName>Jeanine Duchaney</fullName>
+                <default>false</default>
+                <label>Jeanine Duchaney</label>
+            </value>
+            <value>
+                <fullName>Jill Scangas</fullName>
+                <default>false</default>
+                <label>Jill Scangas</label>
+            </value>
+            <value>
+                <fullName>John Curcuru</fullName>
+                <default>false</default>
+                <label>John Curcuru</label>
+            </value>
+            <value>
+                <fullName>Kathleen	Lowell</fullName>
+                <default>false</default>
+                <label>Kathleen	Lowell</label>
+            </value>
+            <value>
+                <fullName>Kylie Kinder</fullName>
+                <default>false</default>
+                <label>Kylie Kinder</label>
+            </value>
+            <value>
+                <fullName>Laura (Hutto) Bryant</fullName>
+                <default>false</default>
+                <label>Laura (Hutto) Bryant</label>
+            </value>
+            <value>
+                <fullName>Laura Bundrick</fullName>
+                <default>false</default>
+                <label>Laura Bundrick</label>
+            </value>
+            <value>
+                <fullName>Logan Null</fullName>
+                <default>false</default>
+                <label>Logan Null</label>
+            </value>
+            <value>
+                <fullName>Matt Cohen</fullName>
+                <default>false</default>
+                <label>Matt Cohen</label>
+            </value>
+            <value>
+                <fullName>Megan Clifford</fullName>
+                <default>false</default>
+                <label>Megan Clifford</label>
+            </value>
+            <value>
+                <fullName>Sam Holton</fullName>
+                <default>false</default>
+                <label>Sam Holton</label>
+            </value>
+            <value>
+                <fullName>Sarah Gibson</fullName>
+                <default>false</default>
+                <label>Sarah Gibson</label>
+            </value>
+            <value>
+                <fullName>Shannon	Kilduff</fullName>
+                <default>false</default>
+                <label>Shannon	Kilduff</label>
+            </value>
+            <value>
+                <fullName>Taylor Wagnon</fullName>
+                <default>false</default>
+                <label>Taylor Wagnon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

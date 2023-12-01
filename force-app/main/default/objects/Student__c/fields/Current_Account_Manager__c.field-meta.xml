@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Account_Manager__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Account Manager</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adam Feldman</fullName>
+                <default>false</default>
+                <label>Adam Feldman</label>
+            </value>
+            <value>
+                <fullName>Amanda Little</fullName>
+                <default>false</default>
+                <label>Amanda Little</label>
+            </value>
+            <value>
+                <fullName>Andrew Lickenbrock</fullName>
+                <default>false</default>
+                <label>Andrew Lickenbrock</label>
+            </value>
+            <value>
+                <fullName>Anthony Enslow</fullName>
+                <default>false</default>
+                <label>Anthony Enslow</label>
+            </value>
+            <value>
+                <fullName>Ashley Canning</fullName>
+                <default>false</default>
+                <label>Ashley Canning</label>
+            </value>
+            <value>
+                <fullName>Ashley Dohn</fullName>
+                <default>false</default>
+                <label>Ashley Dohn</label>
+            </value>
+            <value>
+                <fullName>Bailey Stoner</fullName>
+                <default>false</default>
+                <label>Bailey Stoner</label>
+            </value>
+            <value>
+                <fullName>Caitlin Quinn</fullName>
+                <default>false</default>
+                <label>Caitlin Quinn</label>
+            </value>
+            <value>
+                <fullName>Christina Forte</fullName>
+                <default>false</default>
+                <label>Christina Forte</label>
+            </value>
+            <value>
+                <fullName>Cristina Visconte</fullName>
+                <default>false</default>
+                <label>Cristina Visconte</label>
+            </value>
+            <value>
+                <fullName>Jasmine O&apos;Neil</fullName>
+                <default>false</default>
+                <label>Jasmine O&apos;Neil</label>
+            </value>
+            <value>
+                <fullName>Jessie Maier</fullName>
+                <default>false</default>
+                <label>Jessie Maier</label>
+            </value>
+            <value>
+                <fullName>Jill Scangas</fullName>
+                <default>false</default>
+                <label>Jill Scangas</label>
+            </value>
+            <value>
+                <fullName>Kelley Gauthier</fullName>
+                <default>false</default>
+                <label>Kelley Gauthier</label>
+            </value>
+            <value>
+                <fullName>Kim Talarczyk</fullName>
+                <default>false</default>
+                <label>Kim Talarczyk</label>
+            </value>
+            <value>
+                <fullName>Laura (Hutto) Bryant</fullName>
+                <default>false</default>
+                <label>Laura (Hutto) Bryant</label>
+            </value>
+            <value>
+                <fullName>Laura Bundrick</fullName>
+                <default>false</default>
+                <label>Laura Bundrick</label>
+            </value>
+            <value>
+                <fullName>Lindsay Johnson</fullName>
+                <default>false</default>
+                <label>Lindsay Johnson</label>
+            </value>
+            <value>
+                <fullName>Lindsay Vaughn</fullName>
+                <default>false</default>
+                <label>Lindsay Vaughn</label>
+            </value>
+            <value>
+                <fullName>Lindsey Turner</fullName>
+                <default>false</default>
+                <label>Lindsey Turner</label>
+            </value>
+            <value>
+                <fullName>Marc Fraccero</fullName>
+                <default>false</default>
+                <label>Marc Fraccero</label>
+            </value>
+            <value>
+                <fullName>Matt Fasano</fullName>
+                <default>false</default>
+                <label>Matt Fasano</label>
+            </value>
+            <value>
+                <fullName>Rachel Spekman</fullName>
+                <default>false</default>
+                <label>Rachel Spekman</label>
+            </value>
+            <value>
+                <fullName>Rebecca D&apos;Attilio</fullName>
+                <default>false</default>
+                <label>Rebecca D&apos;Attilio</label>
+            </value>
+            <value>
+                <fullName>Roisin O&apos;Flaherty</fullName>
+                <default>false</default>
+                <label>Roisin O&apos;Flaherty</label>
+            </value>
+            <value>
+                <fullName>Scott Jacobs</fullName>
+                <default>false</default>
+                <label>Scott Jacobs</label>
+            </value>
+            <value>
+                <fullName>Victoria Oliver</fullName>
+                <default>false</default>
+                <label>Victoria Oliver</label>
+            </value>
+            <value>
+                <fullName>Winnie Phung</fullName>
+                <default>false</default>
+                <label>Winnie Phung</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

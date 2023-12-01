@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Select__c</fullName>
+    <externalId>false</externalId>
+    <label>Select</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 = Accept &lt; 20% of applicants</fullName>
+                <default>false</default>
+                <label>1 = Accept &lt; 20% of applicants</label>
+            </value>
+            <value>
+                <fullName>2 = Accept 20-30% of applicants</fullName>
+                <default>false</default>
+                <label>2 = Accept 20-30% of applicants</label>
+            </value>
+            <value>
+                <fullName>3 = Accept 30-40% of applicants</fullName>
+                <default>false</default>
+                <label>3 = Accept 30-40% of applicants</label>
+            </value>
+            <value>
+                <fullName>4 = Accept 40-50% of applicants</fullName>
+                <default>false</default>
+                <label>4 = Accept 40-50% of applicants</label>
+            </value>
+            <value>
+                <fullName>5 = Accept 50-60% of applicants</fullName>
+                <default>false</default>
+                <label>5 = Accept 50-60% of applicants</label>
+            </value>
+            <value>
+                <fullName>6 = Accept 60-70% of applicants</fullName>
+                <default>false</default>
+                <label>6 = Accept 60-70% of applicants</label>
+            </value>
+            <value>
+                <fullName>7 = Accept &gt;70% of applicants</fullName>
+                <default>false</default>
+                <label>7 = Accept &gt;70% of applicants</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

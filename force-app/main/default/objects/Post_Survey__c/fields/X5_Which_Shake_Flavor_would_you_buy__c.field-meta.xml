@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5_Which_Shake_Flavor_would_you_buy__c</fullName>
+    <externalId>false</externalId>
+    <label>5. Which Shake Flavor, would you buy?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chocolate</fullName>
+                <default>false</default>
+                <label>Chocolate</label>
+            </value>
+            <value>
+                <fullName>Vanilla</fullName>
+                <default>false</default>
+                <label>Vanilla</label>
+            </value>
+            <value>
+                <fullName>Strawberry</fullName>
+                <default>false</default>
+                <label>Strawberry</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

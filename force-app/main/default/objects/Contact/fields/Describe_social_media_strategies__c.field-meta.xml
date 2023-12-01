@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Describe_social_media_strategies__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose two exciting digital campaigns or social media strategies you have noticed in the last two months and explain how they relate back to promoting HBO to your peers.</inlineHelpText>
+    <label>Describe social media strategies:</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

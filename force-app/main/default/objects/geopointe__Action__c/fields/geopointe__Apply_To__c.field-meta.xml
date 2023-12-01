@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Apply_To__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Record (Map Point) - This action will be a link or button displayed in the detail bubble on the Map page and will only apply to the selected record.
+
+List (Data Set Search) - This action will be applied to all records returned in a Data Set search.</inlineHelpText>
+    <label>Apply To</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Record</fullName>
+                <default>false</default>
+                <label>Record</label>
+            </value>
+            <value>
+                <fullName>List</fullName>
+                <default>false</default>
+                <label>List</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

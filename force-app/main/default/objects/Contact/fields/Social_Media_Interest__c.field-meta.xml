@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Social_Media_Interest__c</fullName>
+    <description>level of interest in social media (Instagram, TikTok, Twitter, etc.)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Low interest - I barely use or are on any social media platforms
+Interested - I use some social media platforms and am interested to learn more about them
+Highly interested - I use most social media platforms and want to actively grow my presence on them</inlineHelpText>
+    <label>Social Media Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Social_Media_Interest</valueSetName>
+    </valueSet>
+</CustomField>

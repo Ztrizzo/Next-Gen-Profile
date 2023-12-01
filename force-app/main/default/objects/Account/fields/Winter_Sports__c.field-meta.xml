@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Winter_Sports__c</fullName>
+    <externalId>false</externalId>
+    <label>Winter Sports</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basketball</fullName>
+                <default>false</default>
+                <label>Basketball</label>
+            </value>
+            <value>
+                <fullName>Competitive Cheer</fullName>
+                <default>false</default>
+                <label>Competitive Cheer</label>
+            </value>
+            <value>
+                <fullName>Ice Hockey</fullName>
+                <default>false</default>
+                <label>Ice Hockey</label>
+            </value>
+            <value>
+                <fullName>Indoor Track</fullName>
+                <default>false</default>
+                <label>Indoor Track</label>
+            </value>
+            <value>
+                <fullName>Swimming &amp; Diving</fullName>
+                <default>false</default>
+                <label>Swimming &amp; Diving</label>
+            </value>
+            <value>
+                <fullName>Wrestling</fullName>
+                <default>false</default>
+                <label>Wrestling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Terminated_Change_True_to_False</fullName>
+    <active>true</active>
+    <description>Prevent Terminated from being updated from TRUE to FALSE</description>
+    <errorConditionFormula>AND( 
+ ISCHANGED(Terminated__c), 
+ Terminated__c = FALSE, $Profile.Name &lt;&gt; &apos;System Administrator&apos;)</errorConditionFormula>
+    <errorMessage>Terminated cannot be changed from True to False</errorMessage>
+</ValidationRule>

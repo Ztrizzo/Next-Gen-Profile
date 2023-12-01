@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LS_Cycle_Products__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does this opportunity contain LS / Cycle Products</description>
+    <externalId>false</externalId>
+    <label>LS / Cycle Products</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

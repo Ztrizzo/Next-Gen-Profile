@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Division__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Division</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Division__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Action Sports</fullName>
+                <default>false</default>
+                <label>Action Sports</label>
+            </value>
+            <value>
+                <fullName>Athlete Exchange</fullName>
+                <default>false</default>
+                <label>Athlete Exchange</label>
+            </value>
+            <value>
+                <fullName>Brands Corporate</fullName>
+                <default>false</default>
+                <label>Brands Corporate</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+                <label>EMEA</label>
+            </value>
+            <value>
+                <fullName>Global Football</fullName>
+                <default>false</default>
+                <label>Global Football</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>LS / Cycle</fullName>
+                <default>false</default>
+                <label>LS / Cycle</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Team Sports</fullName>
+                <default>false</default>
+                <label>Team Sports</label>
+            </value>
+            <value>
+                <fullName>US</fullName>
+                <default>false</default>
+                <label>US</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Talent</controllingFieldValue>
+            <valueName>Action Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent</controllingFieldValue>
+            <valueName>Athlete Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent</controllingFieldValue>
+            <valueName>Global Football</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent</controllingFieldValue>
+            <valueName>Golf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talent</controllingFieldValue>
+            <valueName>Team Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Brands Corporate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>EMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>LS / Cycle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brands and Properties</controllingFieldValue>
+            <valueName>US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>China</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reservable_Outdoor_Space_15_x15__c</fullName>
+    <description>Is there reservable outdoor space on campus that is larger than 15&apos; x 15&apos;? As of fall 2019, these fees are usually $5,000+.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is there reservable outdoor space on campus that is larger than 15&apos; x 15&apos;? As of fall 2019, these fees are usually $5,000+.</inlineHelpText>
+    <label>Reservable Outdoor Space &gt; 15&apos;x15&apos;</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

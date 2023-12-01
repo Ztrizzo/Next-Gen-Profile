@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Graduation_Rate__c</fullName>
+    <description>NA (Not applicable) - Graduation rate, transfer-out rate and the net price are not applicable to institutions that do not have full-time, first-time degree-seeking undergraduate students in the applicable cohort year or the financial aid year.</description>
+    <externalId>false</externalId>
+    <label>Graduation Rate</label>
+    <length>200</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

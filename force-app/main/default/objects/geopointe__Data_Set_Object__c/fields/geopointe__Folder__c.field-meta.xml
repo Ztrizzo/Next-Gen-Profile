@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Folder__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Folder</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>geopointe__GP_Folder__c.Id</field>
+            <operation>equals</operation>
+            <value></value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>geopointe__GP_Folder__c</referenceTo>
+    <relationshipLabel>Data Sets</relationshipLabel>
+    <relationshipName>Data_Sets</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

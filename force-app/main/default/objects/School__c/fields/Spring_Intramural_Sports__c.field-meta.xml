@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spring_Intramural_Sports__c</fullName>
+    <externalId>false</externalId>
+    <label>Spring Intramural Sports</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3-Point Shootout</fullName>
+                <default>false</default>
+                <label>3-Point Shootout</label>
+            </value>
+            <value>
+                <fullName>AOA Basketball</fullName>
+                <default>false</default>
+                <label>AOA Basketball</label>
+            </value>
+            <value>
+                <fullName>AOA Flag Football</fullName>
+                <default>false</default>
+                <label>AOA Flag Football</label>
+            </value>
+            <value>
+                <fullName>AOA Soccer</fullName>
+                <default>false</default>
+                <label>AOA Soccer</label>
+            </value>
+            <value>
+                <fullName>Badminton</fullName>
+                <default>false</default>
+                <label>Badminton</label>
+            </value>
+            <value>
+                <fullName>Basketball</fullName>
+                <default>false</default>
+                <label>Basketball</label>
+            </value>
+            <value>
+                <fullName>Battleship</fullName>
+                <default>false</default>
+                <label>Battleship</label>
+            </value>
+            <value>
+                <fullName>Bowling</fullName>
+                <default>false</default>
+                <label>Bowling</label>
+            </value>
+            <value>
+                <fullName>Broomball</fullName>
+                <default>false</default>
+                <label>Broomball</label>
+            </value>
+            <value>
+                <fullName>Desert Bowl</fullName>
+                <default>false</default>
+                <label>Desert Bowl</label>
+            </value>
+            <value>
+                <fullName>Disc Golf</fullName>
+                <default>false</default>
+                <label>Disc Golf</label>
+            </value>
+            <value>
+                <fullName>Dodgeball</fullName>
+                <default>false</default>
+                <label>Dodgeball</label>
+            </value>
+            <value>
+                <fullName>Field Hockey</fullName>
+                <default>false</default>
+                <label>Field Hockey</label>
+            </value>
+            <value>
+                <fullName>Flag Football</fullName>
+                <default>false</default>
+                <label>Flag Football</label>
+            </value>
+            <value>
+                <fullName>Floor Hockey</fullName>
+                <default>false</default>
+                <label>Floor Hockey</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>Great Pie Race</fullName>
+                <default>false</default>
+                <label>Great Pie Race</label>
+            </value>
+            <value>
+                <fullName>Handball</fullName>
+                <default>false</default>
+                <label>Handball</label>
+            </value>
+            <value>
+                <fullName>Home Run Derby</fullName>
+                <default>false</default>
+                <label>Home Run Derby</label>
+            </value>
+            <value>
+                <fullName>HooverBall</fullName>
+                <default>false</default>
+                <label>HooverBall</label>
+            </value>
+            <value>
+                <fullName>Horseshoes</fullName>
+                <default>false</default>
+                <label>Horseshoes</label>
+            </value>
+            <value>
+                <fullName>Ice Hockey</fullName>
+                <default>false</default>
+                <label>Ice Hockey</label>
+            </value>
+            <value>
+                <fullName>Indoor Badminton</fullName>
+                <default>false</default>
+                <label>Indoor Badminton</label>
+            </value>
+            <value>
+                <fullName>Indoor Soccer</fullName>
+                <default>false</default>
+                <label>Indoor Soccer</label>
+            </value>
+            <value>
+                <fullName>Indoor Volleyball</fullName>
+                <default>false</default>
+                <label>Indoor Volleyball</label>
+            </value>
+            <value>
+                <fullName>Inner Tube Water Polo</fullName>
+                <default>false</default>
+                <label>Inner Tube Water Polo</label>
+            </value>
+            <value>
+                <fullName>Kickball</fullName>
+                <default>false</default>
+                <label>Kickball</label>
+            </value>
+            <value>
+                <fullName>Lacrosse</fullName>
+                <default>false</default>
+                <label>Lacrosse</label>
+            </value>
+            <value>
+                <fullName>March Madness Pick &apos;Em</fullName>
+                <default>false</default>
+                <label>March Madness Pick &apos;Em</label>
+            </value>
+            <value>
+                <fullName>No Tap Bowling</fullName>
+                <default>false</default>
+                <label>No Tap Bowling</label>
+            </value>
+            <value>
+                <fullName>Online College Pick&apos;em</fullName>
+                <default>false</default>
+                <label>Online College Pick&apos;em</label>
+            </value>
+            <value>
+                <fullName>Oozeball</fullName>
+                <default>false</default>
+                <label>Oozeball</label>
+            </value>
+            <value>
+                <fullName>Outdoor Soccer</fullName>
+                <default>false</default>
+                <label>Outdoor Soccer</label>
+            </value>
+            <value>
+                <fullName>Ping Pong</fullName>
+                <default>false</default>
+                <label>Ping Pong</label>
+            </value>
+            <value>
+                <fullName>Raquetball</fullName>
+                <default>false</default>
+                <label>Raquetball</label>
+            </value>
+            <value>
+                <fullName>Rollerhockey</fullName>
+                <default>false</default>
+                <label>Rollerhockey</label>
+            </value>
+            <value>
+                <fullName>Sand Volleyball</fullName>
+                <default>false</default>
+                <label>Sand Volleyball</label>
+            </value>
+            <value>
+                <fullName>Scavenger Hunt</fullName>
+                <default>false</default>
+                <label>Scavenger Hunt</label>
+            </value>
+            <value>
+                <fullName>Soccer</fullName>
+                <default>false</default>
+                <label>Soccer</label>
+            </value>
+            <value>
+                <fullName>Softball</fullName>
+                <default>false</default>
+                <label>Softball</label>
+            </value>
+            <value>
+                <fullName>Squash</fullName>
+                <default>false</default>
+                <label>Squash</label>
+            </value>
+            <value>
+                <fullName>Swim</fullName>
+                <default>false</default>
+                <label>Swim</label>
+            </value>
+            <value>
+                <fullName>Swim Meet</fullName>
+                <default>false</default>
+                <label>Swim Meet</label>
+            </value>
+            <value>
+                <fullName>Table Tennis</fullName>
+                <default>false</default>
+                <label>Table Tennis</label>
+            </value>
+            <value>
+                <fullName>Tennis</fullName>
+                <default>false</default>
+                <label>Tennis</label>
+            </value>
+            <value>
+                <fullName>Track &amp; Field</fullName>
+                <default>false</default>
+                <label>Track &amp; Field</label>
+            </value>
+            <value>
+                <fullName>Turkey Trot</fullName>
+                <default>false</default>
+                <label>Turkey Trot</label>
+            </value>
+            <value>
+                <fullName>Ultimate Frisbee</fullName>
+                <default>false</default>
+                <label>Ultimate Frisbee</label>
+            </value>
+            <value>
+                <fullName>Volleyball</fullName>
+                <default>false</default>
+                <label>Volleyball</label>
+            </value>
+            <value>
+                <fullName>Wallyball</fullName>
+                <default>false</default>
+                <label>Wallyball</label>
+            </value>
+            <value>
+                <fullName>Wiffleball</fullName>
+                <default>false</default>
+                <label>Wiffleball</label>
+            </value>
+            <value>
+                <fullName>Wii Games</fullName>
+                <default>false</default>
+                <label>Wii Games</label>
+            </value>
+            <value>
+                <fullName>XBOX Tournaments</fullName>
+                <default>false</default>
+                <label>XBOX Tournaments</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

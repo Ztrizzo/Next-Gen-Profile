@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instagram_Experience__c</fullName>
+    <description>Level of Experience Using Instagram</description>
+    <externalId>false</externalId>
+    <inlineHelpText>I do not use Instagram/ I am just a viewer
+Beginner- I have minimum knowledge of the platform and only use the basic features when posting
+Proficient-I have some knowledge of the platform and use most of the features when posting
+Expert- I have a lot of knowledge of the platform and use the most recent trends and features when posting</inlineHelpText>
+    <label>Instagram Experience</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Instagram_Experience</valueSetName>
+    </valueSet>
+</CustomField>

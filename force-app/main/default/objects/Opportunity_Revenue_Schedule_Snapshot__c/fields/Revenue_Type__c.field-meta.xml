@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Revenue Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Retainer</fullName>
+                <default>false</default>
+                <label>Retainer</label>
+            </value>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Media Revenue</fullName>
+                <default>false</default>
+                <label>Media Revenue</label>
+            </value>
+            <value>
+                <fullName>Media IO</fullName>
+                <default>false</default>
+                <label>Media IO</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Staff</fullName>
+                <default>false</default>
+                <label>Staff</label>
+            </value>
+            <value>
+                <fullName>Executive Leadership</fullName>
+                <default>false</default>
+                <label>Executive Leadership</label>
+            </value>
+            <value>
+                <fullName>Account Leadership</fullName>
+                <default>false</default>
+                <label>Account Leadership</label>
+            </value>
+            <value>
+                <fullName>Creative</fullName>
+                <default>false</default>
+                <label>Creative</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Channel Management</fullName>
+                <default>false</default>
+                <label>Channel Management</label>
+            </value>
+            <value>
+                <fullName>Strategy, Analytics and Measurement</fullName>
+                <default>false</default>
+                <label>Strategy, Analytics and Measurement</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Cycle</fullName>
+                <default>false</default>
+                <label>Cycle</label>
+            </value>
+            <value>
+                <fullName>Cycle Media</fullName>
+                <default>false</default>
+                <label>Cycle Media</label>
+            </value>
+            <value>
+                <fullName>Laundry Service</fullName>
+                <default>false</default>
+                <label>Laundry Service</label>
+            </value>
+            <value>
+                <fullName>Brands</fullName>
+                <default>false</default>
+                <label>Brands</label>
+            </value>
+            <value>
+                <fullName>Experience</fullName>
+                <default>false</default>
+                <label>Experience</label>
+            </value>
+            <value>
+                <fullName>Properties</fullName>
+                <default>false</default>
+                <label>Properties</label>
+            </value>
+            <value>
+                <fullName>R&amp;I</fullName>
+                <default>false</default>
+                <label>R&amp;I</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

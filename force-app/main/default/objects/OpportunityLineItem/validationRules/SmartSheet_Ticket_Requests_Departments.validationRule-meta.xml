@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartSheet_Ticket_Requests_Departments</fullName>
+    <active>true</active>
+    <description>Allow only specific departments from</description>
+    <errorConditionFormula>IF(Department_F__c &lt;&gt; &apos;Experiential US&apos;, AND( SmartSheet_Ticket_Request__c = True), false)</errorConditionFormula>
+    <errorDisplayField>SmartSheet_Ticket_Request__c</errorDisplayField>
+    <errorMessage>Only Experiential US products can be submitted to SmartSheet. Please deselect the SmartSheet Ticket Request field.</errorMessage>
+</ValidationRule>

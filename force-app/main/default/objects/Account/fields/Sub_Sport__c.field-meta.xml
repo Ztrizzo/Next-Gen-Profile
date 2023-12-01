@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Sport__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Sport</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Big Air, Dirt, Park, Street</fullName>
+                <default>false</default>
+                <label>Big Air, Dirt, Park, Street</label>
+            </value>
+            <value>
+                <fullName>Racing</fullName>
+                <default>false</default>
+                <label>Racing</label>
+            </value>
+            <value>
+                <fullName>Adventure</fullName>
+                <default>false</default>
+                <label>Adventure</label>
+            </value>
+            <value>
+                <fullName>Cycling</fullName>
+                <default>false</default>
+                <label>Cycling</label>
+            </value>
+            <value>
+                <fullName>Heptathlon</fullName>
+                <default>false</default>
+                <label>Heptathlon</label>
+            </value>
+            <value>
+                <fullName>Track &amp; Field</fullName>
+                <default>false</default>
+                <label>Track &amp; Field</label>
+            </value>
+            <value>
+                <fullName>Triathlete</fullName>
+                <default>false</default>
+                <label>Triathlete</label>
+            </value>
+            <value>
+                <fullName>Commentary, Hosting, Judging</fullName>
+                <default>false</default>
+                <label>Commentary, Hosting, Judging</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>Off Road</fullName>
+                <default>false</default>
+                <label>Off Road</label>
+            </value>
+            <value>
+                <fullName>Open Wheel</fullName>
+                <default>false</default>
+                <label>Open Wheel</label>
+            </value>
+            <value>
+                <fullName>Race Car</fullName>
+                <default>false</default>
+                <label>Race Car</label>
+            </value>
+            <value>
+                <fullName>Rally</fullName>
+                <default>false</default>
+                <label>Rally</label>
+            </value>
+            <value>
+                <fullName>Trophy Truck</fullName>
+                <default>false</default>
+                <label>Trophy Truck</label>
+            </value>
+            <value>
+                <fullName>Freestyle Moto</fullName>
+                <default>false</default>
+                <label>Freestyle Moto</label>
+            </value>
+            <value>
+                <fullName>Road Race</fullName>
+                <default>false</default>
+                <label>Road Race</label>
+            </value>
+            <value>
+                <fullName>Supercross/Motocross</fullName>
+                <default>false</default>
+                <label>Supercross/Motocross</label>
+            </value>
+            <value>
+                <fullName>Cross Country</fullName>
+                <default>false</default>
+                <label>Cross Country</label>
+            </value>
+            <value>
+                <fullName>Downhill Racing</fullName>
+                <default>false</default>
+                <label>Downhill Racing</label>
+            </value>
+            <value>
+                <fullName>Freeride</fullName>
+                <default>false</default>
+                <label>Freeride</label>
+            </value>
+            <value>
+                <fullName>Canoe</fullName>
+                <default>false</default>
+                <label>Canoe</label>
+            </value>
+            <value>
+                <fullName>Fishing</fullName>
+                <default>false</default>
+                <label>Fishing</label>
+            </value>
+            <value>
+                <fullName>Freedive</fullName>
+                <default>false</default>
+                <label>Freedive</label>
+            </value>
+            <value>
+                <fullName>Mountaineer</fullName>
+                <default>false</default>
+                <label>Mountaineer</label>
+            </value>
+            <value>
+                <fullName>Rugby</fullName>
+                <default>false</default>
+                <label>Rugby</label>
+            </value>
+            <value>
+                <fullName>Sailing</fullName>
+                <default>false</default>
+                <label>Sailing</label>
+            </value>
+            <value>
+                <fullName>Stand Up Paddleboard</fullName>
+                <default>false</default>
+                <label>Stand Up Paddleboard</label>
+            </value>
+            <value>
+                <fullName>Wakeboard</fullName>
+                <default>false</default>
+                <label>Wakeboard</label>
+            </value>
+            <value>
+                <fullName>Alpine Ski</fullName>
+                <default>false</default>
+                <label>Alpine Ski</label>
+            </value>
+            <value>
+                <fullName>Free Ski</fullName>
+                <default>false</default>
+                <label>Free Ski</label>
+            </value>
+            <value>
+                <fullName>Nordic Ski</fullName>
+                <default>false</default>
+                <label>Nordic Ski</label>
+            </value>
+            <value>
+                <fullName>Skier Cross</fullName>
+                <default>false</default>
+                <label>Skier Cross</label>
+            </value>
+            <value>
+                <fullName>Snowboard</fullName>
+                <default>false</default>
+                <label>Snowboard</label>
+            </value>
+            <value>
+                <fullName>Surf</fullName>
+                <default>false</default>
+                <label>Surf</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

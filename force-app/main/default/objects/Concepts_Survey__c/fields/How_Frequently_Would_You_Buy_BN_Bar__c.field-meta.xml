@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Frequently_Would_You_Buy_BN_Bar__c</fullName>
+    <externalId>false</externalId>
+    <label>How Frequently Would You Buy BN Bar</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daily</fullName>
+                <default>false</default>
+                <label>Daily</label>
+            </value>
+            <value>
+                <fullName>3-6 times per week</fullName>
+                <default>false</default>
+                <label>3-6 times per week</label>
+            </value>
+            <value>
+                <fullName>1-2 times per week</fullName>
+                <default>false</default>
+                <label>1-2 times per week</label>
+            </value>
+            <value>
+                <fullName>1-3 times per month</fullName>
+                <default>false</default>
+                <label>1-3 times per month</label>
+            </value>
+            <value>
+                <fullName>5-11 times per year</fullName>
+                <default>false</default>
+                <label>5-11 times per year</label>
+            </value>
+            <value>
+                <fullName>A few times per year</fullName>
+                <default>false</default>
+                <label>A few times per year</label>
+            </value>
+            <value>
+                <fullName>Infrequently</fullName>
+                <default>false</default>
+                <label>Infrequently</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

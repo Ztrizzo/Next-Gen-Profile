@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Force_Sync_to_Workday_SF</fullName>
+    <active>true</active>
+    <description>Request Force Sync to Workday SF</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( StageName ,&quot;Verbal Commitment&quot;),
+OR (
+Request_Force_Sync_to_Workday__c,
+ISNULL (WD_Contract_ID__c))
+
+)</errorConditionFormula>
+    <errorDisplayField>Request_Force_Sync_to_Workday__c</errorDisplayField>
+    <errorMessage>You can check &quot;Request Force Sync to Workday&quot; only when the stage is Verbal Commitment and WD Contract ID is blank. If the WD Contract ID is set, that means this Opportunity is related to a Contract in Workday.</errorMessage>
+</ValidationRule>

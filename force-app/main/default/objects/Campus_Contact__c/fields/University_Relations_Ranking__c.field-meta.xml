@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>University_Relations_Ranking__c</fullName>
+    <description>1 – Initial contact
+2 – A few interactions
+3 – Responsive, solid contact
+4 – Supportive, good interactions
+5 – BFF! Contact is our ally, works with us and guides us on any request</description>
+    <externalId>false</externalId>
+    <label>University Relations Ranking</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

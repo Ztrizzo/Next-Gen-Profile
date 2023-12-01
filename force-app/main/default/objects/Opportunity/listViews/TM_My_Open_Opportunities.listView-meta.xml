@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TM_My_Open_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Talent_Client__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Agency__c</columns>
+    <columns>Account_Contact__c</columns>
+    <columns>Stage_Change_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Contract_Amount__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>SalesTeam</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Talent_Marketing</value>
+    </filters>
+    <label>TM - My Open Opportunities</label>
+    <sharedTo>
+        <roleAndSubordinates>Client_Service</roleAndSubordinates>
+        <roleAndSubordinates>Talent_Marketing_Manager</roleAndSubordinates>
+    </sharedTo>
+</ListView>

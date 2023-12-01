@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Where_did_you_eat_breakfast_today__c</fullName>
+    <externalId>false</externalId>
+    <label>1. Where did you eat breakfast today?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In the cafeteria on-campus</fullName>
+                <default>false</default>
+                <label>In the cafeteria on-campus</label>
+            </value>
+            <value>
+                <fullName>Other on-campus restaurant/coffee shop</fullName>
+                <default>false</default>
+                <label>Other on-campus restaurant/coffee shop</label>
+            </value>
+            <value>
+                <fullName>Off-campus restaurant/coffee shop</fullName>
+                <default>false</default>
+                <label>Off-campus restaurant/coffee shop</label>
+            </value>
+            <value>
+                <fullName>Eaten on my way to class, work or other activity</fullName>
+                <default>false</default>
+                <label>Eaten on my way to class, work or other activity</label>
+            </value>
+            <value>
+                <fullName>In class / at work</fullName>
+                <default>false</default>
+                <label>In class / at work</label>
+            </value>
+            <value>
+                <fullName>A catered event</fullName>
+                <default>false</default>
+                <label>A catered event</label>
+            </value>
+            <value>
+                <fullName>At home</fullName>
+                <default>false</default>
+                <label>At home</label>
+            </value>
+            <value>
+                <fullName>Did not eat breakfast today</fullName>
+                <default>false</default>
+                <label>Did not eat breakfast today</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

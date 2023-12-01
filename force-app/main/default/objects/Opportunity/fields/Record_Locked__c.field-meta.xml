@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Locked__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to be checked whenever an Approval Process locks an Opportunity (because Lightning doesn&apos;t have a Lock Indicator as of Winter 18)</description>
+    <externalId>false</externalId>
+    <label>Record Locked</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

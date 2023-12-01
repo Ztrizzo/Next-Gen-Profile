@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fall 2018 - Spring 2019 Amazon Prime Student Ambassador Program</fullName>
+                <default>false</default>
+                <label>Fall 2018 - Spring 2019 Amazon Prime Student Ambassador Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2018 SweeTARTS Campus Brand Ambassador Program</fullName>
+                <default>false</default>
+                <label>Spring 2018 SweeTARTS Campus Brand Ambassador Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2018 Dunkin&apos; Donuts Student Influencer Program</fullName>
+                <default>false</default>
+                <label>Spring 2018 Dunkin&apos; Donuts Student Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2018 Zipcar Digital Content Creator Program</fullName>
+                <default>false</default>
+                <label>Spring 2018 Zipcar Digital Content Creator Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2018 The Wall Street Journal Student Brand Advocate Program</fullName>
+                <default>false</default>
+                <label>Spring 2018 The Wall Street Journal Student Brand Advocate Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2018 FORTO Coffee Student Influencer Program</fullName>
+                <default>false</default>
+                <label>Spring 2018 FORTO Coffee Student Influencer Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 The Wall Street Journal Student Brand Advocate Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 The Wall Street Journal Student Brand Advocate Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 Starry Ambassador Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 Starry Ambassador Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 Nesquik Brand Ambassador Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 Nesquik Brand Ambassador Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 MARS Insights Student Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 MARS Insights Student Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 SweeTARTS Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 SweeTARTS Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 - Spring 2018 Microsoft Campus Rep Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 - Spring 2018 Microsoft Campus Rep Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 - Spring 2018 LaCroix Ambassador Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 - Spring 2018 LaCroix Ambassador Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 Comcast Xfinity Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 Comcast Xfinity Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 - Spring 2018 Vera Bradley Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 - Spring 2018 Vera Bradley Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 Sprint Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 Sprint Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 Zipcar Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 Zipcar Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2017 Staples Program</fullName>
+                <default>false</default>
+                <label>Fall 2017 Staples Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2017 Nesquik Program</fullName>
+                <default>false</default>
+                <label>Spring 2017 Nesquik Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2017 GEICO Program</fullName>
+                <default>false</default>
+                <label>Spring 2017 GEICO Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2017 UNIQLO Program</fullName>
+                <default>false</default>
+                <label>Spring 2017 UNIQLO Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2017 Microsoft Surface Student Ambassador Program</fullName>
+                <default>false</default>
+                <label>Spring 2017 Microsoft Surface Student Ambassador Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2017 Autotrader Program</fullName>
+                <default>false</default>
+                <label>Spring 2017 Autotrader Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2017 Coffee-mate Program</fullName>
+                <default>false</default>
+                <label>Spring 2017 Coffee-mate Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2017 Comcast/Xfinity Program</fullName>
+                <default>false</default>
+                <label>Spring 2017 Comcast/Xfinity Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2017 Zipcar Program</fullName>
+                <default>false</default>
+                <label>Spring 2017 Zipcar Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 - Spring 2017 Servitas/Park West Experiential Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 - Spring 2017 Servitas/Park West Experiential Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 - Spring 2017 Servitas/Park West Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 - Spring 2017 Servitas/Park West Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Sour Punch Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Sour Punch Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Delta Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Delta Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Coffee-mate Experiential Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Coffee-mate Experiential Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Riot Games Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Riot Games Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Uniqlo Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Uniqlo Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Coffee-mate Insights</fullName>
+                <default>false</default>
+                <label>Fall 2016 Coffee-mate Insights</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Staples BTS Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Staples BTS Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 mtvU Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 mtvU Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Comcast Xfinity Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Comcast Xfinity Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Zipcar/Ford Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Zipcar/Ford Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Coffee-mate Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 Coffee-mate Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 SiriusXM Pilot Program</fullName>
+                <default>false</default>
+                <label>Fall 2016 SiriusXM Pilot Program</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Charter SpectrumU</fullName>
+                <default>false</default>
+                <label>Fall 2016 Charter SpectrumU</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 - Spring 2017 Vera Bradley</fullName>
+                <default>false</default>
+                <label>Fall 2016 - Spring 2017 Vera Bradley</label>
+            </value>
+            <value>
+                <fullName>Fall 2016 Zipcar</fullName>
+                <default>false</default>
+                <label>Fall 2016 Zipcar</label>
+            </value>
+            <value>
+                <fullName>Spring 2016 Old Spice Dream Runner Program</fullName>
+                <default>false</default>
+                <label>Spring 2016 Old Spice Dream Runner Program</label>
+            </value>
+            <value>
+                <fullName>Spring 2016 CVS Skin+Pharmacy</fullName>
+                <default>false</default>
+                <label>Spring 2016 CVS Skin+Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Spring 2016 Charter</fullName>
+                <default>false</default>
+                <label>Spring 2016 Charter</label>
+            </value>
+            <value>
+                <fullName>Spring 2016 GEICO</fullName>
+                <default>false</default>
+                <label>Spring 2016 GEICO</label>
+            </value>
+            <value>
+                <fullName>Spring 2016 Gatorade</fullName>
+                <default>false</default>
+                <label>Spring 2016 Gatorade</label>
+            </value>
+            <value>
+                <fullName>Spring 2016 Coffee-Mate Insights</fullName>
+                <default>false</default>
+                <label>Spring 2016 Coffee-Mate Insights</label>
+            </value>
+            <value>
+                <fullName>Spring 2016 Zipcar</fullName>
+                <default>false</default>
+                <label>Spring 2016 Zipcar</label>
+            </value>
+            <value>
+                <fullName>Spring 2016 Microsoft Student Partner</fullName>
+                <default>false</default>
+                <label>Spring 2016 Microsoft Student Partner</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Microsoft Student Partner</fullName>
+                <default>false</default>
+                <label>Fall 2015 Microsoft Student Partner</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Care.com</fullName>
+                <default>false</default>
+                <label>Fall 2015 Care.com</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Coffee-Mate</fullName>
+                <default>false</default>
+                <label>Fall 2015 Coffee-Mate</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 CVS Gold Emblem</fullName>
+                <default>false</default>
+                <label>Fall 2015 CVS Gold Emblem</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 CVS Pop-Arazzi</fullName>
+                <default>false</default>
+                <label>Fall 2015 CVS Pop-Arazzi</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 CVS Spartan Race</fullName>
+                <default>false</default>
+                <label>Fall 2015 CVS Spartan Race</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Kotex</fullName>
+                <default>false</default>
+                <label>Fall 2015 Kotex</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 mtvU</fullName>
+                <default>false</default>
+                <label>Fall 2015 mtvU</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Old Spice</fullName>
+                <default>false</default>
+                <label>Fall 2015 Old Spice</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Ovation</fullName>
+                <default>false</default>
+                <label>Fall 2015 Ovation</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Pivot TV</fullName>
+                <default>false</default>
+                <label>Fall 2015 Pivot TV</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Staples Concert Series</fullName>
+                <default>false</default>
+                <label>Fall 2015 Staples Concert Series</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Vera Bradley</fullName>
+                <default>false</default>
+                <label>Fall 2015 Vera Bradley</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Yahoo! Livetext</fullName>
+                <default>false</default>
+                <label>Fall 2015 Yahoo! Livetext</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 Zipcar</fullName>
+                <default>false</default>
+                <label>Fall 2015 Zipcar</label>
+            </value>
+            <value>
+                <fullName>Blackboard Fall 2014</fullName>
+                <default>false</default>
+                <label>Blackboard Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Blackboard Summer 2012</fullName>
+                <default>false</default>
+                <label>Blackboard Summer 2012</label>
+            </value>
+            <value>
+                <fullName>CashCourse Fall 2010</fullName>
+                <default>false</default>
+                <label>CashCourse Fall 2010</label>
+            </value>
+            <value>
+                <fullName>CashCourse Spring 2011</fullName>
+                <default>false</default>
+                <label>CashCourse Spring 2011</label>
+            </value>
+            <value>
+                <fullName>Cengage Spring 2013</fullName>
+                <default>false</default>
+                <label>Cengage Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Citizens Fall 2009</fullName>
+                <default>false</default>
+                <label>Citizens Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Citizens Loan Spring 2010</fullName>
+                <default>false</default>
+                <label>Citizens Loan Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Copia Fall 2011</fullName>
+                <default>false</default>
+                <label>Copia Fall 2011</label>
+            </value>
+            <value>
+                <fullName>Fluent Campus Ambassador Fall 2014</fullName>
+                <default>false</default>
+                <label>Fluent Campus Ambassador Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Fluent Campus Ambassador Spring 2014</fullName>
+                <default>false</default>
+                <label>Fluent Campus Ambassador Spring 2014</label>
+            </value>
+            <value>
+                <fullName>FYE Fall 2009</fullName>
+                <default>false</default>
+                <label>FYE Fall 2009</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>IKEA Fall 2009</fullName>
+                <default>false</default>
+                <label>IKEA Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Jack in the Box Fall 2013</fullName>
+                <default>false</default>
+                <label>Jack in the Box Fall 2013</label>
+            </value>
+            <value>
+                <fullName>Kellogg&apos;s Insights Fall 2013</fullName>
+                <default>false</default>
+                <label>Kellogg&apos;s Insights Fall 2013</label>
+            </value>
+            <value>
+                <fullName>Keurig Fall 2014</fullName>
+                <default>false</default>
+                <label>Keurig Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Kotex Spring 2013</fullName>
+                <default>false</default>
+                <label>Kotex Spring 2013</label>
+            </value>
+            <value>
+                <fullName>L&apos;Oreal Spring 2013</fullName>
+                <default>false</default>
+                <label>L&apos;Oreal Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Lenovo Spring 2012</fullName>
+                <default>false</default>
+                <label>Lenovo Spring 2012</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Digital Spring 2014</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Digital Spring 2014</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Fall 2013</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Fall 2013</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Fall 2014</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s On Campus Spring 2014</fullName>
+                <default>false</default>
+                <label>Macy&apos;s On Campus Spring 2014</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Spring 2013</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Maxim Fall 2010</fullName>
+                <default>false</default>
+                <label>Maxim Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Maxim Spring 2010</fullName>
+                <default>false</default>
+                <label>Maxim Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2009</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2010</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Fall 2010 - Spring 2011</fullName>
+                <default>false</default>
+                <label>Microsoft Fall 2010 - Spring 2011</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2010</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2011</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2011</label>
+            </value>
+            <value>
+                <fullName>Microsoft Spring 2011 Event</fullName>
+                <default>false</default>
+                <label>Microsoft Spring 2011 Event</label>
+            </value>
+            <value>
+                <fullName>MTV/Dove Fall 2011</fullName>
+                <default>false</default>
+                <label>MTV/Dove Fall 2011</label>
+            </value>
+            <value>
+                <fullName>MTV Act of Valor Spring 2012</fullName>
+                <default>false</default>
+                <label>MTV Act of Valor Spring 2012</label>
+            </value>
+            <value>
+                <fullName>MTVU Fall 2011</fullName>
+                <default>false</default>
+                <label>MTVU Fall 2011</label>
+            </value>
+            <value>
+                <fullName>PacSun Fall 2012</fullName>
+                <default>false</default>
+                <label>PacSun Fall 2012</label>
+            </value>
+            <value>
+                <fullName>PacSun Spring 2012</fullName>
+                <default>false</default>
+                <label>PacSun Spring 2012</label>
+            </value>
+            <value>
+                <fullName>PacSun Spring 2013</fullName>
+                <default>false</default>
+                <label>PacSun Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Phase III Spring 2011</fullName>
+                <default>false</default>
+                <label>Phase III Spring 2011</label>
+            </value>
+            <value>
+                <fullName>Philo Spring 2015</fullName>
+                <default>false</default>
+                <label>Philo Spring 2015</label>
+            </value>
+            <value>
+                <fullName>Pivot TV Fall 2014</fullName>
+                <default>false</default>
+                <label>Pivot TV Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Playhem Fall 2010</fullName>
+                <default>false</default>
+                <label>Playhem Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Potential Ramen Spring 2010</fullName>
+                <default>false</default>
+                <label>Potential Ramen Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Potential Starbucks Spring 2010</fullName>
+                <default>false</default>
+                <label>Potential Starbucks Spring 2010</label>
+            </value>
+            <value>
+                <fullName>RCN Fall 2009</fullName>
+                <default>false</default>
+                <label>RCN Fall 2009</label>
+            </value>
+            <value>
+                <fullName>RCN Summer 2010 - Fall 2010</fullName>
+                <default>false</default>
+                <label>RCN Summer 2010 - Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Red Bull Fall 2014</fullName>
+                <default>false</default>
+                <label>Red Bull Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Roxy Fall 2009</fullName>
+                <default>false</default>
+                <label>Roxy Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Scout Spring 2015</fullName>
+                <default>false</default>
+                <label>Scout Spring 2015</label>
+            </value>
+            <value>
+                <fullName>Spring 2015 AT&amp;T</fullName>
+                <default>false</default>
+                <label>Spring 2015 AT&amp;T</label>
+            </value>
+            <value>
+                <fullName>Spring 2015 I.D.E.A.</fullName>
+                <default>false</default>
+                <label>Spring 2015 I.D.E.A.</label>
+            </value>
+            <value>
+                <fullName>Spring 2015 Keurig</fullName>
+                <default>false</default>
+                <label>Spring 2015 Keurig</label>
+            </value>
+            <value>
+                <fullName>Spring 2015 Keurig Rivo</fullName>
+                <default>false</default>
+                <label>Spring 2015 Keurig Rivo</label>
+            </value>
+            <value>
+                <fullName>Square Fall 2014</fullName>
+                <default>false</default>
+                <label>Square Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Staples Spring 2015</fullName>
+                <default>false</default>
+                <label>Staples Spring 2015</label>
+            </value>
+            <value>
+                <fullName>StreakU Fall 2014</fullName>
+                <default>false</default>
+                <label>StreakU Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Summer 2015 Fluent Agent</fullName>
+                <default>false</default>
+                <label>Summer 2015 Fluent Agent</label>
+            </value>
+            <value>
+                <fullName>Summer 2015 Zipcar</fullName>
+                <default>false</default>
+                <label>Summer 2015 Zipcar</label>
+            </value>
+            <value>
+                <fullName>Sun Drop Fall 2011</fullName>
+                <default>false</default>
+                <label>Sun Drop Fall 2011</label>
+            </value>
+            <value>
+                <fullName>Sun Drop Spring 2012</fullName>
+                <default>false</default>
+                <label>Sun Drop Spring 2012</label>
+            </value>
+            <value>
+                <fullName>Tableau Fall 2014</fullName>
+                <default>false</default>
+                <label>Tableau Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Teen Vogue Spring 2010</fullName>
+                <default>false</default>
+                <label>Teen Vogue Spring 2010</label>
+            </value>
+            <value>
+                <fullName>UCrew 2012-13</fullName>
+                <default>false</default>
+                <label>UCrew 2012-13</label>
+            </value>
+            <value>
+                <fullName>Verizon Fall 2010</fullName>
+                <default>false</default>
+                <label>Verizon Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2012</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2012</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2013</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2013</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Spring 2013</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Spring 2014</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Spring 2014</label>
+            </value>
+            <value>
+                <fullName>Windows UCrew 2013-2014</fullName>
+                <default>false</default>
+                <label>Windows UCrew 2013-2014</label>
+            </value>
+            <value>
+                <fullName>Zip Car Fall 2011</fullName>
+                <default>false</default>
+                <label>Zip Car Fall 2011</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2012</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2012</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2013</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2013</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2014</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2014</label>
+            </value>
+            <value>
+                <fullName>Zip Car Spring 2012</fullName>
+                <default>false</default>
+                <label>Zip Car Spring 2012</label>
+            </value>
+            <value>
+                <fullName>Zipcar Spring 2013</fullName>
+                <default>false</default>
+                <label>Zipcar Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Zipcar Spring 2014</fullName>
+                <default>false</default>
+                <label>Zipcar Spring 2014</label>
+            </value>
+            <value>
+                <fullName>Zipcar Spring 2015</fullName>
+                <default>false</default>
+                <label>Zipcar Spring 2015</label>
+            </value>
+            <value>
+                <fullName>Fall 2015 - Spring 2016 Microsoft Student Partner</fullName>
+                <default>false</default>
+                <label>Fall 2015 - Spring 2016 Microsoft Student Partner</label>
+            </value>
+            <value>
+                <fullName>Fall 2012 Blackboard</fullName>
+                <default>false</default>
+                <label>Fall 2012 Blackboard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

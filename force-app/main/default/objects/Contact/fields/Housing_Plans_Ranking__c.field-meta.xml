@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Housing_Plans_Ranking__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  ISPICKVAL(Housing_Plans__c, &quot;Greek house&quot;), 5, 
+  IF(ISPICKVAL(Housing_Plans__c, &quot;Greek residence hall&quot;), 5, 
+  IF(ISPICKVAL(Housing_Plans__c, &quot;On campus residence hall&quot;), 5, 
+  0))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Housing Plans Ranking</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

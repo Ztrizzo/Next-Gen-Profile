@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Action Sports Agency</fullName>
+                <default>false</default>
+                <label>Action Sports Agency</label>
+            </value>
+            <value>
+                <fullName>Action Sports Athletes</fullName>
+                <default>false</default>
+                <label>Action Sports Athletes</label>
+            </value>
+            <value>
+                <fullName>Action Sports Media</fullName>
+                <default>false</default>
+                <label>Action Sports Media</label>
+            </value>
+            <value>
+                <fullName>Athlete Exchange</fullName>
+                <default>false</default>
+                <label>Athlete Exchange</label>
+            </value>
+            <value>
+                <fullName>Baseball</fullName>
+                <default>false</default>
+                <label>Baseball</label>
+            </value>
+            <value>
+                <fullName>Basketball</fullName>
+                <default>false</default>
+                <label>Basketball</label>
+            </value>
+            <value>
+                <fullName>Boxing</fullName>
+                <default>false</default>
+                <label>Boxing</label>
+            </value>
+            <value>
+                <fullName>Broadcasting</fullName>
+                <default>false</default>
+                <label>Broadcasting</label>
+            </value>
+            <value>
+                <fullName>Coaching</fullName>
+                <default>false</default>
+                <label>Coaching</label>
+            </value>
+            <value>
+                <fullName>Cycling</fullName>
+                <default>false</default>
+                <label>Cycling</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Global Football Euro</fullName>
+                <default>false</default>
+                <label>Global Football Euro</label>
+            </value>
+            <value>
+                <fullName>Global Football France</fullName>
+                <default>false</default>
+                <label>Global Football France</label>
+            </value>
+            <value>
+                <fullName>Global Football Netherlands</fullName>
+                <default>false</default>
+                <label>Global Football Netherlands</label>
+            </value>
+            <value>
+                <fullName>Global Football Spain</fullName>
+                <default>false</default>
+                <label>Global Football Spain</label>
+            </value>
+            <value>
+                <fullName>Global Football UK</fullName>
+                <default>false</default>
+                <label>Global Football UK</label>
+            </value>
+            <value>
+                <fullName>Global Football US</fullName>
+                <default>false</default>
+                <label>Global Football US</label>
+            </value>
+            <value>
+                <fullName>Golf Consulting &amp; Hosp</fullName>
+                <default>false</default>
+                <label>Golf Consulting &amp; Hosp</label>
+            </value>
+            <value>
+                <fullName>Golf Events</fullName>
+                <default>false</default>
+                <label>Golf Events</label>
+            </value>
+            <value>
+                <fullName>Golf Management Europe</fullName>
+                <default>false</default>
+                <label>Golf Management Europe</label>
+            </value>
+            <value>
+                <fullName>Golf Management UK</fullName>
+                <default>false</default>
+                <label>Golf Management UK</label>
+            </value>
+            <value>
+                <fullName>Golf Management US</fullName>
+                <default>false</default>
+                <label>Golf Management US</label>
+            </value>
+            <value>
+                <fullName>Hockey</fullName>
+                <default>false</default>
+                <label>Hockey</label>
+            </value>
+            <value>
+                <fullName>Montag</fullName>
+                <default>false</default>
+                <label>Montag</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>NFL</fullName>
+                <default>false</default>
+                <label>NFL</label>
+            </value>
+            <value>
+                <fullName>Rugby</fullName>
+                <default>false</default>
+                <label>Rugby</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>Team Sports Corporate</fullName>
+                <default>false</default>
+                <label>Team Sports Corporate</label>
+            </value>
+            <value>
+                <fullName>WM: Anderson &amp; Rodriguez Pod</fullName>
+                <default>false</default>
+                <label>WM: Anderson &amp; Rodriguez Pod</label>
+            </value>
+            <value>
+                <fullName>WM: Branding</fullName>
+                <default>false</default>
+                <label>WM: Branding</label>
+            </value>
+            <value>
+                <fullName>WM: Diamond Pod</fullName>
+                <default>false</default>
+                <label>WM: Diamond Pod</label>
+            </value>
+            <value>
+                <fullName>WM: Hunt &amp; Martin Pod</fullName>
+                <default>false</default>
+                <label>WM: Hunt &amp; Martin Pod</label>
+            </value>
+            <value>
+                <fullName>WM: Levine &amp; Nalpant Pod</fullName>
+                <default>false</default>
+                <label>WM: Levine &amp; Nalpant Pod</label>
+            </value>
+            <value>
+                <fullName>WM: Smith Pod</fullName>
+                <default>false</default>
+                <label>WM: Smith Pod</label>
+            </value>
+            <value>
+                <fullName>WM: Tour Services</fullName>
+                <default>false</default>
+                <label>WM: Tour Services</label>
+            </value>
+            <value>
+                <fullName>Women&apos;s Sports &amp; Olympics</fullName>
+                <default>false</default>
+                <label>Women&apos;s Sports &amp; Olympics</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

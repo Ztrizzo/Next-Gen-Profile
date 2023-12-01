@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trade_Show__c</fullName>
+    <externalId>false</externalId>
+    <label>Trade Show</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consumer Electronics Show 2011</fullName>
+                <default>false</default>
+                <label>Consumer Electronics Show 2011</label>
+            </value>
+            <value>
+                <fullName>IEG Sponsorship Conference</fullName>
+                <default>false</default>
+                <label>IEG Sponsorship Conference</label>
+            </value>
+            <value>
+                <fullName>NACS</fullName>
+                <default>false</default>
+                <label>NACS</label>
+            </value>
+            <value>
+                <fullName>Social Media Conference - Boston</fullName>
+                <default>false</default>
+                <label>Social Media Conference - Boston</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

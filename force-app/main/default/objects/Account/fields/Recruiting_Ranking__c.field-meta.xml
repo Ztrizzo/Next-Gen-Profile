@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recruiting_Ranking__c</fullName>
+    <description>3-Confident no problem, would want on school list (strong pipeline, rarely need to do new outreach and if we do, it is easy)
+2-Somewhat confident (resources available and/or able semi-consistently able to find strong students with some digging)
+1-Not confident (limited resources and/or consistently challenging to find strong students) 
+0-Awful, please no! (extremely and consistently challenging)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>3-Confident, would want on school list
+2-Somewhat confident
+1-Not confident
+0-Awful, please no</inlineHelpText>
+    <label>Recruiting Ranking (3/2022)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

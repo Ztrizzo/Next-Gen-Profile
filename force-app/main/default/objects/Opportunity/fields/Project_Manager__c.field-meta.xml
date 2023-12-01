@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Manager__c</fullName>
+    <description>Who will be the Project Manager on this project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Who will be the Project Manager on this project</inlineHelpText>
+    <label>Project Manager</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Suzanne Brower</fullName>
+                <default>false</default>
+                <label>Suzanne Brower</label>
+            </value>
+            <value>
+                <fullName>Ali Applebaum</fullName>
+                <default>false</default>
+                <label>Ali Applebaum</label>
+            </value>
+            <value>
+                <fullName>Melissa Miller</fullName>
+                <default>false</default>
+                <label>Melissa Miller</label>
+            </value>
+            <value>
+                <fullName>Dani Dudley</fullName>
+                <default>false</default>
+                <label>Dani Dudley</label>
+            </value>
+            <value>
+                <fullName>Matt Tolkowsky</fullName>
+                <default>false</default>
+                <label>Matt Tolkowsky</label>
+            </value>
+            <value>
+                <fullName>Kinsey West</fullName>
+                <default>false</default>
+                <label>Kinsey West</label>
+            </value>
+            <value>
+                <fullName>Caroline Bales</fullName>
+                <default>false</default>
+                <label>Caroline Bales</label>
+            </value>
+            <value>
+                <fullName>Auri Shervington</fullName>
+                <default>false</default>
+                <label>Auri Shervington</label>
+            </value>
+            <value>
+                <fullName>DeeDee Sulmers</fullName>
+                <default>false</default>
+                <label>DeeDee Sulmers</label>
+            </value>
+            <value>
+                <fullName>Vicky Chou</fullName>
+                <default>false</default>
+                <label>Vicky Chou</label>
+            </value>
+            <value>
+                <fullName>Nhya Ciborowski</fullName>
+                <default>false</default>
+                <label>Nhya Ciborowski</label>
+            </value>
+            <value>
+                <fullName>Kelsey Coughlin</fullName>
+                <default>false</default>
+                <label>Kelsey Coughlin</label>
+            </value>
+            <value>
+                <fullName>Steff Hind</fullName>
+                <default>false</default>
+                <label>Steff Hind</label>
+            </value>
+            <value>
+                <fullName>Lauren Sharabianlou</fullName>
+                <default>false</default>
+                <label>Lauren Sharabianlou</label>
+            </value>
+            <value>
+                <fullName>Rachel Fogel</fullName>
+                <default>false</default>
+                <label>Rachel Fogel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

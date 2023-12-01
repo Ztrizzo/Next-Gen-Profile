@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accrual_Forecast_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Revenue &lt;&gt; 0,
+Opportunity_Forecast_Category__c = &quot;Projected&quot;),
+IF(ScheduleDate &gt; TODAY(),
+&quot;Projected&quot;,
+&quot;Contracted&quot;),
+&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Accrual Forecast Type</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

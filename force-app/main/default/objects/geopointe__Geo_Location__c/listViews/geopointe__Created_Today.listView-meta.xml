@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Created_Today</fullName>
+    <columns>NAME</columns>
+    <columns>geopointe__Street__c</columns>
+    <columns>geopointe__City__c</columns>
+    <columns>geopointe__State__c</columns>
+    <columns>geopointe__PostalCode__c</columns>
+    <columns>geopointe__Country__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>geopointe__Temporary__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>geopointe__Geocode__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Created Today</label>
+</ListView>

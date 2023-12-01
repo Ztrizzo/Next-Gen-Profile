@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Talent_Marketing_Notes__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>General updates and status of this deal. Please include Execution Date.</inlineHelpText>
+    <label>Talent Marketing Notes</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

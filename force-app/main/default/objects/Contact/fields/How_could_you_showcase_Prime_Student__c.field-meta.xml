@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_could_you_showcase_Prime_Student__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Is your campus planning to host any in-person and/or virtual events this semester? If so, how could you showcase one of our brands during this event while adhering to safety guidelines? If not, how might you organize your own virtual or in-person event that showcases one of our brands while adhering to safety guidelines?</inlineHelpText>
+    <label>How could you showcase brands at events?</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

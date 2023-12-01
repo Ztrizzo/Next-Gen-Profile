@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartSheet_Ticket_Update__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Salesforce to SmartSheet integration - update flag set to true when Opportunity is updated and SmartSheet Ticket ID &lt;&gt; NULL</description>
+    <externalId>false</externalId>
+    <label>SmartSheet Ticket Update</label>
+    <type>Checkbox</type>
+</CustomField>

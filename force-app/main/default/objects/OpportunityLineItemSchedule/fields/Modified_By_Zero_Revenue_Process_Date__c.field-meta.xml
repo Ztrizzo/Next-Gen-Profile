@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modified_By_Zero_Revenue_Process_Date__c</fullName>
+    <description>Date field that will be stamped by Admin zero revenue flow</description>
+    <externalId>false</externalId>
+    <label>Modified By Zero Revenue Process Date</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

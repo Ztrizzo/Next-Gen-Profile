@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Term_Flow__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To be used by admins to reset opportunity payment terms</description>
+    <externalId>false</externalId>
+    <label>Payment Term Flow</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

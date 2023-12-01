@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Products</fullName>
+    <columns>Division__c</columns>
+    <columns>Sub_Division__c</columns>
+    <columns>Department__c</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Department__c</field>
+        <operation>equals</operation>
+        <value>Brands &amp; Properties UK,Brands &amp; Properties US,Brands Corporate,Brands Retainers US,Canada,Digital Design &amp; Technology,Experiential Benelux,Experiential UK,Experiential US,Mexico,Next Gen,Properties US - Raleigh,Research &amp; Insights</value>
+    </filters>
+    <label>Active Products - Marketing</label>
+</ListView>

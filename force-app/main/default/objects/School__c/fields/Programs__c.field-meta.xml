@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programs__c</fullName>
+    <externalId>false</externalId>
+    <label>Programs</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blackboard Fall 2012</fullName>
+                <default>false</default>
+                <label>Blackboard Fall 2012</label>
+            </value>
+            <value>
+                <fullName>Blackboard Summer 2012</fullName>
+                <default>false</default>
+                <label>Blackboard Summer 2012</label>
+            </value>
+            <value>
+                <fullName>CashCourse Fall 2010</fullName>
+                <default>false</default>
+                <label>CashCourse Fall 2010</label>
+            </value>
+            <value>
+                <fullName>CashCourse Spring 2011</fullName>
+                <default>false</default>
+                <label>CashCourse Spring 2011</label>
+            </value>
+            <value>
+                <fullName>Cengage Spring 2013</fullName>
+                <default>false</default>
+                <label>Cengage Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Citizens Fall 2009</fullName>
+                <default>false</default>
+                <label>Citizens Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Citizens Loan Spring 2010</fullName>
+                <default>false</default>
+                <label>Citizens Loan Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Copia Fall 2011</fullName>
+                <default>false</default>
+                <label>Copia Fall 2011</label>
+            </value>
+            <value>
+                <fullName>FYE Fall 2009</fullName>
+                <default>false</default>
+                <label>FYE Fall 2009</label>
+            </value>
+            <value>
+                <fullName>IKEA Fall 2009</fullName>
+                <default>false</default>
+                <label>IKEA Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Kotex Spring 2013</fullName>
+                <default>false</default>
+                <label>Kotex Spring 2013</label>
+            </value>
+            <value>
+                <fullName>K-Swiss/Foot Locker Tour Spring 2008</fullName>
+                <default>false</default>
+                <label>K-Swiss/Foot Locker Tour Spring 2008</label>
+            </value>
+            <value>
+                <fullName>L&apos;Oreal Spring 2013</fullName>
+                <default>false</default>
+                <label>L&apos;Oreal Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Lenovo Spring 2012</fullName>
+                <default>false</default>
+                <label>Lenovo Spring 2012</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Spring 2013</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s Spring 2013 Campus Tour</fullName>
+                <default>false</default>
+                <label>Macy&apos;s Spring 2013 Campus Tour</label>
+            </value>
+            <value>
+                <fullName>Maxim Fall 2010</fullName>
+                <default>false</default>
+                <label>Maxim Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Maxim Spring 2010</fullName>
+                <default>false</default>
+                <label>Maxim Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Rep Program Fall 2009</fullName>
+                <default>false</default>
+                <label>Microsoft Rep Program Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Microsoft Rep Program Fall 2010</fullName>
+                <default>false</default>
+                <label>Microsoft Rep Program Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Rep Program Spring 2010</fullName>
+                <default>false</default>
+                <label>Microsoft Rep Program Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Rep Program Spring 2011</fullName>
+                <default>false</default>
+                <label>Microsoft Rep Program Spring 2011</label>
+            </value>
+            <value>
+                <fullName>Microsoft Tour Fall 2009</fullName>
+                <default>false</default>
+                <label>Microsoft Tour Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Microsoft Tour Fall 2010</fullName>
+                <default>false</default>
+                <label>Microsoft Tour Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Tour Spring 2010</fullName>
+                <default>false</default>
+                <label>Microsoft Tour Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Tour Spring 2011</fullName>
+                <default>false</default>
+                <label>Microsoft Tour Spring 2011</label>
+            </value>
+            <value>
+                <fullName>MTV/Dove Fall 2011</fullName>
+                <default>false</default>
+                <label>MTV/Dove Fall 2011</label>
+            </value>
+            <value>
+                <fullName>MTVU Fall 2011</fullName>
+                <default>false</default>
+                <label>MTVU Fall 2011</label>
+            </value>
+            <value>
+                <fullName>PacSun Fall 2012</fullName>
+                <default>false</default>
+                <label>PacSun Fall 2012</label>
+            </value>
+            <value>
+                <fullName>PacSun Spring 2012</fullName>
+                <default>false</default>
+                <label>PacSun Spring 2012</label>
+            </value>
+            <value>
+                <fullName>PacSun Spring 2013</fullName>
+                <default>false</default>
+                <label>PacSun Spring 2013</label>
+            </value>
+            <value>
+                <fullName>Phase III Spring 2011</fullName>
+                <default>false</default>
+                <label>Phase III Spring 2011</label>
+            </value>
+            <value>
+                <fullName>Playhem Fall 2010</fullName>
+                <default>false</default>
+                <label>Playhem Fall 2010</label>
+            </value>
+            <value>
+                <fullName>RCN Fall 2009</fullName>
+                <default>false</default>
+                <label>RCN Fall 2009</label>
+            </value>
+            <value>
+                <fullName>RCN Fall 2010</fullName>
+                <default>false</default>
+                <label>RCN Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Roxy Fall 2009</fullName>
+                <default>false</default>
+                <label>Roxy Fall 2009</label>
+            </value>
+            <value>
+                <fullName>Roxy Spring/Summer 2008</fullName>
+                <default>false</default>
+                <label>Roxy Spring/Summer 2008</label>
+            </value>
+            <value>
+                <fullName>Stride Gum Spring 2010</fullName>
+                <default>false</default>
+                <label>Stride Gum Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Stride Gum Tour Spring 2008</fullName>
+                <default>false</default>
+                <label>Stride Gum Tour Spring 2008</label>
+            </value>
+            <value>
+                <fullName>Sun Drop Fall 2011</fullName>
+                <default>false</default>
+                <label>Sun Drop Fall 2011</label>
+            </value>
+            <value>
+                <fullName>Sun Drop Spring 2012</fullName>
+                <default>false</default>
+                <label>Sun Drop Spring 2012</label>
+            </value>
+            <value>
+                <fullName>Teen Vogue Spring 2010</fullName>
+                <default>false</default>
+                <label>Teen Vogue Spring 2010</label>
+            </value>
+            <value>
+                <fullName>UCrew 2012-2013</fullName>
+                <default>false</default>
+                <label>UCrew 2012-2013</label>
+            </value>
+            <value>
+                <fullName>Verizon Fall 2010</fullName>
+                <default>false</default>
+                <label>Verizon Fall 2010</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Fall 2012</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Fall 2012</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Campus Tour Spring 2013</fullName>
+                <default>false</default>
+                <label>Windows 8 Campus Tour Spring 2013</label>
+            </value>
+            <value>
+                <fullName>YouRenew Spring 2010</fullName>
+                <default>false</default>
+                <label>YouRenew Spring 2010</label>
+            </value>
+            <value>
+                <fullName>Zip Car Fall 2011</fullName>
+                <default>false</default>
+                <label>Zip Car Fall 2011</label>
+            </value>
+            <value>
+                <fullName>Zipcar Fall 2012</fullName>
+                <default>false</default>
+                <label>Zipcar Fall 2012</label>
+            </value>
+            <value>
+                <fullName>Zipcar Spring 2013</fullName>
+                <default>false</default>
+                <label>Zipcar Spring 2013</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

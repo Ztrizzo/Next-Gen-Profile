@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locale__c</fullName>
+    <externalId>false</externalId>
+    <label>Locale</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>City: Large</fullName>
+                <default>false</default>
+                <label>City: Large</label>
+            </value>
+            <value>
+                <fullName>City: Midsize</fullName>
+                <default>false</default>
+                <label>City: Midsize</label>
+            </value>
+            <value>
+                <fullName>City: Small</fullName>
+                <default>false</default>
+                <label>City: Small</label>
+            </value>
+            <value>
+                <fullName>Rural: Distant</fullName>
+                <default>false</default>
+                <label>Rural: Distant</label>
+            </value>
+            <value>
+                <fullName>Rural: Fringe</fullName>
+                <default>false</default>
+                <label>Rural: Fringe</label>
+            </value>
+            <value>
+                <fullName>Rural: Remote</fullName>
+                <default>false</default>
+                <label>Rural: Remote</label>
+            </value>
+            <value>
+                <fullName>Suburb: Large</fullName>
+                <default>false</default>
+                <label>Suburb: Large</label>
+            </value>
+            <value>
+                <fullName>Suburb: Midsize</fullName>
+                <default>false</default>
+                <label>Suburb: Midsize</label>
+            </value>
+            <value>
+                <fullName>Suburb: Small</fullName>
+                <default>false</default>
+                <label>Suburb: Small</label>
+            </value>
+            <value>
+                <fullName>Town: Distant</fullName>
+                <default>false</default>
+                <label>Town: Distant</label>
+            </value>
+            <value>
+                <fullName>Town: Fringe</fullName>
+                <default>false</default>
+                <label>Town: Fringe</label>
+            </value>
+            <value>
+                <fullName>Town: Remote</fullName>
+                <default>false</default>
+                <label>Town: Remote</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

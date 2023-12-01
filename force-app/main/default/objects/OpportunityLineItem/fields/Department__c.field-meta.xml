@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Department</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brands Corporate</fullName>
+                <default>false</default>
+                <label>Brands Corporate</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Experiential Benelux</fullName>
+                <default>false</default>
+                <label>Experiential Benelux</label>
+            </value>
+            <value>
+                <fullName>Experiential US</fullName>
+                <default>false</default>
+                <label>Experiential US</label>
+            </value>
+            <value>
+                <fullName>Experiential UK</fullName>
+                <default>false</default>
+                <label>Experiential UK</label>
+            </value>
+            <value>
+                <fullName>Properties US - Raleigh</fullName>
+                <default>false</default>
+                <label>Properties US - Raleigh</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>LS/Cycle</fullName>
+                <default>false</default>
+                <label>LS/Cycle</label>
+            </value>
+            <value>
+                <fullName>Brand Retainers US</fullName>
+                <default>false</default>
+                <label>Brand Retainers US</label>
+            </value>
+            <value>
+                <fullName>Brands &amp; Properties US</fullName>
+                <default>false</default>
+                <label>Brands &amp; Properties US</label>
+            </value>
+            <value>
+                <fullName>Brands Middle East</fullName>
+                <default>false</default>
+                <label>Brands Middle East</label>
+            </value>
+            <value>
+                <fullName>Digital Design &amp; Technology</fullName>
+                <default>false</default>
+                <label>Digital Design &amp; Technology</label>
+            </value>
+            <value>
+                <fullName>Next Gen</fullName>
+                <default>false</default>
+                <label>Next Gen</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Brands &amp; Properties UK</fullName>
+                <default>false</default>
+                <label>Brands &amp; Properties UK</label>
+            </value>
+            <value>
+                <fullName>Brands &amp; Properties Germany</fullName>
+                <default>false</default>
+                <label>Brands &amp; Properties Germany</label>
+            </value>
+            <value>
+                <fullName>Trevor//Peter</fullName>
+                <default>false</default>
+                <label>Trevor//Peter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

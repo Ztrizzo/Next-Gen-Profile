@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Shape__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Geopointe Shape</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR (2 AND 3)</booleanFilter>
+        <filterItems>
+            <field>geopointe__Shape__c.geopointe__Usage_Type__c</field>
+            <operation>equals</operation>
+            <value>GeoShape,Standard</value>
+        </filterItems>
+        <filterItems>
+            <field>geopointe__Shape__c.geopointe__Usage_Type__c</field>
+            <operation>equals</operation>
+            <value>Shape Field</value>
+        </filterItems>
+        <filterItems>
+            <field>geopointe__Shape__c.geopointe__Type__c</field>
+            <operation>equals</operation>
+            <value>Polygon, Circle, MultiPolygon</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>geopointe__Shape__c</referenceTo>
+    <relationshipLabel>Geopointe Assignment Areas</relationshipLabel>
+    <relationshipName>Geopointe_Assignment_Areas</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

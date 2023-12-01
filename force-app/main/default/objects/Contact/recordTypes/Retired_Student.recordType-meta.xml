@@ -1,0 +1,2372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retired_Student</fullName>
+    <active>true</active>
+    <label>Retired Student</label>
+    <picklistValues>
+        <picklist>Amazon_Prime_membership_status__c</picklist>
+        <values>
+            <fullName>I do not currently use Prime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I have my own Prime Student membership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I use a friend%27s Prime or Prime Student membership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I use my parent%27s Prime membership</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Best_Method_of_Communication__c</picklist>
+        <values>
+            <fullName>All - Great communicator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email or Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GroupMe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neither</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CE_Status__c</picklist>
+        <values>
+            <fullName>2010 Convention Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2010 Northeast Conference Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2011 NACA Mid America Delegate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2011 NACA Northeast Delegate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2011 NACA South Delegate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2012-2013 Windows UCrew Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2012-2013 Windows UCrew Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2013-2014 Windows UCrew Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2013-2014 Windows UCrew Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2014-2015 Windows UCrew Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2014-2015 Windows UCrew Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2015 Fluent Website Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2015 NACA Conference Delegate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2016 NACA Convention Delegate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019-2020 Amazon Prime Student Campus Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019-2020 Amazon Prime Student Campus Manager Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019-2020 HBO Campus Brand Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019-2020 HBO Campus Brand Manager Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019-2020 Vera Bradley Student Ambassador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019-2020 Vera Bradley Student Ambassador Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career Services Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Current Student Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dropped Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 Citizens Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 Citizens Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 FYE Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 FYE Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 FYE Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 IKEA Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 IKEA Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 Microsoft Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 Microsoft Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 Microsoft Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 RCN Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 RCN Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 Roxy Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2009 Roxy Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 CashCourse Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 CashCourse Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Maxim Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Maxim Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Microsoft Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Microsoft Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Microsoft Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Playhem Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Playhem Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 RCN Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 RCN Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Verizon Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2010 Verizon Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 Copia Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 Copia Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 MTV%2FDove Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 MTV%2FDoveApplicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 MTVU Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 MTVU Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 Sun Drop Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 Sun Drop Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 Zipcar Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2011 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 Blackboard Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 Blackboard Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 PacSun Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 PacSun Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 Windows 8 Campus Tour Tour Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 Windows 8 Campus Tour Tour Promoter Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 Zipcar Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Jack in the Box Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Jack in the Box Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Kellogg%27s Insights Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Kellogg%27s Insights Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Macy%27s Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Macy%27s Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Windows 8 Campus Tour Tour Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Windows 8 Campus Tour Tour Promoter Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Zipcar Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2013 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Blackboard Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Blackboard Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 FCA Sign-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Fluent Campus Ambassador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Fluent Campus Ambassador Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Geofencing Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Keurig Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Keurig Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Macy%27s Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Macy%27s Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 NACA Conference Delegate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Pivot TV Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Pivot TV Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Red Bull Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Red Bull Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Square Cash Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Square Cash Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 StreakU Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 StreakU Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Tableau Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Tableau Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Zipcar Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2014 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 - Spring 2016 Microsoft Student Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 CVS Gold Emblem Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 CVS Pop-Arazzi Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 CVS Spartan Race Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Care%2Ecom Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Coffee-Mate Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Fluent General Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Kotex Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Microsoft Student Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Old Spice Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Ovation Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Pivot TV Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Staples Concert Series Event Worker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Vera Bradley Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Yahoo%21 Livetext Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 mtvU Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 - Spring 2017 Servitas%2FPark West Experiential Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 - Spring 2017 Servitas%2FPark West Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 - Spring 2017 Vera Bradley Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Charter SpectrumU Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Coffee-mate Experiential Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Coffee-mate Insights Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Coffee-mate Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Comcast Xfinity Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Delta Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Riot Games Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 SiriusXM Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Sour Punch Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Staples BTS Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Uniqlo Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Vera Bradley Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Zipcar%2FFord Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 mtvU Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2017 - Spring 2018 Microsoft Campus Rep Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2017 - Spring 2018 Vera Bradley Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2018 HBO Student Ambassador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2019 Streaming Habits Survey Participant %28Opted In%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluent Agent Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluent General Interest Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACA Delegate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Past Student Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Citizens Loan Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Citizens Loan Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Maxim Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Maxim Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Microsoft Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Microsoft Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Microsoft Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Teen Vogue Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Teen Vogue Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2010 Teen Vogue Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2011 CashCourse Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2011 CashCourse Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2011 Microsoft Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2011 Microsoft Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2011 Microsoft Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2011 Phase III Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2011 Phase III Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 Lenovo Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 Lenovo Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 MTV Act of Valor Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 MTV Act of Valor Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 PacSun Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 PacSun Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 Sun Drop Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 Sun Drop Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 Zipcar Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2012 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Cengage Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Cengage Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Kotex Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Kotex Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 L%27Oreal Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 L%27Oreal Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Macy%27s Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Macy%27s Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 PacSun Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 PacSun Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Windows 8 Campus Tour Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Windows 8 Campus Tour Promoter Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Windows 8 Campus Tour Tour Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Zipcar Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2013 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Fluent Campus Ambassador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Fluent Campus Ambassador Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Macy%27s Digital Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Macy%27s Digital Promoter Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Macy%27s Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Macy%27s Promoter Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Windows 8 Campus Tour Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Windows 8 Campus Tour Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Windows 8 Campus Tour Promoter Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Zipcar Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2014 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 AT%26T Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 AT%26T Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Fluent General Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 I%2ED%2EE%2EA%2E Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Keurig Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Keurig Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Keurig Rivo Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Keurig Rivo Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Philo Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Scout Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Scout Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Staples Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Staples Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Zipcar Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 CVS Skin%2BPharmacy Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Charter Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Coffee-mate Insights Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Fluent General Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 GEICO Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Gatorade Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Microsoft Student Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Old Spice Dream Runner Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Autotrader Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Coffee-mate Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Comcast%2FXfinity Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 GEICO Event Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 GEICO Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Microsoft Surface Student Ambassador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 UNIQLO Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Zipcar Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2019 Amazon Prime Student Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2019 HBO Student Ambassador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2019 R%26B General Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2021 Microsoft Teams Campus Brand Manager Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2012 Blackboard Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2012 Blackboard Promoter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2015 Fluent Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2016 Fluent General Applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2016 TenTask%2Ecom Student Acquisition</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CampusInfluence_Status__c</picklist>
+        <values>
+            <fullName>Cleaned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscribed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsubscribed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Confident_in_fulfilling_time_commitment__c</picklist>
+        <values>
+            <fullName>Completely confident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fairly confident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not confident at all</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slightly confident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Somewhat confident</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Do_Not_Contact__c</picklist>
+        <values>
+            <fullName>Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do Not Contact</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Eligible_For_Rehire__c</picklist>
+        <values>
+            <fullName>Consider other options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Definitely</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indecisive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very Likely</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-binary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefer not to disclose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Graduation_Semester__c</picklist>
+        <values>
+            <fullName>Fall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hispanic__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Housing_Plans__c</picklist>
+        <values>
+            <fullName>At home with family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%27t know yet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek house</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek residence hall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home near campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off campus near school</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off campus neither near school nor with family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On campus residence hall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School-sponsored off-campus housing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_did_they_hear_about_opportunities__c</picklist>
+        <values>
+            <fullName>Career Center website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluent website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>From a friend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>From an advisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek Life Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%26B Ambassador Social Media Post</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Organization Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TeamWass Recruiter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TenTask%2Ecom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>I_plan_to_return_Fall_2021_Amazon__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Instagram_Experience__c</picklist>
+        <values>
+            <fullName>Beginner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I do not use%2F Viewer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proficient</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Account Manager General Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazon Campus Audience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Marketing Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jebbit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2021 Microsoft Teams Campus Brand Manager Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TenTask%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Relations Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origination__c</picklist>
+        <values>
+            <fullName>Career Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Interest Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Job Posting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACA Conference%2FConvention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Passion_Points__c</picklist>
+        <values>
+            <fullName>Career</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Causes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fashion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_Pronoun__c</picklist>
+        <values>
+            <fullName>Co%2FCos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>He%2FHim%2FHis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hy%2FHym%2FHys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No pronoun%2FName</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FHer%2FHers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>They%2FThem%2FTheirs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xe%2FXem%2FXyr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ze%2FHir</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prime_Student_benefits_you_re_aware_of__c</picklist>
+        <values>
+            <fullName>Exclusive Deals %26 Promotions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free two-day shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prime Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prime Photos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prime Video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitch Prime</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Program__c</picklist>
+        <values>
+            <fullName>Blackboard Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blackboard Summer 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CashCourse Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CashCourse Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cengage Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citizens Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citizens Loan Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copia Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FYE Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2012 Blackboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 - Spring 2016 Microsoft Student Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 CVS Gold Emblem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 CVS Pop-Arazzi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 CVS Spartan Race</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Care%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Coffee-Mate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Kotex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Microsoft Student Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Old Spice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Ovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Pivot TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Staples Concert Series</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Vera Bradley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Yahoo%21 Livetext</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 Zipcar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2015 mtvU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 - Spring 2017 Servitas%2FPark West Experiential Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 - Spring 2017 Servitas%2FPark West Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 - Spring 2017 Vera Bradley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Charter SpectrumU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Coffee-mate Experiential Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Coffee-mate Insights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Coffee-mate Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Comcast Xfinity Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Delta Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Riot Games Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 SiriusXM Pilot Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Sour Punch Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Staples BTS Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Uniqlo Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Zipcar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 Zipcar%2FFord Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall 2016 mtvU Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluent Campus Ambassador Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluent Campus Ambassador Spring 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IKEA Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jack in the Box Fall 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kellogg%27s Insights Fall 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keurig Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kotex Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L%27Oreal Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lenovo Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTV Act of Valor Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTV%2FDove Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTVU Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s Digital Spring 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s Fall 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s On Campus Spring 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maxim Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maxim Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Fall 2010 - Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Spring 2011 Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase III Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philo Spring 2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pivot TV Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playhem Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potential Ramen Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potential Starbucks Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCN Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCN Summer 2010 - Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red Bull Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roxy Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Spring 2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 AT%26T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 I%2ED%2EE%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Keurig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2015 Keurig Rivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 CVS Skin%2BPharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Charter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Coffee-Mate Insights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 GEICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Gatorade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Microsoft Student Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Old Spice Dream Runner Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Zipcar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Autotrader Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Coffee-mate Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Comcast%2FXfinity Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 GEICO Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Microsoft Surface Student Ambassador Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 UNIQLO Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2017 Zipcar Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Square Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staples Spring 2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>StreakU Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2015 Fluent Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2015 Zipcar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun Drop Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun Drop Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tableau Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teen Vogue Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UCrew 2012-13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verizon Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 8 Campus Tour Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 8 Campus Tour Fall 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 8 Campus Tour Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 8 Campus Tour Spring 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows UCrew 2013-2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zip Car Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zip Car Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Fall 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Fall 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Spring 2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Spring 2015</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Promoter_Performance__c</picklist>
+        <values>
+            <fullName>Average</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dropped program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excellent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fired from program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Race_Ethnicity__c</picklist>
+        <values>
+            <fullName>Asian %2F Pacific Islander</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hispanic or Latino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Research_Opportunities__c</picklist>
+        <values>
+            <fullName>Focus Groups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surveys</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shirt_Size__c</picklist>
+        <values>
+            <fullName>2X-Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3X-Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-Large</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Social_Media_Interest__c</picklist>
+        <values>
+            <fullName>Highly Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Interest</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_in_School__c</picklist>
+        <values>
+            <fullName>Graduate Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graduated%2FOther</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undergraduate Student</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subscription_to_Faculty_News__c</picklist>
+        <values>
+            <fullName>Subscribed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Unsubscribed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TPG_Status__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Text_Opt_In__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TikTok_Experience__c</picklist>
+        <values>
+            <fullName>Beginner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I do not use%2F viewer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proficient</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time__c</picklist>
+        <values>
+            <fullName>0-5 hours per week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10-15 hours per week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5-10 hours per week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>more than 15 hours per week</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Contact__c</picklist>
+        <values>
+            <fullName>Admissions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Athletics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bookstore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dining Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orientation%2FFirst Year Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Safety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residence Life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Activities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Organization Advisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Where_will_you_be_living_this_fall__c</picklist>
+        <values>
+            <fullName>At home with parents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%27t know yet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek house</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek residence hall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off-campus housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On campus residence hall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Which_programs_are_you_interested_in__c</picklist>
+        <values>
+            <fullName>Spring 2016 Charter Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Coffee-mate Insights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 GEICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Gatorade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 General Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2016 Zipcar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Will_you_make_your_Instagram_public__c</picklist>
+        <values>
+            <fullName>My account is already public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My account is already public%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Year_HS__c</picklist>
+        <values>
+            <fullName>10th Grade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11th Grade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12th Grade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9th Grade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Year__c</picklist>
+        <values>
+            <fullName>5th Year Senior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alumni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freshman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graduate Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Junior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sophomore</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

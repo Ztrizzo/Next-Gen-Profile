@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GearsHealth__Code_Coverage_Tolerance__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <deprecated>false</deprecated>
+    <description>Generate Email when code coverage falls below this value.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Generate Email when code coverage falls below this value.</inlineHelpText>
+    <label>Code Coverage Tolerance</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

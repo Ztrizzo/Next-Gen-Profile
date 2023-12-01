@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Start_Time_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API field name of the Start Time field.</description>
+    <externalId>false</externalId>
+    <label>Start Time Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

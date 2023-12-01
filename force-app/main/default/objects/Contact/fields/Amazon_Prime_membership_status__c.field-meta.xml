@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amazon_Prime_membership_status__c</fullName>
+    <externalId>false</externalId>
+    <label>Amazon Prime membership status?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I have my own Prime Student membership</fullName>
+                <default>false</default>
+                <label>I have my own Prime Student membership</label>
+            </value>
+            <value>
+                <fullName>I use my parent&apos;s Prime membership</fullName>
+                <default>false</default>
+                <label>I use my parent&apos;s Prime membership</label>
+            </value>
+            <value>
+                <fullName>I use a friend&apos;s Prime or Prime Student membership</fullName>
+                <default>false</default>
+                <label>I use a friend&apos;s Prime or Prime Student membership</label>
+            </value>
+            <value>
+                <fullName>I do not currently use Prime</fullName>
+                <default>false</default>
+                <label>I do not currently use Prime</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

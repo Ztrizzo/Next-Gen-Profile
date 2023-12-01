@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facebook_Ranking__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  of_Facebook_Friends__c &gt;= 600, 10, 
+  IF(of_Facebook_Friends__c &gt;= 500, 7,
+  IF(of_Facebook_Friends__c &gt;= 400, 5, 
+  0))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Facebook Ranking</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

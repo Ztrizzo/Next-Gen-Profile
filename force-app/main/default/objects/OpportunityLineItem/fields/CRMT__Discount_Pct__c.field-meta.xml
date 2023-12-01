@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMT__Discount_Pct__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Entering a value here will determine a discount from list.  Unit Price = List Price - Discount % * List Price</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Entering a value here will determine a discount from list.  Unit Price = List Price - Discount % * List Price</inlineHelpText>
+    <label>Discount %</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

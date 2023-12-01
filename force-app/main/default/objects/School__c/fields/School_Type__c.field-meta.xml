@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Type__c</fullName>
+    <description>From College Navigator</description>
+    <externalId>false</externalId>
+    <label>School Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&lt; 2-year, Private for-profit</fullName>
+                <default>false</default>
+                <label>&lt; 2-year, Private for-profit</label>
+            </value>
+            <value>
+                <fullName>2-year, Private for-profit</fullName>
+                <default>false</default>
+                <label>2-year, Private for-profit</label>
+            </value>
+            <value>
+                <fullName>2-year, Private not-for-profit</fullName>
+                <default>false</default>
+                <label>2-year, Private not-for-profit</label>
+            </value>
+            <value>
+                <fullName>2-year, Public</fullName>
+                <default>false</default>
+                <label>2-year, Public</label>
+            </value>
+            <value>
+                <fullName>4-year, primarily associate&apos;s, Private for-profit</fullName>
+                <default>false</default>
+                <label>4-year, primarily associate&apos;s, Private for-profit</label>
+            </value>
+            <value>
+                <fullName>4-year, primarily associate&apos;s, Private not-for-profit</fullName>
+                <default>false</default>
+                <label>4-year, primarily associate&apos;s, Private not-for-profit</label>
+            </value>
+            <value>
+                <fullName>4-year, primarily associate&apos;s, Public</fullName>
+                <default>false</default>
+                <label>4-year, primarily associate&apos;s, Public</label>
+            </value>
+            <value>
+                <fullName>4-year, Private for-profit</fullName>
+                <default>false</default>
+                <label>4-year, Private for-profit</label>
+            </value>
+            <value>
+                <fullName>4-year, Private not-for-profit</fullName>
+                <default>false</default>
+                <label>4-year, Private not-for-profit</label>
+            </value>
+            <value>
+                <fullName>4-year, Public</fullName>
+                <default>false</default>
+                <label>4-year, Public</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Geopointe_Calendar_Object__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Geopointe Calendar Object</label>
+    <referenceTo>geopointe__GP_Calendar_Object__c</referenceTo>
+    <relationshipLabel>Geopointe Calendar Object Locations</relationshipLabel>
+    <relationshipName>Geopointe_Calendar_Object_Locations</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

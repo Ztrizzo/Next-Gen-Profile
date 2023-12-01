@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org__c</fullName>
+    <externalId>false</externalId>
+    <label>Org</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LSCYCLE</fullName>
+                <default>false</default>
+                <label>LSCYCLE</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Business Dev</fullName>
+                <default>false</default>
+                <label>Business Dev</label>
+            </value>
+            <value>
+                <fullName>Talent</fullName>
+                <default>false</default>
+                <label>Talent</label>
+            </value>
+            <value>
+                <fullName>Coprorate</fullName>
+                <default>false</default>
+                <label>Coprorate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

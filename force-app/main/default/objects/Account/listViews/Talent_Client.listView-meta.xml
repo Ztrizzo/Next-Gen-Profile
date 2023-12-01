@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Talent_Client</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Client_Sub_Division__c</columns>
+    <columns>Client_Department__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Owner_Full_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.PersonAccount</value>
+    </filters>
+    <label>Talent Clients</label>
+    <sharedTo>
+        <roleAndSubordinates>Accounting_Talent</roleAndSubordinates>
+        <roleAndSubordinates>Client_Service</roleAndSubordinates>
+        <roleAndSubordinates>Talent_Marketing_Manager</roleAndSubordinates>
+        <roleAndSubordinates>Talent_Operations</roleAndSubordinates>
+    </sharedTo>
+</ListView>

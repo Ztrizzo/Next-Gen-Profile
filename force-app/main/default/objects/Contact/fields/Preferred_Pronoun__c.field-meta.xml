@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Pronoun__c</fullName>
+    <externalId>false</externalId>
+    <label>Preferred Pronoun</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>He/Him/His</fullName>
+                <default>false</default>
+                <label>He/Him/His</label>
+            </value>
+            <value>
+                <fullName>They/Them/Theirs</fullName>
+                <default>false</default>
+                <label>They/Them/Theirs</label>
+            </value>
+            <value>
+                <fullName>Ze/Hir</fullName>
+                <default>false</default>
+                <label>Ze/Hir</label>
+            </value>
+            <value>
+                <fullName>She/Her/Hers</fullName>
+                <default>false</default>
+                <label>She/Her/Hers</label>
+            </value>
+            <value>
+                <fullName>Co/Cos</fullName>
+                <default>false</default>
+                <label>Co/Cos</label>
+            </value>
+            <value>
+                <fullName>Hy/Hym/Hys</fullName>
+                <default>false</default>
+                <label>Hy/Hym/Hys</label>
+            </value>
+            <value>
+                <fullName>Xe/Xem/Xyr</fullName>
+                <default>false</default>
+                <label>Xe/Xem/Xyr</label>
+            </value>
+            <value>
+                <fullName>No pronoun/Name</fullName>
+                <default>false</default>
+                <label>No pronoun/Name</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

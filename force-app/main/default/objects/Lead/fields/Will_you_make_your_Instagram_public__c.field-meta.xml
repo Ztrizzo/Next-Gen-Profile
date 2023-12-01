@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Will_you_make_your_Instagram_public__c</fullName>
+    <externalId>false</externalId>
+    <label>Will you make your Instagram public?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>My account is already public</fullName>
+                <default>false</default>
+                <label>My account is already public</label>
+            </value>
+            <value>
+                <fullName>My account is already public.</fullName>
+                <default>false</default>
+                <label>My account is already public.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

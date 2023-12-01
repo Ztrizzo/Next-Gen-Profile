@@ -1,0 +1,4783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test_sfdc</fullName>
+    <active>true</active>
+    <description>testing purpose</description>
+    <label>test sfdc</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Account Manager General Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazon Campus Audience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Marketing Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campus Audience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jebbit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACA Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACAS Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2021 Microsoft Teams Campus Brand Manager Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TenTask%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Relations Recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Career Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Career Fair Attendee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Type__c</picklist>
+        <values>
+            <fullName>Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Athlete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Named Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Affiliation__c</picklist>
+        <values>
+            <fullName>Baptist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Church of Brethren</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Church of God</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Churches Of Christ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evangelical Lutheran Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free Methodist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friends</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interdenominational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latter Day Saints %28Mormon Church%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presbyterian Church %28USA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reformed Church in America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roman Catholic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2EChurch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undenominational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Methodist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wesleyan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agent_Cost_Center__c</picklist>
+        <values>
+            <fullName>CC000 Intracompany Elimination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC100 Accounting UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC101 Accounting US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC102 China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC103 Directs Carlsbad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC103 Directs Encinitas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC104 Directs London</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC105 Directs Los Angeles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC106 Directs New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC107 Directs Raleigh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC108 Directs Toronto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC109 Executive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC110 Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC111 General EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC112 General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC113 Directs Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC116 Human Resources UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC117 Human Resources US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC118 IT UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC119 IT US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC120 Legal UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC121 Legal US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC122 Enterprise System Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC123 Corporate Marketing %2F PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC200 Action Sports Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC202 Action Sports Athletes US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC203 Action Sports Athletes UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC204 Action Sports Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC250 WM%3A Anderson %26 Rodriguez Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC251 WM%3A Diamond Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC252 WM%3A Hunt %26 Martin Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC253 WM%3A Levine %26 Nalpant Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC254 WM%3A Music Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC255 WM%3A Tour Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC256 WM%3A Branding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC257 WM%3A Accounting %26 Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC258 WM%3A Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC259 WM%3A Information Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC260 WM%3A Business and Legal Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC261 WM%3A Corporate Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC262 WM%3A Los Angeles Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC263 WM%3A Chicago Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC264 WM%3A Nashville Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC265 WM%3A New York Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC266 WM%3A Smith Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC267 WM%3A General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC268 WM%3A UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC269 WM%3A General UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC270 WM%3A Carmel Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC271 WM%3A Content Development and Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC272 WM%3A Fashion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC273 WM%3A Film and TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC274 WM%3A Licensing%2C Products%2C and Brands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC275 WM%3A Literary and Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC276 WM%3A Live Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC277 WM%3A Speaking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC278 WM%3A Group 1 Diamond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC279 WM%3A Group 2 Anderson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC280 WM%3A Group 3 Rodriguez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC281 WM%3A Group 4 Atamian %26 Greisch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC282 WM%3A Group 5 Levine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC283 WM%3A Group 6 Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC284 WM%3A Group 7 Goodgold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC285 WM%3A Group 8 Nalpant %26 Windish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC286 WM%3A Group 9 Hunt %26 Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC300 Legacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC301 Golf Consulting %26 Hosp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC301 Golf Consulting %26 Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC302 Golf Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC302 Golf Events and Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC303 Golf Management Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC304 Golf Management UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC305 Golf Management US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC306 Mullhaupt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC310 Properties with Purpose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC311 Grant Thornton %28GT%29 Invitational %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC400 Boxing UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC401 Global Football Euro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC402 Global Football France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC403 Global Football Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC404 Global Football Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC405 Global Football UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC406 Global Football US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC407 Global Football UK %28Key Sports%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC408 Global Football Spain %28Top Value%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC409 Global Football Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC410 Boxing UK %28Sauerland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC411 Rugby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC412 Global Football Netherlands %28Amsterdam%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC413 Global Football Colombia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC414 Global Football Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC500 Montag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC600 Brands Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC601 Experiential Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC602 Properties Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC603 Experiential Canada - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC604 Brands Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC605 Brands %26 Properties UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC606 Brand Retainers US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC607 Experiential Benelux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC608 Experiential US - Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC609 Experiential Benelux %E2%80%93 Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC609 Experiential Benelux - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC610 Experiential US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC611 Experiential US - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC612 Experiential Canada - Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC613 Experiential UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC617 Experiential UK - Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC618 Experiential UK - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC619 Brands Qatar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC620 Brands Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC621 Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC622 Brands %26 Properties US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC623 Properties UK %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC624 Properties US - Raleigh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC625 Research %26 Insights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC626 Next Gen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC627 Digital Design %26 Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC628 Brands %26 Properties Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC629 Brands TPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC630 Experiential TPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC631 Creative TPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC632 Strategy TPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC633 Experiential US - Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC700 LS%2FCycle Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC701 LS%2FCycle Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC703 LS%2FCycle Retainer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC705 LS%2FCycle Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC800 Baseball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC801 Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC802 Baseball %28Jet Sports%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC804 Broadcasting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC806 NFL %28NC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC807 NFL %28SF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC808 Hockey %28Canada%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC809 Hockey %28LA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC809 Hockey %28Los Angeles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC810 Hockey %28ACME - US%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC811 Team Sports Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC812 Hockey %28ACME - Europe%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC813 Women%27s Sports %26 Olympics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC814 Coaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC815 NFL %28FL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC816 Basketball %28Tadas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC817 Basketball %28Raskovic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC818 Hockey %28British Columbia%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC819 Content Development and Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC820 Fashion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC821 Film and TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC822 Licensing%2C Products%2C and Brands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC823 Literary and Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC824 Live Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC825 Speaking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC826 Talent Marketing %28Spain%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC827 Athlete Marketing Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC828 Wasserman Ventures Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC829 NFL %28LV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC830 Cycling %28Belgium%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC990 Athlete Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC999 Conversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNU CC623 DNU Properties UK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agent_Workday_Company__c</picklist>
+        <values>
+            <fullName>LE001 Wasserman Media Group%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE002 WMG European Holdings LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE003 WMG Management Europe LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE004 Wasserman Asia Pacific PTE LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE005 Wasserman Canada Holdings%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE006 Wasserman Sports %26 Entertainment%2C ULC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE007 Wasserman Events%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE008 Wasserman Experience LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE009 Wasserman Netherlands B%2EV%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE010 Wasserman Netherlands Management B%2EV%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE011 24%2F7 Group%2C LLC %28dba Laundry Service%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE012 Wasserman Middle East LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE013 Cycle Collective%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE014 XL Sport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE015 Wasserman Sports %26 Entertainment%2C LLC %28USA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE016 Wasserman Asia Pacific PTE LTD %28DMCC Branch%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE017 Wasserman Hockey LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE018 Boris Agency BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE018 Wasserman Benelux BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE019 Wasserman China Sports and Culture LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE020 Ignite Music %26 Entertainment Limited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE021 WMG Management Europe Elimination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE022 Team Wasserman Spain%2C S%2EL%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE023 0951694 BC Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE024 EU Holdings - US vs UK GAAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE025 Elimination - 0951694 BC Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE026 Elimination - EU Holdings US vs UK GAAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE027 Elimination - Canada Holdings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE028 Elimination - European Holdings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE029 Elimination - Ignite - WMG Mgmt Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE030 Elimination - Mgmt UK - Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE031 Elimination - Mgmt UK - Qatar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE032 Elimination - WMG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE033 Elimination - WMG Management Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE034 Elimination - WMG Mgmt Europe - Netherlands BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE035 Elimination - XL Sport - WMG Mgmt Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE036 US vs EURO GAAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE037 Qatar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE038 Wasserman European Basketball%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE039 Key Sports Holdings Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE040 Key Sports Management Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE041 Top Value Players%2C S%2EL%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE042 ACME World Sports Finland Oy Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE043 ACME World Sports%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE044 Swiss Sports%2C Culture and Entertainment GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE045 Wasserman Germany GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE046 Wasserman Boxing Limited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE047 Wasserman College%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE048 Teall Events%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE049 Wasserman Youth Marketing Canada%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE050 Wasserman Music%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE051 W%26S LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE052 Points West Sports %26 Entertainment%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE053 Elimination %E2%80%93 Wasserman Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE054 The Montag Group%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE055 Vision Sports Group%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE056 Montag Group Talent%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE057 Wasserman Music LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE058 Coda Wenlock LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE059 Coda Agency LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE060 Mullhaupt Management%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE061 Wasserman Rugby Holdings LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE062 Wasserman Rugby %28UK%29 LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE063 Wasserman Rugby Commercial LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE064 Wasserman Australia %28Pty%29 LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE065 Wasserman Rugby %28France%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE066 Wasserman Japan KK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE067 Wasserman New Zealand LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE068 Wasserman South Africa %28Pty%29 LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE069 Corner Flag Management LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE070 Elimination %E2%80%93 Wasserman Music LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE071 Jet Sports Management%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE072 Properties With Purpose%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE073 Digital Innovative Assets%2C S%2EL%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE074 Wasserman Mexico</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bookstore_Management_Company__c</picklist>
+        <values>
+            <fullName>Barnes %26 Noble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follett</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Campus_Setting__c</picklist>
+        <values>
+            <fullName>City%3A Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%3A Midsize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%3A Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Distant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Fringe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Remote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Midsize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Distant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Fringe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Remote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cap_Size__c</picklist>
+        <values>
+            <fullName>Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Charter__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Class__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Department__c</picklist>
+        <values>
+            <fullName>Action Sports Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Action Sports Athletes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Action Sports Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Athlete Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baseball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boxing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broadcasting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cycling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football Euro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Consulting %26 Hosp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Management Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Management UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Management US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rugby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Sports Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WM%3A Anderson %26 Rodriguez Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WM%3A Branding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WM%3A Diamond Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WM%3A Hunt %26 Martin Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WM%3A Levine %26 Nalpant Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WM%3A Smith Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WM%3A Tour Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women%27s Sports %26 Olympics</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Sub_Division__c</picklist>
+        <values>
+            <fullName>Action Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Athlete Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Sports</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cost_Center__c</picklist>
+        <values>
+            <fullName>CC000 Intracompany Elimination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC100 Accounting UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC101 Accounting US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC102 China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC103 Directs Carlsbad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC103 Directs Encinitas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC104 Directs London</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC105 Directs Los Angeles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC106 Directs New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC107 Directs Raleigh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC108 Directs Toronto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC109 Executive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC110 Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC111 General EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC112 General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC113 Directs Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC116 Human Resources UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC117 Human Resources US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC118 IT UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC119 IT US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC120 Legal UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC121 Legal US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC122 Enterprise System Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC123 Corporate Marketing %2F PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC200 Action Sports Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC202 Action Sports Athletes US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC203 Action Sports Athletes UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC204 Action Sports Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC250 WM%3A Anderson %26 Rodriguez Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC251 WM%3A Diamond Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC252 WM%3A Hunt %26 Martin Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC253 WM%3A Levine %26 Nalpant Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC254 WM%3A Music Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC255 WM%3A Tour Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC256 WM%3A Branding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC257 WM%3A Accounting %26 Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC258 WM%3A Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC259 WM%3A Information Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC260 WM%3A Business and Legal Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC261 WM%3A Corporate Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC262 WM%3A Los Angeles Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC263 WM%3A Chicago Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC264 WM%3A Nashville Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC265 WM%3A New York Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC266 WM%3A Smith Pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC267 WM%3A General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC268 WM%3A UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC269 WM%3A General UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC270 WM%3A Carmel Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC271 WM%3A Content Development and Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC272 WM%3A Fashion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC273 WM%3A Film and TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC274 WM%3A Licensing%2C Products%2C and Brands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC275 WM%3A Literary and Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC276 WM%3A Live Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC277 WM%3A Speaking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC278 WM%3A Group 1 Diamond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC279 WM%3A Group 2 Anderson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC280 WM%3A Group 3 Rodriguez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC281 WM%3A Group 4 Atamian %26 Greisch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC282 WM%3A Group 5 Levine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC283 WM%3A Group 6 Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC284 WM%3A Group 7 Goodgold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC285 WM%3A Group 8 Nalpant %26 Windish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC286 WM%3A Group 9 Hunt %26 Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC300 Legacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC301 Golf Consulting %26 Hosp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC301 Golf Consulting %26 Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC302 Golf Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC302 Golf Events and Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC303 Golf Management Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC304 Golf Management UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC305 Golf Management US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC306 Mullhaupt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC310 Properties with Purpose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC311 Grant Thornton %28GT%29 Invitational %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC400 Boxing UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC401 Global Football Euro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC402 Global Football France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC403 Global Football Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC404 Global Football Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC405 Global Football UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC406 Global Football US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC407 Global Football UK %28Key Sports%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC408 Global Football Spain %28Top Value%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC409 Global Football Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC410 Boxing UK %28Sauerland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC411 Rugby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC412 Global Football Netherlands %28Amsterdam%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC413 Global Football Colombia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC414 Global Football Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC500 Montag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC600 Brands Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC601 Experiential Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC602 Properties Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC603 Experiential Canada - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC604 Brands Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC605 Brands %26 Properties UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC606 Brand Retainers US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC607 Experiential Benelux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC608 Experiential US - Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC609 Experiential Benelux %E2%80%93 Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC609 Experiential Benelux - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC610 Experiential US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC611 Experiential US - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC612 Experiential Canada - Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC613 Experiential UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC617 Experiential UK - Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC618 Experiential UK - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC619 Brands Qatar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC620 Brands Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC621 Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC622 Brands %26 Properties US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC623 Properties UK %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC624 Properties US - Raleigh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC625 Research %26 Insights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC626 Next Gen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC627 Digital Design %26 Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC628 Brands %26 Properties Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC629 Brands TPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC630 Experiential TPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC631 Creative TPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC632 Strategy TPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC633 Experiential US - Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC700 LS%2FCycle Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC701 LS%2FCycle Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC703 LS%2FCycle Retainer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC705 LS%2FCycle Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC800 Baseball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC801 Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC802 Baseball %28Jet Sports%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC804 Broadcasting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC806 NFL %28NC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC807 NFL %28SF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC808 Hockey %28Canada%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC809 Hockey %28LA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC809 Hockey %28Los Angeles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC810 Hockey %28ACME - US%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC811 Team Sports Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC812 Hockey %28ACME - Europe%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC813 Women%27s Sports %26 Olympics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC814 Coaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC815 NFL %28FL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC816 Basketball %28Tadas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC817 Basketball %28Raskovic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC818 Hockey %28British Columbia%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC819 Content Development and Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC820 Fashion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC821 Film and TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC822 Licensing%2C Products%2C and Brands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC823 Literary and Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC824 Live Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC825 Speaking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC826 Talent Marketing %28Spain%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC827 Athlete Marketing Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC828 Wasserman Ventures Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC829 NFL %28LV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC830 Cycling %28Belgium%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC990 Athlete Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC999 Conversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNU CC623 DNU Properties UK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dining_Contract__c</picklist>
+        <values>
+            <fullName>Aramark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chartwells</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sodexo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>External_Vendor_Tabling_Allowed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fall_Intramural_Sports__c</picklist>
+        <values>
+            <fullName>3-Point Shootout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battleship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broomball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desert Bowl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dodgeball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Great Pie Race</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Run Derby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HooverBall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horseshoes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ice Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner Tube Water Polo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kickball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lacrosse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mark Madness Pick %27Em</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Tap Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online College Pick%27em</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oozeball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ping Pong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raquetball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollerhockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sand Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scavenger Hunt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Squash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swim Meet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track %26 Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey Trot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultimate Frisbee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wallyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wiffleball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wii Games</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XBOX Tournaments</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fall_Sports__c</picklist>
+        <values>
+            <fullName>Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross Country</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lacrosse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volleyball</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fountain_Beverage_Contract__c</picklist>
+        <values>
+            <fullName>Coke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keurig Dr Pepper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pepsi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared %28Coke%2FPepsi share rights across campus%2C no pouring rights deal%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender_Focused__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Agender%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Androgynous%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bigender%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisgender Man%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisgender Woman%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Female Fronted Band</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Fluid%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Nonconforming%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Questioning%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genderqueer%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intersex%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male Fronted Band</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mix Gender Band</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neutrois%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Binary Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-binary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-binary%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pangender%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefer not to disclose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefer not to say%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfeminine%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender Man%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender Woman%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two-spirit%C2%A0</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>High_School_Property_Affiliation__c</picklist>
+        <values>
+            <fullName>District of Columbia State Athletic Association %28DCSAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts Interscholastic Athletic Association %28MIAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina Independent Schools Athletic Association %28NCISAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio High School Athletic Association %28OHSAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio Valley Athletic Conference %28OVAC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island Interscholastic League %28RIIL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina High School League %28SCHSL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina Independent School Association %28SCISA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont Principals%E2%80%99 Association %28VPA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia Independent Schools Athletic Association %28VISAA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Pennsylvania Interscholastic Athletic League %28WPIAL%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Ad Agencies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alcohol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beauty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health %26 Beauty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Supply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_there_a_fee_associated_with_tabling__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Posting_Site_Host__c</picklist>
+        <values>
+            <fullName>12Twenty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CareerLink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GradLeaders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handshake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interfase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magnet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACElink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purple Briefcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simplicity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Based</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Linked_Accounts_Status__c</picklist>
+        <values>
+            <fullName>Active Existing Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Locale__c</picklist>
+        <values>
+            <fullName>City%3A Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%3A Midsize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City%3A Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Distant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Fringe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural%3A Remote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Midsize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suburb%3A Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Distant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Fringe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%3A Remote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Magnet__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NACAS_Region__c</picklist>
+        <values>
+            <fullName>Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NACA_Territory__c</picklist>
+        <values>
+            <fullName>Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Atlantic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Plains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NCAA_Conference__c</picklist>
+        <values>
+            <fullName>American Athletic Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantic Coast Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big 12 Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big Ten Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Division I FBS Independents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-American Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain West Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacific-12 Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeastern Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun Belt Conference</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Org__c</picklist>
+        <values>
+            <fullName>Business Dev</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coprorate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LSCYCLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Talent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Organization_Type__c</picklist>
+        <values>
+            <fullName>Educational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faith-Based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek Life</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Genre__c</picklist>
+        <values>
+            <fullName>Alternative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Americana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluegrass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broadway%2FTheatrical%2FCabaret</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contemporary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Country</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gospel%2FInspirational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hip Hop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jazz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%26B%2FSoul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reggae</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting Genre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singer-Songwriter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spoken Word%2FComedy%2FNon-Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symphonic%2FClassical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>World</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Private_Religious_School__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Programs__c</picklist>
+        <values>
+            <fullName>Blackboard Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blackboard Summer 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CashCourse Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CashCourse Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cengage Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citizens Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citizens Loan Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copia Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FYE Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IKEA Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K-Swiss%2FFoot Locker Tour Spring 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kotex Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L%27Oreal Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lenovo Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTV%2FDove Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTVU Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s Spring 2013 Campus Tour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maxim Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maxim Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Rep Program Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Rep Program Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Rep Program Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Rep Program Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Tour Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Tour Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Tour Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Tour Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PacSun Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phase III Spring 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playhem Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCN Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCN Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roxy Fall 2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roxy Spring%2FSummer 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stride Gum Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stride Gum Tour Spring 2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun Drop Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sun Drop Spring 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teen Vogue Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UCrew 2012-2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verizon Fall 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 8 Campus Tour Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 8 Campus Tour Spring 2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YouRenew Spring 2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zip Car Fall 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Fall 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zipcar Spring 2013</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Recruitment_Region__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>CEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WST</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reservable_Indoor_Space_15_x15__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reservable_Outdoor_Space_15_x15__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reservable_Smaller_Outdoor_Space_15_x15__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retail_Beverage_Contract__c</picklist>
+        <values>
+            <fullName>Coke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keurig Dr Pepper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pepsi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared %28Coke%2FPepsi share rights across campus%2C no pouring rights deal%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>School_Type__c</picklist>
+        <values>
+            <fullName>%3C 2-year%2C Private for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-year%2C Private for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-year%2C Private not-for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-year%2C Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C Private for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C Private not-for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C primarily associate%27s%2C Private for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C primarily associate%27s%2C Private not-for-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year%2C primarily associate%27s%2C Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Francophone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select__c</picklist>
+        <values>
+            <fullName>1 %3D Accept %3C 20%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 %3D Accept 20-30%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 %3D Accept 30-40%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 %3D Accept 40-50%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 %3D Accept 50-60%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 %3D Accept 60-70%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 %3D Accept %3E70%25 of applicants</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sponsor_Needed_to_Table__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sponsor_needed_for_large_event__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sport_Field__c</picklist>
+        <values>
+            <fullName>BMX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baseball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lifestyle %2F personality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motorsports Four Wheel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motorsports Two Wheel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain Bike</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snow Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surf</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Spring_Intramural_Sports__c</picklist>
+        <values>
+            <fullName>3-Point Shootout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AOA Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battleship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broomball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desert Bowl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dodgeball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flag Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Great Pie Race</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Run Derby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HooverBall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horseshoes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ice Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Badminton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner Tube Water Polo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kickball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lacrosse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>March Madness Pick %27Em</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Tap Bowling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online College Pick%27em</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oozeball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ping Pong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raquetball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollerhockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sand Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scavenger Hunt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soccer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Squash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swim Meet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track %26 Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey Trot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultimate Frisbee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volleyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wallyball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wiffleball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wii Games</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XBOX Tournaments</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Spring_Sports__c</picklist>
+        <values>
+            <fullName>Baseball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lacrosse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rowing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track and Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water polo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stand_Alone_Events_Allowed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Sport__c</picklist>
+        <values>
+            <fullName>Adventure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alpine Ski</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big Air%2C Dirt%2C Park%2C Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canoe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commentary%2C Hosting%2C Judging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross Country</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cycling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downhill Racing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free Ski</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freedive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freeride</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freestyle Moto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heptathlon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountaineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nordic Ski</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open Wheel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Race Car</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Racing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rally</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road Race</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rugby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sailing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skier Cross</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snowboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stand Up Paddleboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supercross%2FMotocross</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track %26 Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triathlete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trophy Truck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wakeboard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Talent_Division__c</picklist>
+        <values>
+            <fullName>Action Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Football</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Sports</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tax_Code__c</picklist>
+        <values>
+            <fullName>BEL 21%25 VAT %2821%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BEL Zero Rated %280%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN  13%25 HST %2813%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN  5%25 GST %285%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESP 21%25 VAT %2821%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESP Zero Rated %280%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBR 20%25 VAT %2820%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBR Exempt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBR Zero Rated %280%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NLD 21%25 VAT %2821%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UAE 5%25 VAT %285%25%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Technology_Classification__c</picklist>
+        <values>
+            <fullName>Cloud%2C Data %26 CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cryptocurrency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health %26 Fitness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infrastructure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sleep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wearable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Term__c</picklist>
+        <values>
+            <fullName>Qtr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Title_1_School__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trade_Show__c</picklist>
+        <values>
+            <fullName>Consumer Electronics Show 2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IEG Sponsorship Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Conference - Boston</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Analyst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vending_Beverage_Contract__c</picklist>
+        <values>
+            <fullName>Coke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keurig Dr Pepper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pepsi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared %28Coke%2FPepsi share rights across campus%2C no pouring rights deal%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Who_has_visited_this_campus__c</picklist>
+        <values>
+            <fullName>Alexa Colas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alyssa Nugent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alyssa Van Liere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amy Smedberg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andrea Pantano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Ahl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Canning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Dohn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ben%09Stansell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grayson Hopp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heidi Auvenshine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jack Kaplan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jane Marshall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeanine Duchaney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jill Scangas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>John Curcuru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kathleen%09Lowell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kylie Kinder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laura %28Hutto%29 Bryant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laura Bundrick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logan Null</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matt Cohen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Megan Clifford</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sam Holton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sarah Gibson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shannon%09Kilduff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taylor Wagnon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Winter_Sports__c</picklist>
+        <values>
+            <fullName>Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive Cheer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ice Hockey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Track</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swimming %26 Diving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrestling</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Workday_Company_Default__c</picklist>
+        <values>
+            <fullName>LE001 Wasserman Media Group%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE002 WMG European Holdings LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE003 WMG Management Europe LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE004 Wasserman Asia Pacific PTE LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE005 Wasserman Canada Holdings%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE006 Wasserman Sports %26 Entertainment%2C ULC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE007 Wasserman Events%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE008 Wasserman Experience LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE009 Wasserman Netherlands B%2EV%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE010 Wasserman Netherlands Management B%2EV%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE011 24%2F7 Group%2C LLC %28dba Laundry Service%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE012 Wasserman Middle East LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE013 Cycle Collective%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE014 XL Sport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE015 Wasserman Sports %26 Entertainment%2C LLC %28USA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE016 Wasserman Asia Pacific PTE LTD %28DMCC Branch%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE017 Wasserman Hockey LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE018 Boris Agency BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE018 Wasserman Benelux BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE019 Wasserman China Sports and Culture LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE020 Ignite Music %26 Entertainment Limited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE021 WMG Management Europe Elimination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE022 Team Wasserman Spain%2C S%2EL%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE023 0951694 BC Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE024 EU Holdings - US vs UK GAAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE025 Elimination - 0951694 BC Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE026 Elimination - EU Holdings US vs UK GAAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE027 Elimination - Canada Holdings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE028 Elimination - European Holdings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE029 Elimination - Ignite - WMG Mgmt Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE030 Elimination - Mgmt UK - Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE031 Elimination - Mgmt UK - Qatar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE032 Elimination - WMG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE033 Elimination - WMG Management Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE034 Elimination - WMG Mgmt Europe - Netherlands BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE035 Elimination - XL Sport - WMG Mgmt Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE036 US vs EURO GAAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE037 Qatar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE038 Wasserman European Basketball%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE039 Key Sports Holdings Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE040 Key Sports Management Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE041 Top Value Players%2C S%2EL%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE042 ACME World Sports Finland Oy Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE043 ACME World Sports%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE044 Swiss Sports%2C Culture and Entertainment GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE045 Wasserman Germany GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE046 Wasserman Boxing Limited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE047 Wasserman College%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE048 Teall Events%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE049 Wasserman Youth Marketing Canada%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE050 Wasserman Music%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE051 W%26S LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE052 Points West Sports %26 Entertainment%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE053 Elimination %E2%80%93 Wasserman Music</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE054 The Montag Group%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE055 Vision Sports Group%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE056 Montag Group Talent%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE057 Wasserman Music LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE058 Coda Wenlock LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE059 Coda Agency LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE060 Mullhaupt Management%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE061 Wasserman Rugby Holdings LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE062 Wasserman Rugby %28UK%29 LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE063 Wasserman Rugby Commercial LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE064 Wasserman Australia %28Pty%29 LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE065 Wasserman Rugby %28France%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE066 Wasserman Japan KK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE067 Wasserman New Zealand LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE068 Wasserman South Africa %28Pty%29 LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE069 Corner Flag Management LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE070 Elimination %E2%80%93 Wasserman Music LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE071 Jet Sports Management%2C LLC %28inactive%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE072 Properties With Purpose%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE073 Digital Innovative Assets%2C S%2EL%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE074 Wasserman Mexico</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

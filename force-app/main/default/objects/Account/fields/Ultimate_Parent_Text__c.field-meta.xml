@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ultimate_Parent_Text__c</fullName>
+    <description>This is the text value of the Ultimate Parent field, which mirrors the Ultimate Parent field.</description>
+    <externalId>false</externalId>
+    <formula>(IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Parent.Name)), Parent.Parent.Parent.Parent.Parent.Name,
+IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Name)), Parent.Parent.Parent.Parent.Name,
+IF(NOT(ISBLANK(Parent.Parent.Parent.Name)), Parent.Parent.Parent.Name,
+IF(NOT(ISBLANK(Parent.Parent.Name)), Parent.Parent.Name,
+IF(NOT(ISBLANK(Parent.Name)),Parent.Name,
+Name))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Ultimate Parent is the highest level an Account record can be.  All subaccounts/subsidiaries of an Account would roll up to the Ultimate Parent</inlineHelpText>
+    <label>Ultimate Parent Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

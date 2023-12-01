@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Program_where_will_you_be_living__c</fullName>
+    <externalId>false</externalId>
+    <label>Student Program where will you be living</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On campus residence hall</fullName>
+                <default>false</default>
+                <label>On campus residence hall</label>
+            </value>
+            <value>
+                <fullName>At home with parents</fullName>
+                <default>false</default>
+                <label>At home with parents</label>
+            </value>
+            <value>
+                <fullName>Off-campus housing</fullName>
+                <default>false</default>
+                <label>Off-campus housing</label>
+            </value>
+            <value>
+                <fullName>Greek house</fullName>
+                <default>false</default>
+                <label>Greek house</label>
+            </value>
+            <value>
+                <fullName>Greek residence hall</fullName>
+                <default>false</default>
+                <label>Greek residence hall</label>
+            </value>
+            <value>
+                <fullName>Don&apos;t know yet</fullName>
+                <default>false</default>
+                <label>Don&apos;t know yet</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

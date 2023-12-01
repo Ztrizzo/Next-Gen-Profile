@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Marker_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Marker Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>label</fullName>
+                <default>false</default>
+                <label>label</label>
+            </value>
+            <value>
+                <fullName>static</fullName>
+                <default>true</default>
+                <label>static</label>
+            </value>
+            <value>
+                <fullName>dynamic</fullName>
+                <default>false</default>
+                <label>dynamic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

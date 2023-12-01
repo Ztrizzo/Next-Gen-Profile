@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Lat_Lng_8__c</fullName>
+    <deprecated>false</deprecated>
+    <description>See Coordinates 1 field.</description>
+    <externalId>false</externalId>
+    <label>Coordinates 8</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

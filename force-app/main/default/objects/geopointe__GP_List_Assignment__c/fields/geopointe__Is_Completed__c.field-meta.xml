@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Is_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Status of the list assignment - completed or not completed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Status of the list assignment - completed or not completed.</inlineHelpText>
+    <label>Is Completed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

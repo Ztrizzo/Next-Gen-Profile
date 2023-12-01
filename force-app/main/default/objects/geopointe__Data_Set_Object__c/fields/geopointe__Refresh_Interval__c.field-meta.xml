@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>geopointe__Refresh_Interval__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of seconds between automatic re-displays of the Data Set on the map.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This value controls how often (in seconds) the data is automatically refreshed on the map.  Minimum value is 10 secords.</inlineHelpText>
+    <label>Refresh Interval</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

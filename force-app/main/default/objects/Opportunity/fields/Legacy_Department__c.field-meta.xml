@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legacy_Department__c</fullName>
+    <description>Tab name from data migration</description>
+    <externalId>false</externalId>
+    <label>Legacy Department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brands US</fullName>
+                <default>false</default>
+                <label>Brands US</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Brands UK</fullName>
+                <default>false</default>
+                <label>Brands UK</label>
+            </value>
+            <value>
+                <fullName>Brands Mid East</fullName>
+                <default>false</default>
+                <label>Brands Mid East</label>
+            </value>
+            <value>
+                <fullName>Exp US</fullName>
+                <default>false</default>
+                <label>Exp US</label>
+            </value>
+            <value>
+                <fullName>Exp EMEA</fullName>
+                <default>false</default>
+                <label>Exp EMEA</label>
+            </value>
+            <value>
+                <fullName>Events Hosp</fullName>
+                <default>false</default>
+                <label>Events Hosp</label>
+            </value>
+            <value>
+                <fullName>Prop US</fullName>
+                <default>false</default>
+                <label>Prop US</label>
+            </value>
+            <value>
+                <fullName>Prop Intl</fullName>
+                <default>false</default>
+                <label>Prop Intl</label>
+            </value>
+            <value>
+                <fullName>Prop Project</fullName>
+                <default>false</default>
+                <label>Prop Project</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

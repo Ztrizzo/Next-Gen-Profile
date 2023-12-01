@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confident_in_fulfilling_time_commitment__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This position requires a serious time commitment of 6-8 hours per week, including daily communication with your Account Manager. How confident are you in fulfilling this commitment?</inlineHelpText>
+    <label>Confident in fulfilling time commitment?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Completely confident</fullName>
+                <default>false</default>
+                <label>Completely confident</label>
+            </value>
+            <value>
+                <fullName>Fairly confident</fullName>
+                <default>false</default>
+                <label>Fairly confident</label>
+            </value>
+            <value>
+                <fullName>Somewhat confident</fullName>
+                <default>false</default>
+                <label>Somewhat confident</label>
+            </value>
+            <value>
+                <fullName>Slightly confident</fullName>
+                <default>false</default>
+                <label>Slightly confident</label>
+            </value>
+            <value>
+                <fullName>Not confident at all</fullName>
+                <default>false</default>
+                <label>Not confident at all</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

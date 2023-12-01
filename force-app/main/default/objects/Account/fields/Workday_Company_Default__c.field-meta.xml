@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Workday_Company_Default__c</fullName>
+    <description>Used to override the default Workday Company on Opportunities/Products normally set by the owner&apos;s cost center</description>
+    <externalId>false</externalId>
+    <label>Workday Company Default</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Workday_Company</valueSetName>
+    </valueSet>
+</CustomField>
